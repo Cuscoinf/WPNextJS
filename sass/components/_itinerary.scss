@@ -1,0 +1,20 @@
+// ─── ITINERARIO ────────────────────────────────
+@use "base" as *;
+
+.itinerario-day {
+  border-left: 3px solid $primary;
+  padding-left: 1.5rem;
+  position: relative;
+  margin-bottom: 1.5rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: -9px;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    background: $primary;
+    border-radius: 50%;
+  }
+}

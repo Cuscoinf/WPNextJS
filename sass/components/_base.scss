@@ -1,0 +1,24 @@
+// ─── PALETA DE COLORES ──────────────────────────
+// Bootstrap usa these via !default, defínalos antes del import
+$primary:   #1a365d;
+$secondary: #2d6a4f;
+$success:   #28a745;
+$warning:   #ffc107;
+$dark:      #1a1a2e;
+$light:     #f8f9fa;
+
+// ─── TIPOGRAFÍA ─────────────────────────────────
+$font-family-base: system-ui, -apple-system, sans-serif;
+$font-size-base: 1rem;
+
+// ─── TAMAÑOS ───────────────────────────────────
+$border-radius: 0.5rem;
+
+// ─── ESTILOS BASE ──────────────────────────────
+body {
+  font-family: $font-family-base;
+}
+
+a {
+  text-decoration: none;
+}

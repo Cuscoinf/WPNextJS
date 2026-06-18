@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "name": "Aventura",
+    "slug": "aventura",
+    "count": 2,
+    "acf": {
+      "carril": true,
+      "titulo_categoria": "Tours de Aventura",
+      "informacion": "<p>Descubre los tours de aventura más emocionantes del Perú. Caminatas, montañas, y experiencias únicas en los Andes peruanos.</p>",
+      "titulo_atractivos": "Atractivos destacados",
+      "atractivos": [
+        {
+          "titulo_atractivo": "Machu Picchu",
+          "contenido_atractivo": "<p>La ciudadela inca más famosa del mundo, declarada Patrimonio de la Humanidad y una de las 7 Maravillas del Mundo Moderno.</p>"
+        },
+        {
+          "titulo_atractivo": "Vinicunca",
+          "contenido_atractivo": "<p>La Montaña de 7 Colores, un fenómeno natural único donde los minerales crean un paisaje multicolor espectacular.</p>"
+        }
+      ],
+      "banner": ["/images/categorias/banner-aventura.jpg"],
+      "fotos": ["/images/categorias/aventura-1.jpg", "/images/categorias/aventura-2.jpg"],
+      "faqs": [1, 3]
+    }
+  },
+  {
+    "id": 2,
+    "name": "Cultural",
+    "slug": "cultural",
+    "count": 2,
+    "acf": {
+      "carril": true,
+      "titulo_categoria": "Tours Culturales",
+      "informacion": "<p>Sumérgete en la rica historia y cultura del Perú. Desde el Valle Sagrado hasta el Lago Titicaca.</p>",
+      "titulo_atractivos": "Atractivos culturales",
+      "atractivos": [
+        {
+          "titulo_atractivo": "Valle Sagrado",
+          "contenido_atractivo": "<p>Recorrido por los valles y pueblos que fueron el corazón del Imperio Incaico, lleno de ruinas y mercados artesanales.</p>"
+        },
+        {
+          "titulo_atractivo": "Islas Flotantes",
+          "contenido_atractivo": "<p>Las Islas de los Uros en el Lago Titicaca, construidas enteramente de totora, manteniendo vivas las tradiciones ancestrales.</p>"
+        }
+      ],
+      "banner": ["/images/categorias/banner-cultural.jpg"],
+      "fotos": ["/images/categorias/cultural-1.jpg", "/images/categorias/cultural-2.jpg"],
+      "faqs": [2, 4]
+    }
+  },
+  {
+    "id": 3,
+    "name": "Naturaleza",
+    "slug": "naturaleza",
+    "count": 0,
+    "acf": {
+      "carril": false,
+      "titulo_categoria": "Tours de Naturaleza",
+      "informacion": "<p>Conecta con la naturaleza en los destinos más impresionantes del Perú.</p>",
+      "titulo_atractivos": "Atractivos naturales",
+      "atractivos": [
+        {
+          "titulo_atractivo": "Amazonía Peruana",
+          "contenido_atractivo": "<p>La selva amazónica peruana alberga una biodiversidad incomparable.</p>"
+        }
+      ],
+      "banner": ["/images/categorias/banner-naturaleza.jpg"],
+      "fotos": ["/images/categorias/naturaleza-1.jpg"],
+      "faqs": []
+    }
+  }
+]

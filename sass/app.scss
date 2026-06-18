@@ -1,0 +1,20 @@
+// ─── ENTRY POINT ─────────────────────────────────
+// 1º Variables + partials (todos @use primero)
+@use "components/base" as *;
+
+@use "components/nav";
+@use "components/header";
+@use "components/footer";
+@use "components/hero";
+@use "components/cards";
+@use "components/carousel";
+@use "components/single-tour";
+@use "components/itinerary";
+@use "components/category";
+@use "components/forms";
+@use "components/buttons";
+@use "components/animations";
+@use "components/utilities";
+
+// 2º Bootstrap con @import (toma las variables de @use de arriba)
+@import "bootstrap/scss/bootstrap";

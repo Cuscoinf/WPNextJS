@@ -1,0 +1,7 @@
+// ─── FOOTER ─────────────────────────────────────
+@use "base" as *;
+
+footer {
+  background: $dark;
+  color: rgba(255, 255, 255, 0.8);
+}

@@ -1,0 +1,183 @@
+[
+  {
+    "id": 1,
+    "title": "Machu Picchu Clásico",
+    "slug": "machu-picchu-clasico",
+    "excerpt": "Descubre la maravilla del mundo Machu Picchu en un tour clásico de 4 días.",
+    "featuredImage": "/images/tours/machu-picchu.jpg",
+    "categories": [1],
+    "tipos": [1],
+    "acf": {
+      "imagen": "/images/tours/machu-picchu.jpg",
+      "dias": "4 días / 3 noches",
+      "tipo_viaje": "Aventura",
+      "dificultad": "Moderada",
+      "altura": "2,430 msnm",
+      "acomodacion": "Hoteles 3 estrellas",
+      "etiqueta_1": "Más vendido",
+      "etiqueta_2": "",
+      "ubicacion": "Cusco - Machu Picchu",
+      "itinerario_dia": [
+        {
+          "titulo_dia": "Día 1: Llegada a Cusco",
+          "descripcion_dia": "<p>Recepción en el aeropuerto y traslado al hotel. Por la tarde realizaremos un city tour por Cusco visitando la Plaza de Armas, la Catedral y el Templo del Sol o Coricancha.</p>",
+          "fotos_dia": ["/images/tours/dia1-cusco.jpg"]
+        },
+        {
+          "titulo_dia": "Día 2: Valle Sagrado",
+          "descripcion_dia": "<p>Recorrido por el Valle Sagrado de los Incas visitando Pisac, Urubamba y Ollantaytambo. Almuerzo buffet en un restaurante local.</p>",
+          "fotos_dia": ["/images/tours/dia2-valle.jpg"]
+        },
+        {
+          "titulo_dia": "Día 3: Machu Picchu",
+          "descripcion_dia": "<p>Temprano abordaremos el tren hacia Aguas Calientes. Luego de un breve viaje en bus, llegaremos a la ciudadela inca de Machu Picchu. Recorrido guiado de 2 horas.</p>",
+          "fotos_dia": ["/images/tours/dia3-machu.jpg"]
+        },
+        {
+          "titulo_dia": "Día 4: Retorno",
+          "descripcion_dia": "<p>Después del desayuno, traslado al aeropuerto. Fin de nuestros servicios.</p>",
+          "fotos_dia": []
+        }
+      ],
+      "resumen": "<p>Este tour clásico te llevará a conocer la joya del imperio incaico. Disfruta de paisajes únicos, historia milenaria y una experiencia inolvidable.</p>",
+      "imagen1": "/images/tours/machu-picchu-1.jpg",
+      "imagne2": "/images/tours/machu-picchu-2.jpg",
+      "incluye": "<ul><li>Transporte aeropuerto - hotel - aeropuerto</li><li>3 noches de alojamiento</li><li>Guía profesional bilingüe</li><li>Entrada a Machu Picchu</li><li>Tren de ida y vuelta</li><li>Alimentación: desayunos</li></ul>",
+      "no_incluye": "<ul><li>Vuelos internacionales</li><li>Seguro de viaje</li><li>Gastos personales</li><li>Propinas</li></ul>",
+      "faq": "<p><strong>¿Qué debo llevar?</strong> Ropa ligera, bloqueador solar, sombrero, cámara fotográfica, agua.</p><p><strong>¿Hay restricciones de altura?</strong> No, pero recomendamos tomarse el primer día con calma para aclimatarse.</p>",
+      "descripcion": "<p>Llevar ropa abrigadora para las noches, zapatos cómodos para caminar, repelente de insectos y documentos personales.</p>",
+      "banners": ["/images/tours/banner-machu-1.jpg", "/images/tours/banner-machu-2.jpg"],
+      "precio": "450",
+      "precio_anterior": "520",
+      "pago_100": false,
+      "precios_resumen": "<p>Precio por persona basado en habitación doble. Consultar por descuentos grupales.</p>"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Valle Sagrado Full Day",
+    "slug": "valle-sagrado-full-day",
+    "excerpt": "Recorre el Valle Sagrado de los Incas en un día lleno de historia y paisajes.",
+    "featuredImage": "/images/tours/valle-sagrado.jpg",
+    "categories": [1, 2],
+    "tipos": [2],
+    "acf": {
+      "imagen": "/images/tours/valle-sagrado.jpg",
+      "dias": "1 día",
+      "tipo_viaje": "Cultural",
+      "dificultad": "Fácil",
+      "altura": "2,800 - 3,400 msnm",
+      "acomodacion": "No incluye",
+      "etiqueta_1": "",
+      "etiqueta_2": "Oferta",
+      "ubicacion": "Cusco - Valle Sagrado",
+      "itinerario_dia": [
+        {
+          "titulo_dia": "Full Day: Valle Sagrado",
+          "descripcion_dia": "<p>Salida desde Cusco hacia Pisac. Visitamos el mercado artesanal y las ruinas incas. Continuamos a Urubamba para el almuerzo. Por la tarde visitamos Ollantaytambo y finalizamos en Chinchero.</p>",
+          "fotos_dia": ["/images/tours/pisac.jpg", "/images/tours/ollantaytambo.jpg"]
+        }
+      ],
+      "resumen": "<p>Un recorrido completo por el corazón del imperio incaico en un solo día. Ideal para viajeros con poco tiempo.</p>",
+      "imagen1": "/images/tours/valle-1.jpg",
+      "imagne2": "/images/tours/valle-2.jpg",
+      "incluye": "<ul><li>Transporte turístico</li><li>Guía profesional</li><li>Almuerzo buffet</li><li>Entradas a los sitios arqueológicos</li></ul>",
+      "no_incluye": "<ul><li>Gastos personales</li><li>Propinas</li></ul>",
+      "faq": "<p><strong>Hora de salida:</strong> 7:00 am. <strong>Retorno:</strong> Aproximadamente 6:00 pm.</p>",
+      "descripcion": "<p>Llevar sombrero, bloqueador solar, agua, cámara fotográfica y dinero para artesanías.</p>",
+      "banners": ["/images/tours/banner-valle.jpg"],
+      "precio": "89",
+      "precio_anterior": "110",
+      "pago_100": false,
+      "precios_resumen": "<p>Precio por persona. Descuento para grupos de 4+ personas.</p>"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Montaña de 7 Colores",
+    "slug": "montana-7-colores",
+    "excerpt": "Una de las caminatas más impresionantes de los Andes peruanos.",
+    "featuredImage": "/images/tours/7-colores.jpg",
+    "categories": [1],
+    "tipos": [1],
+    "acf": {
+      "imagen": "/images/tours/7-colores.jpg",
+      "dias": "1 día",
+      "tipo_viaje": "Aventura",
+      "dificultad": "Difícil",
+      "altura": "5,200 msnm",
+      "acomodacion": "No incluye",
+      "etiqueta_1": "Recomendado",
+      "etiqueta_2": "",
+      "ubicacion": "Cusco - Vinicunca",
+      "itinerario_dia": [
+        {
+          "titulo_dia": "Full Day: Montaña 7 Colores",
+          "descripcion_dia": "<p>Recogida a las 3:00 am. Viaje a Cusipata (2 horas). Desayuno. Inicio de caminata (1.5 - 2 horas). Llegada a la montaña. Tiempo para fotos y disfrutar del paisaje. Retorno. Almuerzo. Regreso a Cusco.</p>",
+          "fotos_dia": ["/images/tours/vinicunca-camino.jpg", "/images/tours/vinicunca-cima.jpg"]
+        }
+      ],
+      "resumen": "<p>La Montaña de 7 Colores o Vinicunca es uno de los destinos más espectaculares del Perú. Sus colores únicos te dejarán sin aliento.</p>",
+      "imagen1": "/images/tours/7colores-1.jpg",
+      "imagne2": "/images/tours/7colores-2.jpg",
+      "incluye": "<ul><li>Transporte ida y vuelta</li><li>Guía profesional</li><li>Desayuno y almuerzo</li><li>Oxígeno de emergencia</li><li>Bastones de caminata</li></ul>",
+      "no_incluye": "<ul><li>Caballo de alquiler (opcional)</li><li>Propinas</li></ul>",
+      "faq": "<p><strong>¿Es apto para principiantes?</strong> Es una caminata exigente por la altura. Recomendamos estar aclimatados en Cusco mínimo 2 días.</p>",
+      "descripcion": "<p>Llevar ropa abrigadora, zapatos de trekking, bloqueador solar, lentes de sol, agua y snacks energéticos.</p>",
+      "banners": ["/images/tours/banner-7colores.jpg"],
+      "precio": "120",
+      "precio_anterior": "",
+      "pago_100": false,
+      "precios_resumen": "<p>Precio por persona. Incluye todo el equipo necesario.</p>"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Lago Titicaca Esencial",
+    "slug": "lago-titicaca-esencial",
+    "excerpt": "Explora el lago navegable más alto del mundo y sus islas flotantes.",
+    "featuredImage": "/images/tours/titicaca.jpg",
+    "categories": [2],
+    "tipos": [2, 3],
+    "acf": {
+      "imagen": "/images/tours/titicaca.jpg",
+      "dias": "3 días / 2 noches",
+      "tipo_viaje": "Cultural",
+      "dificultad": "Fácil",
+      "altura": "3,812 msnm",
+      "acomodacion": "Hoteles 3 estrellas",
+      "etiqueta_1": "",
+      "etiqueta_2": "",
+      "ubicacion": "Puno - Lago Titicaca",
+      "itinerario_dia": [
+        {
+          "titulo_dia": "Día 1: Llegada a Puno",
+          "descripcion_dia": "<p>Recepción y traslado al hotel. Por la tarde visita a la ciudad de Puno y el Mirador Kuntur Wasi.</p>",
+          "fotos_dia": ["/images/tours/puno.jpg"]
+        },
+        {
+          "titulo_dia": "Día 2: Islas Flotantes Taquile",
+          "descripcion_dia": "<p>Navegamos hacia las Islas Flotantes de los Uros, donde conoceremos su estilo de vida. Luego continuamos a la Isla Taquile para almorzar y conocer su cultura textil.</p>",
+          "fotos_dia": ["/images/tours/uros.jpg", "/images/tours/taquile.jpg"]
+        },
+        {
+          "titulo_dia": "Día 3: Retorno",
+          "descripcion_dia": "<p>Después del desayuno, traslado al aeropuerto o terminal terrestre.</p>",
+          "fotos_dia": []
+        }
+      ],
+      "resumen": "<p>El Lago Titicaca te espera con sus aguas cristalinas, islas flotantes y la calidez de su gente.</p>",
+      "imagen1": "/images/tours/titicaca-1.jpg",
+      "imagne2": "/images/tours/titicaca-2.jpg",
+      "incluye": "<ul><li>Transporte aeropuerto - hotel</li><li>2 noches de alojamiento</li><li>Guía profesional</li><li>Paseo en lancha</li><li>Entradas a las islas</li><li>Alimentación: desayunos</li></ul>",
+      "no_incluye": "<ul><li>Vuelos a Puno</li><li>Seguro de viaje</li></ul>",
+      "faq": "<p><strong>¿Cuál es la mejor época?</strong> De abril a octubre (temporada seca).</p>",
+      "descripcion": "<p>Llevar ropa abrigadora (el altiplano es frío), bloqueador solar y cámara.</p>",
+      "banners": ["/images/tours/banner-titicaca.jpg"],
+      "precio": "280",
+      "precio_anterior": "330",
+      "pago_100": false,
+      "precios_resumen": "<p>Precio por persona en habitación doble.</p>"
+    }
+  }
+]

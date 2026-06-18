@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Hotel San Agustín Internacional",
+    "slug": "hotel-san-agustin-internacional",
+    "excerpt": "Hotel céntrico en Cusco con todas las comodidades.",
+    "featuredImage": "/images/hoteles/san-agustin.jpg",
+    "content": "<p>El Hotel San Agustín Internacional está ubicado en el centro histórico de Cusco, a pocos pasos de la Plaza de Armas. Ofrece habitaciones cómodas, restaurante, bar y terraza con vista a la ciudad.</p>",
+    "acf": {
+      "ubicacion": "Cusco - Centro Histórico",
+      "estrellas": 3,
+      "imagenes": ["/images/hoteles/san-agustin-1.jpg", "/images/hoteles/san-agustin-2.jpg"],
+      "servicios": ["Wifi gratis", "Desayuno incluido", "Restaurante", "Recepción 24h", "Almacenaje de equipaje"],
+      "precio_noche": "80"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Tierra Viva Cusco Plaza",
+    "slug": "tierra-viva-cusco-plaza",
+    "excerpt": "Hotel boutique frente a la Plaza de Armas.",
+    "featuredImage": "/images/hoteles/tierra-viva.jpg",
+    "content": "<p>Hotel boutique con ubicación privilegiada frente a la Plaza de Armas del Cusco. Habitaciones elegantes con decoración andina contemporánea.</p>",
+    "acf": {
+      "ubicacion": "Cusco - Plaza de Armas",
+      "estrellas": 4,
+      "imagenes": ["/images/hoteles/tierra-viva-1.jpg", "/images/hoteles/tierra-viva-2.jpg"],
+      "servicios": ["Wifi gratis", "Desayuno buffet", "Room service", "Lavandería", "Cambio de moneda", "Oxígeno en habitaciones"],
+      "precio_noche": "120"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Hotel José Antonio Puno",
+    "slug": "hotel-jose-antonio-puno",
+    "excerpt": "Hotel frente al Lago Titicaca.",
+    "featuredImage": "/images/hoteles/jose-antonio.jpg",
+    "content": "<p>Hotel ubicado en la orilla del Lago Titicaca, con vistas espectaculares y habitaciones confortables.</p>",
+    "acf": {
+      "ubicacion": "Puno - Lago Titicaca",
+      "estrellas": 3,
+      "imagenes": ["/images/hoteles/jose-antonio-1.jpg"],
+      "servicios": ["Wifi gratis", "Desayuno incluido", "Restaurante", "Estacionamiento"],
+      "precio_noche": "65"
+    }
+  }
+]

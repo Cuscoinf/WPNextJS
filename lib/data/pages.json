@@ -1,0 +1,115 @@
+[
+  {
+    "id": 1,
+    "title": "Portada",
+    "slug": "portada",
+    "acf": {
+      "sliders": [
+        {
+          "imagen_o_banner": "/images/sliders/slider-1.jpg",
+          "etiqueta_sliders": "Viaja con nosotros",
+          "titulo_slider": "Descubre el Perú Auténtico",
+          "descripcion_slider": "<p>Vive experiencias únicas en los destinos más impresionantes del Perú. Tours personalizados, guías expertos y recuerdos inolvidables.</p>",
+          "boton_slider": "Ver Tours",
+          "link_slider": "/tours"
+        },
+        {
+          "imagen_o_banner": "/images/sliders/slider-2.jpg",
+          "etiqueta_sliders": "Aventura",
+          "titulo_slider": "Machu Picchu Te Espera",
+          "descripcion_slider": "<p>La maravilla del mundo que cambió la historia. Vive la experiencia de caminar por la ciudadela inca.</p>",
+          "boton_slider": "Reservar Ahora",
+          "link_slider": "/tours/machu-picchu-clasico"
+        },
+        {
+          "imagen_o_banner": "/images/sliders/slider-3.jpg",
+          "etiqueta_sliders": "Cultura Viva",
+          "titulo_slider": "Valle Sagrado de los Incas",
+          "descripcion_slider": "<p>Recorre los valles y montañas que fueron el corazón del Imperio Incaico.</p>",
+          "boton_slider": "Ver Tour",
+          "link_slider": "/tours/valle-sagrado-full-day"
+        }
+      ],
+      "secciones": [
+        {
+          "titulo_seccion": "Tours Destacados",
+          "etiqueta_seccion": "Lo más popular",
+          "descripcion_seccion": "<p>Seleccionamos los mejores tours para ti. Vive experiencias inolvidables.</p>",
+          "imagen_seccion": "/images/secciones/destacados.jpg",
+          "tours_seccion": [1, 2, 3],
+          "categorias_seccion": []
+        },
+        {
+          "titulo_seccion": "Categorías",
+          "etiqueta_seccion": "Explora",
+          "descripcion_seccion": "<p>Encuentra el tour perfecto según tus intereses.</p>",
+          "imagen_seccion": "/images/secciones/categorias.jpg",
+          "tours_seccion": [],
+          "categorias_seccion": [1, 2]
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "title": "Nosotros",
+    "slug": "nosotros",
+    "content": "<p>Somos una agencia de viajes peruana con más de 10 años de experiencia ofreciendo experiencias únicas a viajeros de todo el mundo.</p><p>Nuestra misión es mostrar la riqueza cultural, histórica y natural del Perú a través de tours cuidadosamente diseñados.</p>",
+    "acf": {
+      "accordion": {
+        "titulo": "Preguntas Frecuentes",
+        "descripcion": "<p>Resolvemos tus dudas sobre nuestros servicios.</p>",
+        "contenido": [
+          {
+            "titulo": "¿Cómo reservar un tour?",
+            "contenido": "<p>Puedes reservar directamente desde nuestra web seleccionando el tour de tu preferencia y completando el formulario de pago.</p>",
+            "link": "/tours"
+          },
+          {
+            "titulo": "¿Qué métodos de pago aceptan?",
+            "contenido": "<p>Aceptamos tarjetas de crédito, débito y transferencias bancarias. Los pagos son procesados de forma segura.</p>",
+            "link": ""
+          },
+          {
+            "titulo": "¿Puedo cancelar mi reserva?",
+            "contenido": "<p>Sí, puedes cancelar hasta 48 horas antes del tour con reembolso completo. Consulte nuestros términos y condiciones.</p>",
+            "link": ""
+          }
+        ]
+      },
+      "carrusel": {
+        "titulo": "¿Por qué elegirnos?",
+        "descripcion": "Nuestros valores nos diferencian",
+        "carrusel_item": [
+          {
+            "icono_caja": "fa-solid fa-map-location-dot",
+            "titulo_caja": "Guías Expertos",
+            "descripcion_caja": "<p>Contamos con guías profesionales bilingües con amplio conocimiento de la historia y cultura peruana.</p>"
+          },
+          {
+            "icono_caja": "fa-solid fa-hand-holding-heart",
+            "titulo_caja": "Atención Personalizada",
+            "descripcion_caja": "<p>Cada viajero es único. Diseñamos experiencias a tu medida.</p>"
+          },
+          {
+            "icono_caja": "fa-solid fa-shield-halved",
+            "titulo_caja": "Seguridad Garantizada",
+            "descripcion_caja": "<p>Todos nuestros tours cuentan con seguros y protocolos de seguridad.</p>"
+          },
+          {
+            "icono_caja": "fa-solid fa-star",
+            "titulo_caja": "Mejor Precio",
+            "descripcion_caja": "<p>Ofrecemos la mejor relación calidad-precio del mercado.</p>"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 3,
+    "title": "Contacto",
+    "slug": "contacto",
+    "content": "<p>Estamos ubicados en Cusco, Perú. Contáctanos para cualquier consulta.</p>",
+    "acf": {}
+  }
+]
