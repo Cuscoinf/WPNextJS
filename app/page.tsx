@@ -8,7 +8,7 @@ export default async function HomePage() {
   const allTours = await getTours()
   const allCategories = await getCategories()
 
-  if (!home) return <div className="container py-5"><p>Cargando...</p></div>
+  if (!home) return <div className="container py-5"><p>Carganndo...</p></div>
 
   const { sliders, secciones } = home.acf
 
