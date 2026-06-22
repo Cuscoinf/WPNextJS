@@ -1,137 +1,81 @@
 @use "base" as *;
 
-//HERO DE PÀGE INICIO
+// HERO - HOME
 .home-hero {
-  height: 60vh;
-  min-height: 85vh;
-  padding: 60px 0 30px 0;
+  position: relative;
+  min-height: 80vh;
+  background-size: cover;
+  background-position: center;
   overflow: hidden;
 
+  // Solo overlay, nada más
   .hero-overlay {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.3) 100%);
+    inset: 0;
+    background: linear-gradient(135deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.1) 100%);
     z-index: 1;
   }
 
-
-
-  .hero-description {
-    font-size: 1.1rem;
-    max-width: 520px;
-    p { margin: 0; }
+  // Contenedor de contenido
+  .hero-content {
+    position: relative;
+    z-index: 2;
   }
 
-  // Estilos de botones específicos de la página de inicio
-  .btn-primary-custom {
-    background-color: $primary-color;
-    color: #ffffff;
-    padding: 12px 26px;
-    border-radius: 4px;
-    border: none;
-    font-size: 13px;
-    letter-spacing: 0.5px;
-    transition: background-color 0.2s ease;
-
-    &:hover {
-      background-color: darken($primary-color, 6%);
-      color: #ffffff;
-    }
+  // Label verde
+  .label-tag {
+    color: $primary-color;
+    font-weight: 700;
+    letter-spacing: 1px;
   }
 
-  .btn-outline-custom {
-    background-color: transparent;
-    color: #ffffff;
-    padding: 11px 24px;
-    border-radius: 4px;
-    border: 2px solid #ffffff;
-    font-size: 13px;
-    letter-spacing: 0.5px;
-    transition: all 0.2s ease;
-
-    &:hover {
-      background-color: #ffffff;
-      color: #1a1a1a;
-    }
-  }
-
-  // Estilos de la tarjeta flotante del formulario
+  // Tarjeta form
   .hero-form-card {
-    border-radius: 10px;
-    width: 100%;
-    right: 200px;
-    max-width: 400px;
-    z-index: 5;
+    background: #fff;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 
-    .form-card-title {
-      color: #1a1a1a;
-      font-size: 17px;
-    }
-
-    .form-card-subtitle {
-      color: #777777;
-      font-size: 13px;
-    }
-
-    .custom-input {
-      background-color: #f8f9fa;
-      border: 1px solid #e9ecef;
-      padding: 9px 12px;
-      font-size: 13.5px;
+    input, textarea {
+      border: 1px solid #ddd;
       border-radius: 4px;
+      font-size: 13px;
 
       &:focus {
-        background-color: #ffffff;
-        border-color: $primary-color;
-        box-shadow: 0 0 0 3px rgba(3, 96, 44, 0.1);
-      }
-    }
-
-    .btn-submit-custom {
-      background-color: $primary-color;
-      color: #ffffff;
-      border: none;
-      border-radius: 4px;
-      font-size: 13.5px;
-      transition: background-color 0.2s ease;
-
-      &:hover {
-        background-color: darken($primary-color, 6%);
+        border-color: #036a2e;
+        box-shadow: 0 0 0 2px rgba(3,106,46,0.1);
       }
     }
   }
 
-  // Estilos de la barra inferior de features
+  // Features bar - overlay blanco suave
   .hero-features-bar {
-    width: 1000px;
-    border-radius: 10px;
-    margin-top: 1.5rem;
+    width: 1200px;
+    background: rgba(255,255,255,0.92);
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    backdrop-filter: blur(10px);
 
-    .feature-item {
-      flex: 1;
-      padding: 0 10px;
-      border-right: 1px solid #f2f2f2;
+    .feature-icon {
+      width: 56px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: transparent;
+      border: 2px solid #036a2e;
+      border-radius: 50%;
+      flex-shrink: 0;
 
-      &:last-child {
-        border-right: none;
+      svg {
+        stroke: #036a2e;
+        width: 28px;
+        height: 28px;
+        stroke-width: 1.5;
       }
-    }
-
-    .feature-title {
-      font-size: 12.5px;
-      color: #1a1a1a;
-    }
-
-    .feature-text {
-      font-size: 11px;
-      color: #777777;
     }
   }
 }
-
 // HERO DE PÀGE TOURS
 .hero-container {
   border-radius: 25px; // Esto redondea las esquinas de la sección
