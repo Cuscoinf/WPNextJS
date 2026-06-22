@@ -1,20 +1,194 @@
-// ─── ITINERARIO ────────────────────────────────
 @use "base" as *;
 
-.itinerario-day {
-  border-left: 3px solid $primary;
-  padding-left: 1.5rem;
-  position: relative;
-  margin-bottom: 1.5rem;
 
-  &::before {
-    content: "";
-    position: absolute;
-    left: -9px;
-    top: 0;
-    width: 15px;
-    height: 15px;
-    background: $primary;
-    border-radius: 50%;
+.detailed-itinerary-section {
+  background-color: #fafafa;
+
+  .transition-all {
+    transition: all 0.25s ease-in-out;
+  }
+
+
+  // Tarjeta de acordeón por día
+  .day-accordion-card {
+    background-color: #ffffff;
+    border-color: #e5e7eb !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    &:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06) !important;
+    }
+
+    .day-image-wrapper {
+      width: 300px;
+      height: 200px;
+      min-height: 160px;
+      
+      @media (max-width: 576px) {
+        width: 100%;
+        height: 180px;
+      }
+    }
+
+    // ALINEACIÓN EXACTA DE LAS COLUMNAS COMO EN LA IMAGEN
+    .day-card-content-wrapper {
+      align-items: start;
+
+      // Columna fija para el indicador "Day X"
+      .day-number-column {
+        width: 75px; 
+        min-width: 75px;
+        padding-top: 2px; // Alineación perfecta con la primera línea del título
+        font-weight: 700;
+        
+        @media (max-width: 576px) {
+          width: 60px;
+          min-width: 60px;
+          font-size: 1rem;
+        }
+      }
+
+      // Columna del contenido principal
+      .day-details-column {
+        .description-text {
+          line-height: 1.55;
+          color: #4b5563 !important;
+        }
+
+        .core-amenities {
+          color: #6b7280 !important;
+          svg {
+            color: #9ca3af;
+          }
+        }
+      }
+    }
+
+    .toggle-chevron-btn {
+      color: #9ca3af !important;
+      .chevron-icon {
+        transition: transform 0.25s ease;
+        &.rotate-180 {
+          transform: rotate(180deg);
+        }
+      }
+    }
+  }
+
+  // Banner Personalizado (Fondo crema/beige sutil)
+  .customize-trip-banner {
+    background: linear-gradient(135deg, #fefaf4 0%, #fbf3e6 100%);
+    border: 1px solid #f3e6d0 !important;
+
+    .icon-circle {
+      width: 56px;
+      height: 56px;
+    }
+
+    .btn-customize {
+      font-size: 0.85rem;
+      padding: 0.6rem 1.5rem;
+      box-shadow: 0 4px 12px rgba($primary-color, 0.15);
+      &:hover {
+        background-color: darken($primary-color, 6%) !important;
+      }
+    }
+  }
+
+  .itinerary-sidebar-sticky {
+    top: 5.5rem;
+    z-index: 10;
+  }
+
+  // Listas de viñetas dinámicas (ACF inputs)
+  .included-bullet-list,
+  .not-included-bullet-list,
+  .secure-perks {
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin-bottom: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+    li {
+      position: relative;
+      padding-left: 1.65rem;
+      line-height: 1.4;
+      color: #374151;
+      
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 3px;
+        width: 16px;
+        height: 16px;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+
+  // Checks Verdes (Colores sincronizados)
+  .included-bullet-list li::before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2303602c' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E");
+  }
+
+  // Cruces de No Incluido
+  .not-included-bullet-list li::before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23111827' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cline x1='15' y1='9' x2='9' y2='15'/%3E%3Cline x1='9' y1='9' x2='15' y2='15'/%3E%3C/svg%3E");
+  }
+
+  // Caja de selección de pago (Bordes dinámicos al hacer click)
+  .payment-selection-box {
+    border-color: #d1d5db !important;
+    background-color: #ffffff;
+
+    .form-check-input:checked {
+      background-color: $primary-color;
+      border-color: $primary-color !important;
+    }
+
+    .info-subtext {
+      font-size: 0.78rem;
+      color: #6b7280 !important;
+    }
+
+    &.selected-payment-box {
+      border-color: $primary-color !important;
+      background-color: rgba($primary-color, 0.03) !important;
+    }
+  }
+
+  // Botón checkout principal verde
+  .checkout-btn-layout {
+    transition: background-color 0.2s ease;
+    box-shadow: 0 4px 14px rgba($primary-color, 0.25);
+    
+    .main-label {
+      font-size: 0.9rem;
+      letter-spacing: 0.4px;
+    }
+
+    .sub-label {
+      font-size: 0.72rem;
+      margin-top: 2px;
+    }
+
+    &:hover {
+      background-color: darken($primary-color, 5%) !important;
+    }
+  }
+
+  .agreement-text {
+    font-size: 0.72rem;
+    color: #6b7280;
+    a:hover {
+      color: $primary-color !important;
+      border-color: $primary-color !important;
+    }
   }
 }

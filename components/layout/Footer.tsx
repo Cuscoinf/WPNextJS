@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="container">
         <div className="row g-4">
           <div className="col-md-4">
-            <h5 className="fw-bold text-white mb-3">Apunexa Travel</h5>
+            <h5 className="fw-bold text-white mb-3">Perú Magic Travel</h5>
             <p className="mb-0">
               Tours y experiencias únicas en Perú. Descubre la magia de nuestros destinos.
             </p>

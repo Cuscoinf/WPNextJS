@@ -4,11 +4,11 @@
     "title": "Machu Picchu Clásico",
     "slug": "machu-picchu-clasico",
     "excerpt": "Descubre la maravilla del mundo Machu Picchu en un tour clásico de 4 días.",
-    "featuredImage": "/images/tours/machu-picchu.jpg",
+    "featuredImage": "/images/1920x800.webp",
     "categories": [1],
     "tipos": [1],
     "acf": {
-      "imagen": "/images/tours/machu-picchu.jpg",
+      "imagen": "/images/img-banner.jpeg",
       "dias": "4 días / 3 noches",
       "tipo_viaje": "Aventura",
       "dificultad": "Moderada",
@@ -19,24 +19,24 @@
       "ubicacion": "Cusco - Machu Picchu",
       "itinerario_dia": [
         {
-          "titulo_dia": "Día 1: Llegada a Cusco",
-          "descripcion_dia": "<p>Recepción en el aeropuerto y traslado al hotel. Por la tarde realizaremos un city tour por Cusco visitando la Plaza de Armas, la Catedral y el Templo del Sol o Coricancha.</p>",
-          "fotos_dia": ["/images/tours/dia1-cusco.jpg"]
+          "titulo_dia": "Llegada a Cusco",
+          "descripcion_dia": "ecepción en el aeropubecepción en el aeropuerto y traslado al hotel. Por la tarde realizaremos un city toecepción en el aeropuerto y traslado al hotel. Por la tarde realizaremos un city toecepción en el aeropuerto y traslado al hotel. Por la tarde realizaremos un city toerto y traslado al hotel. Por la tarde realizaremos un city toecepción en el aeropuerto y traslado al hotel. Por la tarde realizaremos un city toRecepción en el aeropuerto y traslado al hotel. Por la tarde realizaremos un city tour por Cusco visitando la Plaza de Armas, la Catedral y el Templo del Sol o Coricancha. ecepción en el aeropuerto y traslado al hotel. Por la tarde realizaremos un city tour por Cusco visitando la Plaza de Armas, la Catedral y el Templo del Sol o Coricancha.",
+          "fotos_dia": ["/images/100x800.jpg"]
         },
         {
-          "titulo_dia": "Día 2: Valle Sagrado",
-          "descripcion_dia": "<p>Recorrido por el Valle Sagrado de los Incas visitando Pisac, Urubamba y Ollantaytambo. Almuerzo buffet en un restaurante local.</p>",
-          "fotos_dia": ["/images/tours/dia2-valle.jpg"]
+          "titulo_dia": "Valle Sagrado",
+          "descripcion_dia": "Recorrido por el Valle Sagrado de los Incas visitando Pisac, Urubamba y Ollantaytambo. Almuerzo buffet en un restaurante local.",
+          "fotos_dia": ["/images/100x800.jpg"]
         },
         {
-          "titulo_dia": "Día 3: Machu Picchu",
-          "descripcion_dia": "<p>Temprano abordaremos el tren hacia Aguas Calientes. Luego de un breve viaje en bus, llegaremos a la ciudadela inca de Machu Picchu. Recorrido guiado de 2 horas.</p>",
-          "fotos_dia": ["/images/tours/dia3-machu.jpg"]
+          "titulo_dia": "Machu Picchu",
+          "descripcion_dia": "Temprano abordaremos el tren hacia Aguas Calientes. Luego de un breve viaje en bus, llegaremos a la ciudadela inca de Machu Picchu. Recorrido guiado de 2 horas.",
+          "fotos_dia": ["/images/100x800.jpg"]
         },
         {
-          "titulo_dia": "Día 4: Retorno",
-          "descripcion_dia": "<p>Después del desayuno, traslado al aeropuerto. Fin de nuestros servicios.</p>",
-          "fotos_dia": []
+          "titulo_dia": "Retorno",
+          "descripcion_dia": "Después del desayuno, traslado al aeropuerto. Fin de nuestros servicios.",
+          "fotos_dia": ["/images/100x800.jpg"]
         }
       ],
       "resumen": "<p>Este tour clásico te llevará a conocer la joya del imperio incaico. Disfruta de paisajes únicos, historia milenaria y una experiencia inolvidable.</p>",
@@ -46,7 +46,7 @@
       "no_incluye": "<ul><li>Vuelos internacionales</li><li>Seguro de viaje</li><li>Gastos personales</li><li>Propinas</li></ul>",
       "faq": "<p><strong>¿Qué debo llevar?</strong> Ropa ligera, bloqueador solar, sombrero, cámara fotográfica, agua.</p><p><strong>¿Hay restricciones de altura?</strong> No, pero recomendamos tomarse el primer día con calma para aclimatarse.</p>",
       "descripcion": "<p>Llevar ropa abrigadora para las noches, zapatos cómodos para caminar, repelente de insectos y documentos personales.</p>",
-      "banners": ["/images/tours/banner-machu-1.jpg", "/images/tours/banner-machu-2.jpg"],
+      "banners": ["/images/1920x800.webp"],
       "precio": "450",
       "precio_anterior": "520",
       "pago_100": false,
@@ -58,11 +58,11 @@
     "title": "Valle Sagrado Full Day",
     "slug": "valle-sagrado-full-day",
     "excerpt": "Recorre el Valle Sagrado de los Incas en un día lleno de historia y paisajes.",
-    "featuredImage": "/images/tours/valle-sagrado.jpg",
+    "featuredImage": "/images/img-banner.jpeg",
     "categories": [1, 2],
     "tipos": [2],
     "acf": {
-      "imagen": "/images/tours/valle-sagrado.jpg",
+      "imagen": "/images/img-banner.jpeg",
       "dias": "1 día",
       "tipo_viaje": "Cultural",
       "dificultad": "Fácil",
@@ -85,7 +85,7 @@
       "no_incluye": "<ul><li>Gastos personales</li><li>Propinas</li></ul>",
       "faq": "<p><strong>Hora de salida:</strong> 7:00 am. <strong>Retorno:</strong> Aproximadamente 6:00 pm.</p>",
       "descripcion": "<p>Llevar sombrero, bloqueador solar, agua, cámara fotográfica y dinero para artesanías.</p>",
-      "banners": ["/images/tours/banner-valle.jpg"],
+      "banners": ["/images/1920x800.webp"],
       "precio": "89",
       "precio_anterior": "110",
       "pago_100": false,
@@ -97,11 +97,11 @@
     "title": "Montaña de 7 Colores",
     "slug": "montana-7-colores",
     "excerpt": "Una de las caminatas más impresionantes de los Andes peruanos.",
-    "featuredImage": "/images/tours/7-colores.jpg",
+    "featuredImage": "/images/img-banner.jpeg",
     "categories": [1],
     "tipos": [1],
     "acf": {
-      "imagen": "/images/tours/7-colores.jpg",
+      "imagen": "/images/img-banner.jpeg",
       "dias": "1 día",
       "tipo_viaje": "Aventura",
       "dificultad": "Difícil",
@@ -124,7 +124,7 @@
       "no_incluye": "<ul><li>Caballo de alquiler (opcional)</li><li>Propinas</li></ul>",
       "faq": "<p><strong>¿Es apto para principiantes?</strong> Es una caminata exigente por la altura. Recomendamos estar aclimatados en Cusco mínimo 2 días.</p>",
       "descripcion": "<p>Llevar ropa abrigadora, zapatos de trekking, bloqueador solar, lentes de sol, agua y snacks energéticos.</p>",
-      "banners": ["/images/tours/banner-7colores.jpg"],
+      "banners": ["/images/img-banner.jpeg"],
       "precio": "120",
       "precio_anterior": "",
       "pago_100": false,
@@ -136,11 +136,11 @@
     "title": "Lago Titicaca Esencial",
     "slug": "lago-titicaca-esencial",
     "excerpt": "Explora el lago navegable más alto del mundo y sus islas flotantes.",
-    "featuredImage": "/images/tours/titicaca.jpg",
+    "featuredImage": "/images/img-banner.jpeg",
     "categories": [2],
     "tipos": [2, 3],
     "acf": {
-      "imagen": "/images/tours/titicaca.jpg",
+      "imagen": "/images/img-banner.jpeg",
       "dias": "3 días / 2 noches",
       "tipo_viaje": "Cultural",
       "dificultad": "Fácil",
@@ -173,7 +173,7 @@
       "no_incluye": "<ul><li>Vuelos a Puno</li><li>Seguro de viaje</li></ul>",
       "faq": "<p><strong>¿Cuál es la mejor época?</strong> De abril a octubre (temporada seca).</p>",
       "descripcion": "<p>Llevar ropa abrigadora (el altiplano es frío), bloqueador solar y cámara.</p>",
-      "banners": ["/images/tours/banner-titicaca.jpg"],
+      "banners": ["/images/img-banner.jpeg"],
       "precio": "280",
       "precio_anterior": "330",
       "pago_100": false,

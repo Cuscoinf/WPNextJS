@@ -57,6 +57,7 @@ export interface TourAcf {
   ubicacion: string
   itinerario_dia: ItinerarioItem[]
   resumen: string
+  resumen_corto?: string
   imagen1: string
   imagne2: string
   incluye: string
@@ -68,6 +69,8 @@ export interface TourAcf {
   precio_anterior: string
   pago_100: boolean
   precios_resumen: string
+  rating?: string
+  grupo_maximo?: string
 }
 
 export interface ItinerarioItem {

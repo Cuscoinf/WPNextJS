@@ -1,1 +1,17 @@
-// ─── BOTONES ───────────────────────────────────
+@use "base" as *;
+@use "sass:color";
+
+.btn-page {
+  background-color: $primary-color;
+  color: #fff;
+  border: none;
+  border-radius: $border-radius;
+  padding: 0.75rem 1.5rem;
+  font-size: $font-title;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  &:hover {
+    background-color: color.scale($primary-color, $lightness: -10%);
+    color: #fff;
+  }
+}

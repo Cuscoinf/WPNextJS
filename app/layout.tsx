@@ -16,8 +16,12 @@ export default function RootLayout({
     <html lang="es">
       <body>
         <BootstrapClient />
+        
+        {/* Ahora funciona solo, sin pasarle ninguna prop */}
         <Header />
+        
         <main className="min-vh-100">{children}</main>
+        
         <Footer />
       </body>
     </html>

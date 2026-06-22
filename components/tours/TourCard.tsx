@@ -11,7 +11,7 @@ export default function TourCard({ tour }: Props) {
   return (
     <div className="card tour-card h-100 shadow-sm border-0 rounded-3 overflow-hidden">
       <img
-        src={`https://placehold.co/600x400/1a365d/fff?text=${encodeURIComponent(tour.title)}`}
+        src={tour.featuredImage || `https://placehold.co/600x400/1a365d/fff?text=${encodeURIComponent(tour.title)}`}
         className="card-img-top"
         alt={tour.title}
       />

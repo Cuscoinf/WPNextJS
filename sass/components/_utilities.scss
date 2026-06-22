@@ -1,1 +1,21 @@
-// ─── UTILIDADES ────────────────────────────────
+@use "base" as *;
+
+
+// bg color utilities
+.bg-page {
+  background-color: $primary-color  !important
+}
+
+.bg-page-alt {
+  background-color: $secondary-color !important
+}
+
+// Color utilities - use with Bootstrap's text/bg classes
+.text-page {
+  color: $primary-color !important;
+}
+
+.text-page-alt {
+  color: $secondary-color !important;
+}
+

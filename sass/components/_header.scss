@@ -1,1 +1,39 @@
-// ─── HEADER ─────────────────────────────────────
+@use 'base' as *;
+
+.navbar {
+  // CONTROL DEL ANCHO: Centrado perfecto sin apretar los elementos
+  .container-fluid {
+    max-width: 1500px; 
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+  }
+
+  .logo-img:hover {
+    transform: scale(1.03);
+  }
+
+  .nav-link {
+    color: #1a1a1a !important;
+    transition: color 0.25s ease;
+    
+    &:hover {
+      color: #0b6635 !important; // Cambia al verde de la marca al pasar el cursor
+    }
+  }
+
+  .btn {
+    transition: all 0.25s ease;
+    &:hover {
+      background-color: #084d28 !important; // Verde un poco más oscuro al hacer hover
+      box-shadow: 0 4px 12px rgba(11, 102, 53, 0.2);
+    }
+  }
+
+  .whatsapp-icon {
+    transition: transform 0.2s ease;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}

@@ -6,10 +6,10 @@
     "acf": {
       "sliders": [
         {
-          "imagen_o_banner": "/images/sliders/slider-1.jpg",
-          "etiqueta_sliders": "Viaja con nosotros",
+          "imagen_o_banner": "/images/Macchu-Picchu.jpeg",
+          "etiqueta_sliders": "Discubre Perú",
           "titulo_slider": "Descubre el Perú Auténtico",
-          "descripcion_slider": "<p>Vive experiencias únicas en los destinos más impresionantes del Perú. Tours personalizados, guías expertos y recuerdos inolvidables.</p>",
+          "descripcion_slider": "Vive experiencias únicas en los destinos más impresionantes del Perú. Tours personalizados, guías expertos y recuerdos inolvidables.",
           "boton_slider": "Ver Tours",
           "link_slider": "/tours"
         },

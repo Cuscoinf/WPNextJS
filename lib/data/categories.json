@@ -32,16 +32,16 @@
     "acf": {
       "carril": true,
       "titulo_categoria": "Tours Culturales",
-      "informacion": "<p>Sumérgete en la rica historia y cultura del Perú. Desde el Valle Sagrado hasta el Lago Titicaca.</p>",
+      "informacion": "Sumérgete en la rica historia y cultura del Perú. Desde el Valle Sagrado hasta el Lago Titicaca.",
       "titulo_atractivos": "Atractivos culturales",
       "atractivos": [
         {
           "titulo_atractivo": "Valle Sagrado",
-          "contenido_atractivo": "<p>Recorrido por los valles y pueblos que fueron el corazón del Imperio Incaico, lleno de ruinas y mercados artesanales.</p>"
+          "contenido_atractivo": "Recorrido por los valles y pueblos que fueron el corazón del Imperio Incaico, lleno de ruinas y mercados artesanales."
         },
         {
           "titulo_atractivo": "Islas Flotantes",
-          "contenido_atractivo": "<p>Las Islas de los Uros en el Lago Titicaca, construidas enteramente de totora, manteniendo vivas las tradiciones ancestrales.</p>"
+          "contenido_atractivo": "Las Islas de los Uros en el Lago Titicaca, construidas enteramente de totora, manteniendo vivas las tradiciones ancestrales."
         }
       ],
       "banner": ["/images/categorias/banner-cultural.jpg"],
@@ -57,17 +57,105 @@
     "acf": {
       "carril": false,
       "titulo_categoria": "Tours de Naturaleza",
-      "informacion": "<p>Conecta con la naturaleza en los destinos más impresionantes del Perú.</p>",
+      "informacion": "Conecta con la naturaleza en los destinos más impresionantes del Perú.",
       "titulo_atractivos": "Atractivos naturales",
       "atractivos": [
         {
           "titulo_atractivo": "Amazonía Peruana",
-          "contenido_atractivo": "<p>La selva amazónica peruana alberga una biodiversidad incomparable.</p>"
+          "contenido_atractivo": "La selva amazónica peruana alberga una biodiversidad incomparable."
         }
       ],
       "banner": ["/images/categorias/banner-naturaleza.jpg"],
       "fotos": ["/images/categorias/naturaleza-1.jpg"],
       "faqs": []
+    }
+  },
+  {
+    "id": 4,
+    "name": "Trekking",
+    "slug": "trekking",
+    "count": 5,
+    "acf": {
+      "carril": true,
+      "titulo_categoria": "Caminatas y Trekking",
+      "informacion": "<p>Rutas de senderismo desafiantes por antiguos caminos incas y cordilleras imponentes.</p>",
+      "titulo_atractivos": "Rutas legendarias",
+      "atractivos": [
+        {
+          "titulo_atractivo": "Camino Inca",
+          "contenido_atractivo": "<p>La red de senderos más famosa de Sudamérica que conduce directamente a la Puerta del Sol en Machu Picchu.</p>"
+        },
+        {
+          "titulo_atractivo": "Salkantay Trek",
+          "contenido_atractivo": "<p>Una alternativa de caminata espectacular que cruza pasos alpinos nevados y ceja de selva tropical.</p>"
+        }
+      ],
+      "banner": ["/images/categorias/banner-trekking.jpg"],
+      "fotos": ["/images/categorias/trekking-1.jpg"],
+      "faqs": [5, 6]
+    }
+  },
+  {
+    "id": 5,
+    "name": "Gastronomía",
+    "slug": "gastronomia",
+    "count": 1,
+    "acf": {
+      "carril": false,
+      "titulo_categoria": "Experiencias Gastronómicas",
+      "informacion": "Explora los sabores e ingredientes nativos de una de las mejores cocinas del mundo.",
+      "titulo_atractivos": "Experiencias culinarias",
+      "atractivos": [
+        {
+          "titulo_atractivo": "Clases de Cocina en Cusco",
+          "contenido_atractivo": "Aprende a preparar platos bandera como el Ceviche y Lomo Saltado usando insumos andinos locales."
+        }
+      ],
+      "banner": ["/images/categorias/banner-gastronomia.jpg"],
+      "fotos": ["/images/categorias/gastronomia-1.jpg"],
+      "faqs": [7]
+    }
+  },
+  {
+    "id": 6,
+    "name": "Lujo",
+    "slug": "lujo",
+    "count": 3,
+    "acf": {
+      "carril": true,
+      "titulo_categoria": "Viajes de Lujo y Exclusivos",
+      "informacion": "Descubre el Perú con el máximo confort, hoteles boutique de 5 estrellas y trenes de primera clase.",
+      "titulo_atractivos": "Servicios VIP",
+      "atractivos": [
+        {
+          "titulo_atractivo": "Tren Hiram Bingham",
+          "contenido_atractivo": "Un viaje exclusivo hacia Machu Picchu al estilo de los años 20 con cena gourmet y shows en vivo a bordo."
+        }
+      ],
+      "banner": ["/images/categorias/banner-lujo.jpg"],
+      "fotos": ["/images/categorias/lujo-1.jpg"],
+      "faqs": [8, 9]
+    }
+  },
+  {
+    "id": 7,
+    "name": "Full Days",
+    "slug": "full-days",
+    "count": 4,
+    "acf": {
+      "carril": true,
+      "titulo_categoria": "Excursiones de un Día",
+      "informacion": "Tours cortos e intensos ideales para viajeros con poco tiempo que quieren aprovechar cada segundo.",
+      "titulo_atractivos": "Destinos rápidos",
+      "atractivos": [
+        {
+          "titulo_atractivo": "Laguna Humantay",
+          "contenido_atractivo": "Un espejo de agua color turquesa rodeado de imponentes glaciares andinos visitable en un solo día."
+        }
+      ],
+      "banner": ["/images/categorias/banner-fulldays.jpg"],
+      "fotos": ["/images/categorias/fulldays-1.jpg"],
+      "faqs": [10]
     }
   }
 ]

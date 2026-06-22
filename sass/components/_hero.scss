@@ -1,15 +1,226 @@
-// ─── HERO SECTION ───────────────────────────────
-.hero-section {
-  min-height: 600px;
-  display: flex;
-  align-items: center;
-  position: relative;
-  background-size: cover;
-  background-position: center;
+@use "base" as *;
+
+//hero de hame 
+.home-hero {
+  height: 60vh;
+  min-height: 85vh;
+  padding: 60px 0 30px 0;
+  overflow: hidden;
 
   .hero-overlay {
     position: absolute;
-    inset: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.3) 100%);
+    z-index: 1;
   }
+
+  .hero-container {
+    max-width: 1440px;
+    width: 100%;
+  }
+
+  .hero-badge {
+    color: $secondary-color;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+  }
+
+
+
+  .hero-description {
+    font-size: 1.1rem;
+    max-width: 520px;
+    p { margin: 0; }
+  }
+
+  // Estilos de botones específicos de la página de inicio
+  .btn-primary-custom {
+    background-color: $primary-color;
+    color: #ffffff;
+    padding: 12px 26px;
+    border-radius: 4px;
+    border: none;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    transition: background-color 0.2s ease;
+
+    &:hover {
+      background-color: darken($primary-color, 6%);
+      color: #ffffff;
+    }
+  }
+
+  .btn-outline-custom {
+    background-color: transparent;
+    color: #ffffff;
+    padding: 11px 24px;
+    border-radius: 4px;
+    border: 2px solid #ffffff;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background-color: #ffffff;
+      color: #1a1a1a;
+    }
+  }
+
+  // Estilos de la tarjeta flotante del formulario
+  .hero-form-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    z-index: 5;
+
+    .form-card-title {
+      color: #1a1a1a;
+      font-size: 17px;
+    }
+
+    .form-card-subtitle {
+      color: #777777;
+      font-size: 13px;
+    }
+
+    .custom-input {
+      background-color: #f8f9fa;
+      border: 1px solid #e9ecef;
+      padding: 9px 12px;
+      font-size: 13.5px;
+      border-radius: 4px;
+
+      &:focus {
+        background-color: #ffffff;
+        border-color: $primary-color;
+        box-shadow: 0 0 0 3px rgba(3, 96, 44, 0.1);
+      }
+    }
+
+    .btn-submit-custom {
+      background-color: $primary-color;
+      color: #ffffff;
+      border: none;
+      border-radius: 4px;
+      font-size: 13.5px;
+      transition: background-color 0.2s ease;
+
+      &:hover {
+        background-color: darken($primary-color, 6%);
+      }
+    }
+  }
+
+  // Estilos de la barra inferior de features
+  .hero-features-bar {
+    border-radius: 10px;
+    margin-top: 1.5rem;
+
+    .feature-item {
+      flex: 1;
+      padding: 0 10px;
+      border-right: 1px solid #f2f2f2;
+
+      &:last-child {
+        border-right: none;
+      }
+    }
+
+    .feature-title {
+      font-size: 12.5px;
+      color: #1a1a1a;
+    }
+
+    .feature-text {
+      font-size: 11px;
+      color: #777777;
+    }
+  }
+}
+
+// HERO DE PÀGE TOURS
+.hero-container {
+  border-radius: 25px; // Esto redondea las esquinas de la sección
+  overflow: hidden;    // Asegura que la imagen no se salga del radio
+  margin-bottom: 2rem;
+}
+
+.hero-section {
+  position: relative;
+  overflow: hidden;
+  min-height: 650px;
+  border-radius: 25px;
+}
+
+.hero-section .hero-bg-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  z-index: 0;
+}
+
+.hero-overlay,
+.hero-left-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.hero-overlay {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.hero-left-gradient {
+  width: min(55%, 760px);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.05) 60%, transparent 100%);
+}
+
+.hero-inner {
+  position: relative;
+  z-index: 2;
+  min-height: 650px;
+}
+
+@media (max-width: 992px) {
+  .hero-left-gradient {
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.15) 50%, transparent 100%);
+  }
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  line-height: 1.1;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+.hero-subtitle {
+  color: #F5A623;
+  font-size: 2rem;
+}
+
+.hero-description {
+  max-width: 550px;
+}
+
+.hero-badges {
+  padding: 1.2rem;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.25), transparent);
+}
+
+.price-card {
+  width: 100%;
+  max-width: 380px;
+  border-radius: 20px !important;
 }
