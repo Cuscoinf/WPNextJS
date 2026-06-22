@@ -19,13 +19,13 @@ export default function HeroSection({ slide }: Props) {
       {/* Capa de oscurecimiento de fondo */}
       <div className="hero-overlay" />
 
-      <div className="container hero-container position-relative z-2">
+      <div className="container-fluid position-relative z-2 mx-lg-5 py-5">
         <div className="row align-items-center pt-5 pb-2">
           
           {/* COLUMNA IZQUIERDA: CONTENIDO DINÁMICO */}
           <div className="col-lg-7 text-white mb-5 mb-lg-0 text-start">
             {slide.etiqueta_sliders && (
-              <span className="hero-badge text-uppercase fw-bold mb-2 d-inline-block">
+              <span className=" text-page display-2 fw-bold mb-2 d-inline-block">
                 {slide.etiqueta_sliders}
               </span>
             )}
@@ -67,7 +67,7 @@ export default function HeroSection({ slide }: Props) {
 
           {/* COLUMNA DERECHA: FORMULARIO DE COTIZACIÓN ESTÁTICO */}
           <div className="col-lg-5 d-flex justify-content-lg-end justify-content-center">
-            <div className="hero-form-card p-4 shadow">
+            <div className="hero-form-card bg-white p-4 shadow">
               <h3 className="form-card-title text-uppercase fw-bold mb-1">Plan Your Trip</h3>
               <p className="form-card-subtitle mb-4">Get a personalized quote</p>
               
