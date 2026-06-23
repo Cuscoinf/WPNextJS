@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "name": "Aventura",
-    "slug": "aventura",
+    "name": "PERU TRAVEL PACKAGES",
+    "slug": "peru-travel-packages",
     "count": 2,
     "acf": {
       "carril": true,
@@ -26,8 +26,8 @@
   },
   {
     "id": 2,
-    "name": "Cultural",
-    "slug": "cultural",
+    "name": "MACHU PICCHU TOURS",
+    "slug": "machu-picchu-tour-packages",
     "count": 2,
     "acf": {
       "carril": true,
@@ -51,8 +51,8 @@
   },
   {
     "id": 3,
-    "name": "Naturaleza",
-    "slug": "naturaleza",
+    "name": "CUSCO PACKAGES",
+    "slug": "cusco-tour-packages",
     "count": 0,
     "acf": {
       "carril": false,
@@ -72,8 +72,8 @@
   },
   {
     "id": 4,
-    "name": "Trekking",
-    "slug": "trekking",
+    "name": "TREKKING & ADVENTURE",
+    "slug": "adventure-tours-peru",
     "count": 5,
     "acf": {
       "carril": true,
@@ -97,7 +97,7 @@
   },
   {
     "id": 5,
-    "name": "Gastronomía",
+    "name": "AMAZON TOURS",
     "slug": "gastronomia",
     "count": 1,
     "acf": {
@@ -116,46 +116,25 @@
       "faqs": [7]
     }
   },
-  {
-    "id": 6,
-    "name": "Lujo",
-    "slug": "lujo",
-    "count": 3,
-    "acf": {
-      "carril": true,
-      "titulo_categoria": "Viajes de Lujo y Exclusivos",
-      "informacion": "Descubre el Perú con el máximo confort, hoteles boutique de 5 estrellas y trenes de primera clase.",
-      "titulo_atractivos": "Servicios VIP",
-      "atractivos": [
-        {
-          "titulo_atractivo": "Tren Hiram Bingham",
-          "contenido_atractivo": "Un viaje exclusivo hacia Machu Picchu al estilo de los años 20 con cena gourmet y shows en vivo a bordo."
-        }
-      ],
-      "banner": ["/images/categorias/banner-lujo.jpg"],
-      "fotos": ["/images/categorias/lujo-1.jpg"],
-      "faqs": [8, 9]
-    }
-  },
-  {
-    "id": 7,
-    "name": "Full Days",
-    "slug": "full-days",
-    "count": 4,
-    "acf": {
-      "carril": true,
-      "titulo_categoria": "Excursiones de un Día",
-      "informacion": "Tours cortos e intensos ideales para viajeros con poco tiempo que quieren aprovechar cada segundo.",
-      "titulo_atractivos": "Destinos rápidos",
-      "atractivos": [
-        {
-          "titulo_atractivo": "Laguna Humantay",
-          "contenido_atractivo": "Un espejo de agua color turquesa rodeado de imponentes glaciares andinos visitable en un solo día."
-        }
-      ],
-      "banner": ["/images/categorias/banner-fulldays.jpg"],
-      "fotos": ["/images/categorias/fulldays-1.jpg"],
-      "faqs": [10]
-    }
+{
+  "id": 6,
+  "name": "DESTINATIONS",
+  "slug": "destinations",
+  "acf": {
+    "carril": true,
+    "subcategorias": [
+      { "name": "Cusco", "slug": "cusco" },
+      { "name": "Machu Picchu", "slug": "machu-picchu" },
+      { "name": "Lima", "slug": "lima" },
+      { "name": "Arequipa", "slug": "arequipa" },
+      { "name": "Puno", "slug": "puno" },
+      { "name": "Lake Titicaca", "slug": "lake-titicaca" },
+      { "name": "Tambopata", "slug": "tambopata" },
+      { "name": "Manu", "slug": "manu" }
+    ],
+    "banner": ["/images/categorias/banner-destinations.jpg"],
+    "fotos": []
   }
+}
+
 ]

@@ -66,7 +66,7 @@ export default function Header() {
 
               return (
                 <li className="nav-item" key={category.id || categorySlug}>
-                  <Link className="nav-link text-dark py-3" href={`/tours/${categorySlug}`}>
+                  <Link className="nav-link text-dark py-3" href={`/category/${categorySlug}`}>
                     {categoryName}
                   </Link>
                 </li>

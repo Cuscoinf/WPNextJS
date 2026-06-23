@@ -98,7 +98,7 @@
     "slug": "montana-7-colores",
     "excerpt": "Una de las caminatas más impresionantes de los Andes peruanos.",
     "featuredImage": "/images/img-banner.jpeg",
-    "categories": [1],
+    "categories": [2],
     "tipos": [1],
     "acf": {
       "imagen": "/images/img-banner.jpeg",
@@ -137,7 +137,7 @@
     "slug": "lago-titicaca-esencial",
     "excerpt": "Explora el lago navegable más alto del mundo y sus islas flotantes.",
     "featuredImage": "/images/img-banner.jpeg",
-    "categories": [2],
+    "categories": [1],
     "tipos": [2, 3],
     "acf": {
       "imagen": "/images/img-banner.jpeg",

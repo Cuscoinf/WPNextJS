@@ -133,7 +133,7 @@ export default function DetailedItinerary({ acf, paymentLogos = [] }: Props) {
 
           {/* COLUMNA DERECHA: SIDEBAR */}
           <div className="col-lg-4">
-            <div className="sticky-top itinerary-sidebar-sticky">
+            <div className="itinerary-sidebar-sticky">
               
               <div className="card border rounded-3 shadow-sm p-4 mb-4 bg-white">
                 <h6 className="fw-bold mb-3 text-dark text-uppercase tracking-wider fs-6">WHAT&apos;S INCLUDED</h6>

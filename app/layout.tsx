@@ -5,7 +5,7 @@ import Header from "@/components/layout/Header"
 import Footer from "@/components/layout/Footer"
 
 export const metadata: Metadata = {
-  title: "Apunexa Travel",
+  title: "Perú Magic Travel",
   description: "Tours y viajes en Perú",
 }
 
