@@ -37,7 +37,7 @@ export default function HeroSection({ slide }: Props) {
               )}
               
               {/* Título */}
-              <h1 className="display-4 fw-bold text-black mb-3 lh-1">
+              <h1 className="display-4 hero-title fw-bold text-black mb-3 lh-1">
                 {slide.titulo_slider}
               </h1>
 
@@ -61,18 +61,14 @@ export default function HeroSection({ slide }: Props) {
                 )}
                 
                 <Link
-                  href="/personalizar-viaje"
+                  href="/custom-peru-tours"
                   className="btn-custom fw-bold"
                 >
-                  Viaje turístico personalizado
+                  Request a Quote
                 </Link>
               </div>
             </div>
 
-            {/* COLUMNA DERECHA - FORM */}
-            <div className="col-lg-5 d-flex justify-content-lg-end">
-              <TripPlannerForm />
-            </div>
           </div>
 
           {/* FEATURES BAR - Solo en desktop */}

@@ -57,3 +57,17 @@
     color: #0d5c34;
   }
 }
+
+  .button-tour {
+    background: $primary-color;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: .3s;
+
+    &:hover {
+      background: primary-color;
+      color: white;
+    }
+  }

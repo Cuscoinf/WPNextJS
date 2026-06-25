@@ -1,31 +1,69 @@
-@use 'base' as *;
+@use "base" as *;
 
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+}
+
+/* TOP BAR */
+.header-top-bar {
+  background: #063C23;
+  color: #fff;
+  font-size: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  letter-spacing: 0.3px;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    transition: opacity 0.2s;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+/* LOGO */
+.header-logo-img {
+  height: 110px;
+  width: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.03);
+  }
+}
+
+/* NAVBAR */
 .navbar {
-  // CONTROL DEL ANCHO: Centrado perfecto sin apretar los elementos
+  background: rgba(255, 255, 255, 0.486);
+  backdrop-filter: blur(6px);
+
   .container-fluid {
-    max-width: 1500px; 
+    max-width: 1700px;
     margin-right: auto;
     margin-left: auto;
     width: 100%;
   }
 
-  .logo-img:hover {
-    transform: scale(1.03);
-  }
-
   .nav-link {
     color: #1a1a1a !important;
     transition: color 0.25s ease;
-    
+
     &:hover {
-      color: #0b6635 !important; // Cambia al verde de la marca al pasar el cursor
+      color: #0b6635 !important;
     }
   }
 
   .btn {
     transition: all 0.25s ease;
     &:hover {
-      background-color: #084d28 !important; // Verde un poco más oscuro al hacer hover
+      background-color: #084d28 !important;
       box-shadow: 0 4px 12px rgba(11, 102, 53, 0.2);
     }
   }
@@ -35,5 +73,27 @@
     &:hover {
       transform: scale(1.1);
     }
+  }
+}
+
+/* MOBILE */
+@media (max-width: 1199.98px) {
+  .header-top-bar {
+    display: none !important;
+  }
+
+  .navbar {
+    background: #fff !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  }
+
+  .navbar-collapse {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+
+  .header-logo-img {
+    height: 55px;
   }
 }

@@ -2,6 +2,7 @@ import { getHomePage, getTours, getCategories } from "@/lib/api"
 import HeroSection from "@/components/home/HeroSection"
 import FeaturedTours from "@/components/home/FeaturedTours"
 import CategoriesGrid from "@/components/home/CategoriesGrid"
+import WhyChooseUs from "@/components/home/WhyChooseUs"
 
 export default async function HomePage() {
   const home = await getHomePage()
@@ -27,6 +28,8 @@ export default async function HomePage() {
         }
 
       })}
+
+      <WhyChooseUs />
     </>
   )
 }

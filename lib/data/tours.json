@@ -1,105 +1,1466 @@
 [
   {
     "id": 1,
-    "title": "Machu Picchu Clásico",
-    "slug": "machu-picchu-clasico",
-    "excerpt": "Descubre la maravilla del mundo Machu Picchu en un tour clásico de 4 días.",
+    "title": "Peru 7 Days",
+    "slug": "peru-7-days",
+    "excerpt": "Discover the best of Peru in one week. Visit Cusco, Machu Picchu, and the Sacred Valley.",
     "featuredImage": "/images/1920x800.webp",
-    "categories": [1],
-    "tipos": [1],
+    "categories": [
+      1
+    ],
+    "tipos": [
+      2
+    ],
     "acf": {
       "imagen": "/images/img-banner.jpeg",
-      "dias": "4 días / 3 noches",
-      "tipo_viaje": "Aventura",
+      "dias": "7 días / 6 noches",
+      "tipo_viaje": "Multi-destino",
       "dificultad": "Moderada",
-      "altura": "2,430 msnm",
+      "altura": "2,430 - 3,400 msnm",
       "acomodacion": "Hoteles 3 estrellas",
       "etiqueta_1": "Más vendido",
       "etiqueta_2": "",
-      "ubicacion": "Cusco - Machu Picchu",
+      "ubicacion": "Lima - Cusco - Valle Sagrado - Machu Picchu",
       "itinerario_dia": [
         {
-          "titulo_dia": "Llegada a Cusco",
-          "descripcion_dia": "ecepción en el aeropubecepción en el aeropuerto y traslado al hotel. Por la tarde realizaremos un city toecepción en el aeropuerto y traslado al hotel. Por la tarde realizaremos un city toecepción en el aeropuerto y traslado al hotel. Por la tarde realizaremos un city toerto y traslado al hotel. Por la tarde realizaremos un city toecepción en el aeropuerto y traslado al hotel. Por la tarde realizaremos un city toRecepción en el aeropuerto y traslado al hotel. Por la tarde realizaremos un city tour por Cusco visitando la Plaza de Armas, la Catedral y el Templo del Sol o Coricancha. ecepción en el aeropuerto y traslado al hotel. Por la tarde realizaremos un city tour por Cusco visitando la Plaza de Armas, la Catedral y el Templo del Sol o Coricancha.",
-          "fotos_dia": ["/images/100x800.jpg"]
+          "titulo_dia": "Llegada a Lima",
+          "descripcion_dia": "Recepción en el aeropuerto internacional Jorge Chávez de Lima y traslado privado al hotel seleccionado. Por la tarde, realizaremos un recorrido por el Centro Histórico de Lima, declarado Patrimonio de la Humanidad por la UNESCO, visitando la Plaza de Armas, la Catedral de Lima, el Palacio de Gobierno y el Convento de San Francisco con sus famosas catacumbas subterráneas. Disfrutaremos de una cena de bienvenida en un restaurante tradicional del distrito de Miraflores con vista al océano Pacífico.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Vuelo a Cusco - City Tour",
+          "descripcion_dia": "Vuelo matutino desde Lima hacia la ciudad imperial del Cusco con una duración aproximada de 1 hora. Recepción por nuestro equipo y traslado al hotel en el centro histórico. Por la tarde, iniciaremos el city tour recorriendo la Plaza de Armas, la Catedral del Cusco con sus invaluables obras de arte colonial, y el Templo del Sol o Coricancha, antiguo centro religioso del Imperio Inca cuyos muros estuvieron recubiertos de oro. Continuaremos hacia las afueras de la ciudad para visitar la impresionante fortaleza de Sacsayhuamán, con sus enormes bloques de piedra perfectamente ensamblados, seguida de los sitios arqueológicos de Qenqo, Puca Pucara y Tambomachay. Finalizaremos con un paseo por el bohemio barrio de San Blas, conocido por sus talleres de arte y artesanía.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
         },
         {
           "titulo_dia": "Valle Sagrado",
-          "descripcion_dia": "Recorrido por el Valle Sagrado de los Incas visitando Pisac, Urubamba y Ollantaytambo. Almuerzo buffet en un restaurante local.",
-          "fotos_dia": ["/images/100x800.jpg"]
+          "descripcion_dia": "Salida temprano desde Cusco con destino al majestuoso Valle Sagrado de los Incas. Nuestra primera parada será el mirador de Pisac, desde donde apreciaremos una vista panorámica espectacular del valle y las terrazas agrícolas incas. Descenderemos para visitar el mercado artesanal de Pisac, reconocido como uno de los mejores del Perú para adquirir textiles de alpaca, cerámicas pintadas a mano y joyería de plata. Continuaremos hacia Urubamba, donde disfrutaremos de un almuerzo buffet con ingredientes orgánicos locales y vistas panorámicas del valle. Por la tarde, exploraremos la imponente fortaleza ceremonial de Ollantaytambo, admirando sus terrazas de piedra perfectamente talladas y el Templo del Sol. Tendremos tiempo para caminar por las calles empedradas del pueblo inca vivo que aún conserva su trazado urbano original.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
         },
         {
           "titulo_dia": "Machu Picchu",
-          "descripcion_dia": "Temprano abordaremos el tren hacia Aguas Calientes. Luego de un breve viaje en bus, llegaremos a la ciudadela inca de Machu Picchu. Recorrido guiado de 2 horas.",
-          "fotos_dia": ["/images/100x800.jpg"]
+          "descripcion_dia": "Madrugada para abordar el tren con destino a Aguas Calientes, disfrutando durante el trayecto de paisajes espectaculares de valles profundos y montañas cubiertas de vegetación exuberante. Al llegar a Aguas Calientes, abordaremos los buses que ascienden por la carretera de 8 kilómetros hasta la entrada de la ciudadela inca. Una vez en Machu Picchu, nuestro guía experto los llevará en un recorrido detallado de aproximadamente 2 horas, explicando la fascinante historia, la arquitectura megalítica y los misterios aún no resueltos de esta maravilla del mundo moderno. Visitaremos los sectores principales como el Templo del Sol, la Plaza Principal, el Intihuatana o reloj solar, el Templo de las 3 Ventanas y los impresionantes andenes agrícolas. Posterior al guiado, tendrán tiempo libre para explorar por su cuenta, tomar fotografías y conectarse con la energía especial de este lugar sagrado. Retorno a Cusco en tren por la tarde.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Montaña 7 Colores",
+          "descripcion_dia": "Salida muy temprano desde Cusco aproximadamente a las 3:00 am con destino a la comunidad de Cusipata, ubicada a 2 horas de distancia. Durante el trayecto, podremos apreciar el amanecer sobre los Andes. En Cusipata disfrutaremos de un desayuno continental para cargar energías. Iniciaremos la caminata hacia la Montaña de 7 Colores o Vinicunca, un sendero de dificultad moderada-alta debido a la altitud, que nos tomará aproximadamente 1.5 a 2 horas de ascenso constante. Durante la caminata, nuestro guía explicará la geología del lugar y la razón de los colores minerales. Al llegar a la cima a 5,200 metros sobre el nivel del mar, seremos recompensados con una vista espectacular de los estratos de colores que forman esta montaña única: rojo, naranja, amarillo, verde, azul, índigo y violeta. Tendremos tiempo para tomar fotografías y maravillarnos con el paisaje antes de iniciar el descenso. Almuerzo buffet en Cusipata y retorno a Cusco alrededor de las 5:00 pm.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Cusco Libre",
+          "descripcion_dia": "Día completamente libre para que puedan explorar la ciudad del Cusco a su propio ritmo y según sus intereses personales. Opciones recomendadas: visitar el colorido Mercado Central de San Pedro para experimentar la vida local y degustar jugos de frutas exóticas como aguaymanto, camu camu y lucuma, recorrer las galerías de arte en el barrio de San Blas, visitar el Museo Inka o el Centro Qosqo de Arte Nativo para apreciar danzas tradicionales, o simplemente perderse en las calles empedradas llenas de historia y misterio. También ofrecemos actividades opcionales como clases de cocina peruana para aprender a preparar ceviche y lomo saltado, visitas a bodegas artesanales para degustar pisco o paseos a caballo por los valles cercanos.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
         },
         {
           "titulo_dia": "Retorno",
-          "descripcion_dia": "Después del desayuno, traslado al aeropuerto. Fin de nuestros servicios.",
-          "fotos_dia": ["/images/100x800.jpg"]
+          "descripcion_dia": "Después del desayuno buffet en el hotel, tendrán tiempo libre para ultimar detalles de su viaje, realizar compras de último momento en las tiendas de artesanía o simplemente disfrutar de un último paseo por las calles históricas. A la hora acordada, nuestro equipo realizará el traslado al aeropuerto con la asistencia necesaria para el check-in y entrega de equipaje. Fin de nuestros servicios, esperando que se lleven los mejores recuerdos y experiencias de su viaje por el Perú. ¡Gracias por viajar con nosotros!",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
         }
       ],
-      "resumen": "<p>Este tour clásico te llevará a conocer la joya del imperio incaico. Disfruta de paisajes únicos, historia milenaria y una experiencia inolvidable.</p>",
-      "imagen1": "/images/tours/machu-picchu-1.jpg",
-      "imagne2": "/images/tours/machu-picchu-2.jpg",
-      "incluye": "<ul><li>Transporte aeropuerto - hotel - aeropuerto</li><li>3 noches de alojamiento</li><li>Guía profesional bilingüe</li><li>Entrada a Machu Picchu</li><li>Tren de ida y vuelta</li><li>Alimentación: desayunos</li></ul>",
+      "resumen": "<p>Descubre lo mejor del Perú en una semana. Este paquete combina la historia de Cusco, la maravilla de Machu Picchu, la belleza del Valle Sagrado y la aventura de la Montaña de 7 Colores.</p>",
+      "imagen1": "/images/img-banner.jpeg",
+      "imagne2": "/images/img-banner.jpeg",
+      "incluye": "<ul><li>Vuelos Lima - Cusco - Lima</li><li>6 noches de alojamiento</li><li>Guía profesional bilingüe</li><li>Entradas a Machu Picchu</li><li>Tren de ida y vuelta</li><li>Alimentación: desayunos y almuerzos según itinerario</li><li>Transporte aeropuerto - hotel - aeropuerto</li></ul>",
       "no_incluye": "<ul><li>Vuelos internacionales</li><li>Seguro de viaje</li><li>Gastos personales</li><li>Propinas</li></ul>",
-      "faq": "<p><strong>¿Qué debo llevar?</strong> Ropa ligera, bloqueador solar, sombrero, cámara fotográfica, agua.</p><p><strong>¿Hay restricciones de altura?</strong> No, pero recomendamos tomarse el primer día con calma para aclimatarse.</p>",
-      "descripcion": "<p>Llevar ropa abrigadora para las noches, zapatos cómodos para caminar, repelente de insectos y documentos personales.</p>",
-      "banners": ["/images/1920x800.webp"],
-      "precio": "450",
-      "precio_anterior": "520",
+      "faq": "<p><strong>¿Qué debo llevar?</strong> Ropa ligera, bloqueador solar, sombrero, cámara, agua.</p><p><strong>¿Hay aclimatación?</strong> Recomendamos llegar a Cusco un día antes si es posible.</p>",
+      "descripcion": "<p>Llevar ropa abrigadora para las noches, zapatos cómodos para caminar, repelente y documentos.</p>",
+      "banners": [
+        "/images/1920x800.webp"
+      ],
+      "precio": "899",
+      "precio_anterior": "1099",
       "pago_100": false,
-      "precios_resumen": "<p>Precio por persona basado en habitación doble. Consultar por descuentos grupales.</p>"
+      "precios_resumen": "<p>Precio por persona en habitación doble. Consultar descuentos grupales.</p>"
     }
   },
   {
     "id": 2,
-    "title": "Valle Sagrado Full Day",
-    "slug": "valle-sagrado-full-day",
-    "excerpt": "Recorre el Valle Sagrado de los Incas en un día lleno de historia y paisajes.",
-    "featuredImage": "/images/img-banner.jpeg",
-    "categories": [1, 2],
-    "tipos": [2],
+    "title": "Peru 10 Days",
+    "slug": "peru-10-days",
+    "excerpt": "Explore Peru in 10 days. From Lima to Machu Picchu, through the Sacred Valley and Lake Titicaca.",
+    "featuredImage": "/images/1920x800.webp",
+    "categories": [
+      1
+    ],
+    "tipos": [
+      2
+    ],
     "acf": {
       "imagen": "/images/img-banner.jpeg",
-      "dias": "1 día",
-      "tipo_viaje": "Cultural",
-      "dificultad": "Fácil",
-      "altura": "2,800 - 3,400 msnm",
-      "acomodacion": "No incluye",
-      "etiqueta_1": "",
-      "etiqueta_2": "Oferta",
-      "ubicacion": "Cusco - Valle Sagrado",
+      "dias": "10 días / 9 noches",
+      "tipo_viaje": "Multi-destino",
+      "dificultad": "Moderada",
+      "altura": "0 - 3,812 msnm",
+      "acomodacion": "Hoteles 3 estrellas",
+      "etiqueta_1": "Recomendado",
+      "etiqueta_2": "",
+      "ubicacion": "Lima - Cusco - Valle Sagrado - Machu Picchu - Puno - Lago Titicaca",
       "itinerario_dia": [
         {
-          "titulo_dia": "Full Day: Valle Sagrado",
-          "descripcion_dia": "<p>Salida desde Cusco hacia Pisac. Visitamos el mercado artesanal y las ruinas incas. Continuamos a Urubamba para el almuerzo. Por la tarde visitamos Ollantaytambo y finalizamos en Chinchero.</p>",
-          "fotos_dia": ["/images/tours/pisac.jpg", "/images/tours/ollantaytambo.jpg"]
+          "titulo_dia": "Llegada a Lima",
+          "descripcion_dia": "Recepción en el aeropuerto internacional Jorge Chávez de Lima y traslado privado al hotel seleccionado. Por la tarde, realizaremos un recorrido por el Centro Histórico de Lima, declarado Patrimonio de la Humanidad por la UNESCO, visitando la Plaza de Armas, la Catedral de Lima, el Palacio de Gobierno y el Convento de San Francisco con sus famosas catacumbas subterráneas. Disfrutaremos de una cena de bienvenida en un restaurante tradicional del distrito de Miraflores con vista al océano Pacífico.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Vuelo a Cusco",
+          "descripcion_dia": "Vuelo matutino de Lima a Cusco con duración aproximada de 1 hora y 10 minutos, sobrevolando la cordillera de los Andes con vistas espectaculares de nevados. Recepción en el aeropuerto por nuestro personal identificado y traslado al hotel ubicado en el centro histórico. La tarde será libre para aclimatación a la altitud de 3,400 msnm. Recomendamos descansar, hidratarse adecuadamente, tomar mate de coca y dar un paseo ligero por la Plaza de Armas para ir ambientándose. Por la noche, los invitamos a una cena de bienvenida en un restaurante típico donde degustarán platos tradicionales cusqueños como la sopa de quinua, el rocoto relleno y el lomo saltado.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "City Tour Cusco",
+          "descripcion_dia": "Por la mañana, después de un nutritivo desayuno, iniciaremos un recorrido completo por los alrededores de Cusco visitando el impresionante sitio arqueológico de Sacsayhuamán, una fortaleza ceremonial construida con gigantescos bloques de piedra de hasta 120 toneladas perfectamente ensamblados sin uso de mortero. Continuaremos hacia Qenqo, un centro ceremonial con canales subterráneos y un anfiteatro tallado en roca viva. Luego visitaremos Puca Pucara, una fortaleza militar de color rojizo que servía como puesto de control, y finalmente Tambomachay, conocido como los Baños del Inca, con sus acueductos, canales y cascadas de agua cristalina que aún fluyen desde tiempos incas. Retorno al hotel para descansar y disfrutar de la tarde libre.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Valle Sagrado",
+          "descripcion_dia": "Salida temprano desde Cusco con destino al majestuoso Valle Sagrado de los Incas. Nuestra primera parada será el mirador de Pisac, desde donde apreciaremos una vista panorámica espectacular del valle y las terrazas agrícolas incas. Descenderemos para visitar el mercado artesanal de Pisac, reconocido como uno de los mejores del Perú para adquirir textiles de alpaca, cerámicas pintadas a mano y joyería de plata. Continuaremos hacia Urubamba, donde disfrutaremos de un almuerzo buffet con ingredientes orgánicos locales y vistas panorámicas del valle. Por la tarde, exploraremos la imponente fortaleza ceremonial de Ollantaytambo, admirando sus terrazas de piedra perfectamente talladas y el Templo del Sol. Tendremos tiempo para caminar por las calles empedradas del pueblo inca vivo que aún conserva su trazado urbano original.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Machu Picchu",
+          "descripcion_dia": "Madrugada para abordar el tren con destino a Aguas Calientes, disfrutando durante el trayecto de paisajes espectaculares de valles profundos y montañas cubiertas de vegetación exuberante. Al llegar a Aguas Calientes, abordaremos los buses que ascienden por la carretera de 8 kilómetros hasta la entrada de la ciudadela inca. Una vez en Machu Picchu, nuestro guía experto los llevará en un recorrido detallado de aproximadamente 2 horas, explicando la fascinante historia, la arquitectura megalítica y los misterios aún no resueltos de esta maravilla del mundo moderno. Visitaremos los sectores principales como el Templo del Sol, la Plaza Principal, el Intihuatana o reloj solar, el Templo de las 3 Ventanas y los impresionantes andenes agrícolas. Posterior al guiado, tendrán tiempo libre para explorar por su cuenta, tomar fotografías y conectarse con la energía especial de este lugar sagrado. Retorno a Cusco en tren por la tarde.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Cusco a Puno",
+          "descripcion_dia": "Salida temprano desde Cusco con destino a la ciudad de Puno en un bus turístico de primera clase que nos permitirá apreciar los impresionantes paisajes altoandinos durante el trayecto de aproximadamente 7 horas. Realizaremos paradas estratégicas para visitar la Capilla Sixtina de los Andes en Andahuaylillas, una pequeña iglesia colonial que alberga impresionantes frescos y retablos bañados en pan de oro. Continuaremos al Templo de Raqchi o Templo del Dios Wiracocha, una construcción inca de enormes dimensiones con un muro central de 22 metros de altura. Almuerzo en la ciudad de Sicuani con ingredientes locales. Por la tarde, visitaremos el Abra La Raya, el punto más alto del recorrido a 4,335 msnm, donde apreciaremos hermosos paisajes de nevados y llamas pastando. Finalmente, llegada a Puno e instalación en el hotel con vista al Lago Titicaca.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Lago Titicaca",
+          "descripcion_dia": "Después del desayuno, nos dirigiremos al puerto principal de Puno para abordar una lancha motora que nos llevará a navegar por el Lago Titicaca, el lago navegable más alto del mundo a 3,812 msnm. Primera visita a las famosas Islas Flotantes de los Uros, un conjunto de aproximadamente 40 islas artificiales construidas enteramente con totora, donde conoceremos la fascinante cultura de este pueblo ancestral que mantiene vivas sus tradiciones. Los pobladores nos explicarán el proceso de construcción y mantenimiento de las islas. Continuaremos navegando durante 2 horas hacia la Isla Taquile, una comunidad quechua conocida mundialmente por sus tejidos de alta calidad declarados Obra Maestra del Patrimonio Oral e Inmaterial de la Humanidad por la UNESCO. Almorzaremos en la isla (trucha fresca del lago) y tendremos tiempo para caminar por sus senderos y disfrutar de las vistas panorámicas del lago. Retorno a Puno por la tarde.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Retorno a Cusco",
+          "descripcion_dia": "Vuelo matutino desde el aeropuerto Inca Manco Cápac de Juliaca con destino a Cusco. Recepción en el aeropuerto Alejandro Velasco Astete y traslado al hotel. La tarde será libre para actividades independientes como visitar el barrio de San Blas, conocido por sus talleres de arte y tiendas de artesanía, pasear por la calle Hatun Rumiyoc para ver la famosa Piedra de los 12 Ángulos, o simplemente relajarse en los acogedores cafés con vista a la Plaza de Armas.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Cusco Libre",
+          "descripcion_dia": "Día completamente libre para que puedan explorar la ciudad del Cusco a su propio ritmo y según sus intereses personales. Opciones recomendadas: visitar el colorido Mercado Central de San Pedro para experimentar la vida local y degustar jugos de frutas exóticas como aguaymanto, camu camu y lucuma, recorrer las galerías de arte en el barrio de San Blas, visitar el Museo Inka o el Centro Qosqo de Arte Nativo para apreciar danzas tradicionales, o simplemente perderse en las calles empedradas llenas de historia y misterio. También ofrecemos actividades opcionales como clases de cocina peruana para aprender a preparar ceviche y lomo saltado, visitas a bodegas artesanales para degustar pisco o paseos a caballo por los valles cercanos.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Retorno",
+          "descripcion_dia": "Después del desayuno buffet en el hotel, tendrán tiempo libre para ultimar detalles de su viaje, realizar compras de último momento en las tiendas de artesanía o simplemente disfrutar de un último paseo por las calles históricas. A la hora acordada, nuestro equipo realizará el traslado al aeropuerto con la asistencia necesaria para el check-in y entrega de equipaje. Fin de nuestros servicios, esperando que se lleven los mejores recuerdos y experiencias de su viaje por el Perú. ¡Gracias por viajar con nosotros!",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
         }
       ],
-      "resumen": "<p>Un recorrido completo por el corazón del imperio incaico en un solo día. Ideal para viajeros con poco tiempo.</p>",
-      "imagen1": "/images/tours/valle-1.jpg",
-      "imagne2": "/images/tours/valle-2.jpg",
-      "incluye": "<ul><li>Transporte turístico</li><li>Guía profesional</li><li>Almuerzo buffet</li><li>Entradas a los sitios arqueológicos</li></ul>",
-      "no_incluye": "<ul><li>Gastos personales</li><li>Propinas</li></ul>",
-      "faq": "<p><strong>Hora de salida:</strong> 7:00 am. <strong>Retorno:</strong> Aproximadamente 6:00 pm.</p>",
-      "descripcion": "<p>Llevar sombrero, bloqueador solar, agua, cámara fotográfica y dinero para artesanías.</p>",
-      "banners": ["/images/1920x800.webp"],
-      "precio": "89",
-      "precio_anterior": "110",
+      "resumen": "<p>Un viaje completo de 10 días que abarca lo mejor del Perú: Lima colonial, Cusco imperial, Machu Picchu, el Valle Sagrado y el místico Lago Titicaca.</p>",
+      "imagen1": "/images/img-banner.jpeg",
+      "imagne2": "/images/img-banner.jpeg",
+      "incluye": "<ul><li>Vuelos nacionales</li><li>9 noches de alojamiento</li><li>Guía profesional bilingüe</li><li>Entradas a Machu Picchu</li><li>Tren de ida y vuelta</li><li>Alimentación: desayunos y almuerzos</li><li>Bus turístico Cusco - Puno</li></ul>",
+      "no_incluye": "<ul><li>Vuelos internacionales</li><li>Seguro de viaje</li><li>Gastos personales</li><li>Propinas</li></ul>",
+      "faq": "<p><strong>¿Cuál es la mejor época?</strong> De abril a octubre.</p><p><strong>¿Se necesita visa?</strong> Depende del país de origen.</p>",
+      "descripcion": "<p>Recomendamos llevar ropa para diferentes climas, zapatos cómodos y bloqueador solar.</p>",
+      "banners": [
+        "/images/1920x800.webp"
+      ],
+      "precio": "1299",
+      "precio_anterior": "1599",
       "pago_100": false,
-      "precios_resumen": "<p>Precio por persona. Descuento para grupos de 4+ personas.</p>"
+      "precios_resumen": "<p>Precio por persona en habitación doble.</p>"
     }
   },
   {
     "id": 3,
-    "title": "Montaña de 7 Colores",
-    "slug": "montana-7-colores",
-    "excerpt": "Una de las caminatas más impresionantes de los Andes peruanos.",
-    "featuredImage": "/images/img-banner.jpeg",
-    "categories": [2],
-    "tipos": [1],
+    "title": "Peru 12 Days",
+    "slug": "peru-12-days",
+    "excerpt": "The ultimate Peru experience. Explore Lima, Cusco, Machu Picchu, Lake Titicaca, and the Amazon.",
+    "featuredImage": "/images/1920x800.webp",
+    "categories": [
+      1
+    ],
+    "tipos": [
+      2
+    ],
+    "acf": {
+      "imagen": "/images/img-banner.jpeg",
+      "dias": "12 días / 11 noches",
+      "tipo_viaje": "Multi-destino",
+      "dificultad": "Moderada",
+      "altura": "0 - 3,812 msnm",
+      "acomodacion": "Hoteles 3 y 4 estrellas",
+      "etiqueta_1": "Premium",
+      "etiqueta_2": "",
+      "ubicacion": "Lima - Cusco - Valle Sagrado - Machu Picchu - Puno - Tambopata",
+      "itinerario_dia": [
+        {
+          "titulo_dia": "Llegada a Lima",
+          "descripcion_dia": "Recepción en el aeropuerto internacional Jorge Chávez de Lima y traslado privado al hotel seleccionado. Por la tarde, realizaremos un recorrido por el Centro Histórico de Lima, declarado Patrimonio de la Humanidad por la UNESCO, visitando la Plaza de Armas, la Catedral de Lima, el Palacio de Gobierno y el Convento de San Francisco con sus famosas catacumbas subterráneas. Disfrutaremos de una cena de bienvenida en un restaurante tradicional del distrito de Miraflores con vista al océano Pacífico.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Vuelo a Cusco",
+          "descripcion_dia": "Vuelo matutino de Lima a Cusco con duración aproximada de 1 hora y 10 minutos, sobrevolando la cordillera de los Andes con vistas espectaculares de nevados. Recepción en el aeropuerto por nuestro personal identificado y traslado al hotel ubicado en el centro histórico. La tarde será libre para aclimatación a la altitud de 3,400 msnm. Recomendamos descansar, hidratarse adecuadamente, tomar mate de coca y dar un paseo ligero por la Plaza de Armas para ir ambientándose. Por la noche, los invitamos a una cena de bienvenida en un restaurante típico donde degustarán platos tradicionales cusqueños como la sopa de quinua, el rocoto relleno y el lomo saltado.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Valle Sagrado",
+          "descripcion_dia": "Salida temprano desde Cusco con destino al majestuoso Valle Sagrado de los Incas. Nuestra primera parada será el mirador de Pisac, desde donde apreciaremos una vista panorámica espectacular del valle y las terrazas agrícolas incas. Descenderemos para visitar el mercado artesanal de Pisac, reconocido como uno de los mejores del Perú para adquirir textiles de alpaca, cerámicas pintadas a mano y joyería de plata. Continuaremos hacia Urubamba, donde disfrutaremos de un almuerzo buffet con ingredientes orgánicos locales y vistas panorámicas del valle. Por la tarde, exploraremos la imponente fortaleza ceremonial de Ollantaytambo, admirando sus terrazas de piedra perfectamente talladas y el Templo del Sol. Tendremos tiempo para caminar por las calles empedradas del pueblo inca vivo que aún conserva su trazado urbano original.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Machu Picchu",
+          "descripcion_dia": "Madrugada para abordar el tren con destino a Aguas Calientes, disfrutando durante el trayecto de paisajes espectaculares de valles profundos y montañas cubiertas de vegetación exuberante. Al llegar a Aguas Calientes, abordaremos los buses que ascienden por la carretera de 8 kilómetros hasta la entrada de la ciudadela inca. Una vez en Machu Picchu, nuestro guía experto los llevará en un recorrido detallado de aproximadamente 2 horas, explicando la fascinante historia, la arquitectura megalítica y los misterios aún no resueltos de esta maravilla del mundo moderno. Visitaremos los sectores principales como el Templo del Sol, la Plaza Principal, el Intihuatana o reloj solar, el Templo de las 3 Ventanas y los impresionantes andenes agrícolas. Posterior al guiado, tendrán tiempo libre para explorar por su cuenta, tomar fotografías y conectarse con la energía especial de este lugar sagrado. Retorno a Cusco en tren por la tarde.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Cusco - Puno",
+          "descripcion_dia": "Salida temprano desde Cusco con destino a Puno en bus turístico de primera clase. Durante el trayecto de aproximadamente 7 horas, realizaremos paradas en puntos de interés cultural y paisajístico. Visitaremos la Capilla Sixtina de América en Andahuaylillas, una joya del arte colonial. Continuaremos al Templo de Raqchi con su imponente muro central de 22 metros. Almuerzo buffet en Sicuani. Por la tarde cruzaremos el Abra La Raya a 4,335 msnm, la divisoria de aguas entre los valles del Cusco y el altiplano de Puno, con vistas espectaculares de nevados. Llegada a Puno e instalación en el hotel frente al Lago Titicaca.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Lago Titicaca",
+          "descripcion_dia": "Después del desayuno, nos dirigiremos al puerto principal de Puno para abordar una lancha motora que nos llevará a navegar por el Lago Titicaca, el lago navegable más alto del mundo a 3,812 msnm. Primera visita a las famosas Islas Flotantes de los Uros, un conjunto de aproximadamente 40 islas artificiales construidas enteramente con totora, donde conoceremos la fascinante cultura de este pueblo ancestral que mantiene vivas sus tradiciones. Los pobladores nos explicarán el proceso de construcción y mantenimiento de las islas. Continuaremos navegando durante 2 horas hacia la Isla Taquile, una comunidad quechua conocida mundialmente por sus tejidos de alta calidad declarados Obra Maestra del Patrimonio Oral e Inmaterial de la Humanidad por la UNESCO. Almorzaremos en la isla (trucha fresca del lago) y tendremos tiempo para caminar por sus senderos y disfrutar de las vistas panorámicas del lago. Retorno a Puno por la tarde.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Vuelo a Puerto Maldonado",
+          "descripcion_dia": "Vuelo desde Cusco hacia Puerto Maldonado, la puerta de entrada a la Reserva Nacional de Tambopata. Al llegar, sentiremos el cambio climático: calor húmedo típico de la selva amazónica. Recepción por nuestro guía naturalista y traslado al embarcadero. Navegaremos por el río Madre de Dios durante 45 minutos hasta nuestro eco-lodge. Instalación en las habitaciones con vista a la selva. Por la noche, realizaremos una caminata nocturna para descubrir la fauna activa durante la noche: insectos, anfibios y posiblemente mamíferos nocturnos.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Tambopata",
+          "descripcion_dia": "Día completo en la Reserva Nacional de Tambopata. Después del desayuno, iniciaremos una caminata de 3 kilómetros a través del bosque amazónico hasta llegar al Lago Sandoval, uno de los lagos más hermosos de la reserva. Abordaremos canoas de remo para navegar entre los nenúfares gigantes y la vegetación acuática. Observaremos monos aulladores y capuchinos saltando entre los árboles, caimanes tomando sol en las orillas, tortugas acuáticas, garzas, martines pescadores y una increíble diversidad de aves. Con suerte, podremos observar la nutria gigante de río, uno de los depredadores más emblemáticos de la Amazonía. Almuerzo picnic en la orilla del lago. Por la tarde, retorno al lodge para descansar antes de la cena.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Amazonía",
+          "descripcion_dia": "Después del desayuno, nos prepararemos para una emocionante excursión en kayak por el río Tambopata. Remaremos en silencio para acercarnos a la fauna sin perturbar su hábitat natural. Observaremos loros, tucanes y posiblemente monos en las orillas. Para quienes prefieran no hacer kayak, ofrecemos un paseo en bote con motor. Por la tarde, visitaremos una collpa de loros para observar estas coloridas aves en su ambiente natural. Retorno al lodge para la cena.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Retorno a Cusco",
+          "descripcion_dia": "Vuelo matutino desde el aeropuerto Inca Manco Cápac de Juliaca con destino a Cusco. Recepción en el aeropuerto Alejandro Velasco Astete y traslado al hotel. La tarde será libre para actividades independientes como visitar el barrio de San Blas, conocido por sus talleres de arte y tiendas de artesanía, pasear por la calle Hatun Rumiyoc para ver la famosa Piedra de los 12 Ángulos, o simplemente relajarse en los acogedores cafés con vista a la Plaza de Armas.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Cusco Libre",
+          "descripcion_dia": "Día completamente libre para que puedan explorar la ciudad del Cusco a su propio ritmo y según sus intereses personales. Opciones recomendadas: visitar el colorido Mercado Central de San Pedro para experimentar la vida local y degustar jugos de frutas exóticas como aguaymanto, camu camu y lucuma, recorrer las galerías de arte en el barrio de San Blas, visitar el Museo Inka o el Centro Qosqo de Arte Nativo para apreciar danzas tradicionales, o simplemente perderse en las calles empedradas llenas de historia y misterio. También ofrecemos actividades opcionales como clases de cocina peruana para aprender a preparar ceviche y lomo saltado, visitas a bodegas artesanales para degustar pisco o paseos a caballo por los valles cercanos.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Retorno",
+          "descripcion_dia": "Después del desayuno buffet en el hotel, tendrán tiempo libre para ultimar detalles de su viaje, realizar compras de último momento en las tiendas de artesanía o simplemente disfrutar de un último paseo por las calles históricas. A la hora acordada, nuestro equipo realizará el traslado al aeropuerto con la asistencia necesaria para el check-in y entrega de equipaje. Fin de nuestros servicios, esperando que se lleven los mejores recuerdos y experiencias de su viaje por el Perú. ¡Gracias por viajar con nosotros!",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        }
+      ],
+      "resumen": "<p>El paquete más completo. 12 días recorriendo lo mejor del Perú: desde la costa hasta la selva, pasando por los Andes y el lago navegable más alto del mundo.</p>",
+      "imagen1": "/images/img-banner.jpeg",
+      "imagne2": "/images/img-banner.jpeg",
+      "incluye": "<ul><li>Todos los vuelos nacionales</li><li>11 noches de alojamiento</li><li>Guía profesional bilingüe</li><li>Entradas a Machu Picchu</li><li>Tren de ida y vuelta</li><li>Alimentación: desayunos, almuerzos y cenas en Amazonía</li><li>Excursiones en la selva</li></ul>",
+      "no_incluye": "<ul><li>Vuelos internacionales</li><li>Seguro de viaje</li><li>Gastos personales</li><li>Propinas</li></ul>",
+      "faq": "<p><strong>¿Es recomendable para niños?</strong> Sí, pero algunas actividades tienen restricciones de edad.</p>",
+      "descripcion": "<p>Llevar ropa ligera para la selva, abrigos para los Andes, y repelente de insectos.</p>",
+      "banners": [
+        "/images/1920x800.webp"
+      ],
+      "precio": "1599",
+      "precio_anterior": "1899",
+      "pago_100": false,
+      "precios_resumen": "<p>Precio por persona en habitación doble. Consultar por单人 viajeros.</p>"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Peru 15 Days",
+    "slug": "peru-15-days",
+    "excerpt": "The grand tour of Peru. From north to south, explore the diversity of this incredible country.",
+    "featuredImage": "/images/1920x800.webp",
+    "categories": [
+      1
+    ],
+    "tipos": [
+      2
+    ],
+    "acf": {
+      "imagen": "/images/img-banner.jpeg",
+      "dias": "15 días / 14 noches",
+      "tipo_viaje": "Multi-destino",
+      "dificultad": "Desafiante",
+      "altura": "0 - 5,200 msnm",
+      "acomodacion": "Hoteles 4 estrellas",
+      "etiqueta_1": "Premium",
+      "etiqueta_2": "Todo incluido",
+      "ubicacion": "Lima - Cusco - Valle Sagrado - Machu Picchu - Puno - Arequipa - Amazonía",
+      "itinerario_dia": [
+        {
+          "titulo_dia": "Llegada a Lima",
+          "descripcion_dia": "Recepción en el aeropuerto internacional Jorge Chávez de Lima y traslado al hotel. Por la tarde, recorrido por el Centro Histórico visitando la Plaza de Armas, la Catedral y el Convento de San Francisco con sus catacumbas. Disfrutaremos de una cena de bienvenida en el distrito de Miraflores con vista al malecón.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Vuelo a Cusco - City Tour",
+          "descripcion_dia": "Vuelo matutino a Cusco. Recepción y traslado al hotel. City tour visitando la Catedral, Coricancha, Sacsayhuamán, Qenqo, Puca Pucara y Tambomachay. Por la noche, cena de bienvenida en un restaurante típico.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Valle Sagrado",
+          "descripcion_dia": "Tour completo por el Valle Sagrado: Pisac, Urubamba y Ollantaytambo. Almuerzo buffet incluido. Por la tarde, tiempo libre en Ollantaytambo. Nuestro guía profesional les brindará información detallada sobre cada lugar visitado, incluyendo datos históricos, culturales y recomendaciones para aprovechar al máximo la experiencia. Tendrán tiempo suficiente para tomar fotografías, hacer preguntas y disfrutar del entorno. Todas las actividades incluyen transporte cómodo, asistencia personalizada y las medidas de seguridad necesarias para su tranquilidad. Esta experiencia está diseñada para que se lleven los mejores recuerdos de su viaje al Perú.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Machu Picchu",
+          "descripcion_dia": "Temprano abordamos el tren hacia Aguas Calientes. Visita guiada a la ciudadela inca de Machu Picchu. Retorno a Cusco en tren. Nuestro guía profesional les brindará información detallada sobre cada lugar visitado, incluyendo datos históricos, culturales y recomendaciones para aprovechar al máximo la experiencia. Tendrán tiempo suficiente para tomar fotografías, hacer preguntas y disfrutar del entorno. Todas las actividades incluyen transporte cómodo, asistencia personalizada y las medidas de seguridad necesarias para su tranquilidad. Esta experiencia está diseñada para que se lleven los mejores recuerdos de su viaje al Perú.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Maras - Moray",
+          "descripcion_dia": "Excursión a las Salineras de Maras y los andenes circulares de Moray. Tarde libre en Cusco. Nuestro guía profesional les brindará información detallada sobre cada lugar visitado, incluyendo datos históricos, culturales y recomendaciones para aprovechar al máximo la experiencia. Tendrán tiempo suficiente para tomar fotografías, hacer preguntas y disfrutar del entorno. Todas las actividades incluyen transporte cómodo, asistencia personalizada y las medidas de seguridad necesarias para su tranquilidad. Esta experiencia está diseñada para que se lleven los mejores recuerdos de su viaje al Perú.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Montaña 7 Colores",
+          "descripcion_dia": "Salida muy temprano a Vinicunca, la Montaña de 7 Colores. Caminata de 1.5 horas hasta la cima a 5,200 msnm. Almuerzo en Cusipata. Retorno a Cusco. Nuestro guía profesional les brindará información detallada sobre cada lugar visitado, incluyendo datos históricos, culturales y recomendaciones para aprovechar al máximo la experiencia. Tendrán tiempo suficiente para tomar fotografías, hacer preguntas y disfrutar del entorno. Todas las actividades incluyen transporte cómodo, asistencia personalizada y las medidas de seguridad necesarias para su tranquilidad. Esta experiencia está diseñada para que se lleven los mejores recuerdos de su viaje al Perú.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Cusco a Puno",
+          "descripcion_dia": "Viaje escénico en bus turístico a Puno visitando Andahuaylillas, Raqchi y el Abra La Raya. Llegada a Puno e instalación en el hotel. Nuestro guía profesional les brindará información detallada sobre cada lugar visitado, incluyendo datos históricos, culturales y recomendaciones para aprovechar al máximo la experiencia. Tendrán tiempo suficiente para tomar fotografías, hacer preguntas y disfrutar del entorno. Todas las actividades incluyen transporte cómodo, asistencia personalizada y las medidas de seguridad necesarias para su tranquilidad. Esta experiencia está diseñada para que se lleven los mejores recuerdos de su viaje al Perú.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Lago Titicaca",
+          "descripcion_dia": "Navegación a los Uros y Taquile. Almuerzo en la isla. Retorno a Puno. Nuestro guía profesional les brindará información detallada sobre cada lugar visitado, incluyendo datos históricos, culturales y recomendaciones para aprovechar al máximo la experiencia. Tendrán tiempo suficiente para tomar fotografías, hacer preguntas y disfrutar del entorno. Todas las actividades incluyen transporte cómodo, asistencia personalizada y las medidas de seguridad necesarias para su tranquilidad. Esta experiencia está diseñada para que se lleven los mejores recuerdos de su viaje al Perú.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Vuelo a Arequipa",
+          "descripcion_dia": "Vuelo a Arequipa. City tour visitando la Plaza de Armas, la Catedral, el Monasterio de Santa Catalina y el Mirador de Yanahuara con vista al Misti. Nuestro guía profesional les brindará información detallada sobre cada lugar visitado, incluyendo datos históricos, culturales y recomendaciones para aprovechar al máximo la experiencia. Tendrán tiempo suficiente para tomar fotografías, hacer preguntas y disfrutar del entorno. Todas las actividades incluyen transporte cómodo, asistencia personalizada y las medidas de seguridad necesarias para su tranquilidad. Esta experiencia está diseñada para que se lleven los mejores recuerdos de su viaje al Perú.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Cañón del Colca",
+          "descripcion_dia": "Salida temprano hacia el Cañón del Colca. Avistamiento del cóndor en la Cruz del Cóndor. Retorno a Arequipa. Nuestro guía profesional les brindará información detallada sobre cada lugar visitado, incluyendo datos históricos, culturales y recomendaciones para aprovechar al máximo la experiencia. Tendrán tiempo suficiente para tomar fotografías, hacer preguntas y disfrutar del entorno. Todas las actividades incluyen transporte cómodo, asistencia personalizada y las medidas de seguridad necesarias para su tranquilidad. Esta experiencia está diseñada para que se lleven los mejores recuerdos de su viaje al Perú.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Vuelo a Puerto Maldonado",
+          "descripcion_dia": "Vuelo desde Cusco hacia Puerto Maldonado, la puerta de entrada a la Reserva Nacional de Tambopata. Al llegar, sentiremos el cambio climático: calor húmedo típico de la selva amazónica. Recepción por nuestro guía naturalista y traslado al embarcadero. Navegaremos por el río Madre de Dios durante 45 minutos hasta nuestro eco-lodge. Instalación en las habitaciones con vista a la selva. Por la noche, realizaremos una caminata nocturna para descubrir la fauna activa durante la noche: insectos, anfibios y posiblemente mamíferos nocturnos.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Tambopata",
+          "descripcion_dia": "Día completo en la Reserva Nacional de Tambopata. Después del desayuno, iniciaremos una caminata de 3 kilómetros a través del bosque amazónico hasta llegar al Lago Sandoval, uno de los lagos más hermosos de la reserva. Abordaremos canoas de remo para navegar entre los nenúfares gigantes y la vegetación acuática. Observaremos monos aulladores y capuchinos saltando entre los árboles, caimanes tomando sol en las orillas, tortugas acuáticas, garzas, martines pescadores y una increíble diversidad de aves. Con suerte, podremos observar la nutria gigante de río, uno de los depredadores más emblemáticos de la Amazonía. Almuerzo picnic en la orilla del lago. Por la tarde, retorno al lodge para descansar antes de la cena.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Collpa de Guacamayos",
+          "descripcion_dia": "Madrugada en la collpa de guacamayos. Tarde libre en el lodge. Nuestro guía profesional les brindará información detallada sobre cada lugar visitado, incluyendo datos históricos, culturales y recomendaciones para aprovechar al máximo la experiencia. Tendrán tiempo suficiente para tomar fotografías, hacer preguntas y disfrutar del entorno. Todas las actividades incluyen transporte cómodo, asistencia personalizada y las medidas de seguridad necesarias para su tranquilidad. Esta experiencia está diseñada para que se lleven los mejores recuerdos de su viaje al Perú.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Retorno a Cusco",
+          "descripcion_dia": "Vuelo de retorno a Cusco. Tarde libre. Nuestro guía profesional les brindará información detallada sobre cada lugar visitado, incluyendo datos históricos, culturales y recomendaciones para aprovechar al máximo la experiencia. Tendrán tiempo suficiente para tomar fotografías, hacer preguntas y disfrutar del entorno. Todas las actividades incluyen transporte cómodo, asistencia personalizada y las medidas de seguridad necesarias para su tranquilidad. Esta experiencia está diseñada para que se lleven los mejores recuerdos de su viaje al Perú.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Retorno",
+          "descripcion_dia": "Traslado al aeropuerto. Fin de nuestros servicios. Nuestro guía profesional les brindará información detallada sobre cada lugar visitado, incluyendo datos históricos, culturales y recomendaciones para aprovechar al máximo la experiencia. Tendrán tiempo suficiente para tomar fotografías, hacer preguntas y disfrutar del entorno. Todas las actividades incluyen transporte cómodo, asistencia personalizada y las medidas de seguridad necesarias para su tranquilidad. Esta experiencia está diseñada para que se lleven los mejores recuerdos de su viaje al Perú.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        }
+      ],
+      "resumen": "<p>El tour definitivo por Perú. 15 días recorriendo los destinos más emblemáticos: Lima, Cusco, Machu Picchu, Lago Titicaca, Arequipa y la Amazonía.</p>",
+      "imagen1": "/images/img-banner.jpeg",
+      "imagne2": "/images/img-banner.jpeg",
+      "incluye": "<ul><li>Todos los vuelos nacionales</li><li>14 noches de alojamiento</li><li>Guía profesional bilingüe</li><li>Entradas a todos los sitios turísticos</li><li>Trenes y transportes</li><li>Alimentación: desayunos, almuerzos y cenas</li></ul>",
+      "no_incluye": "<ul><li>Vuelos internacionales</li><li>Seguro de viaje</li><li>Gastos personales</li><li>Propinas</li></ul>",
+      "faq": "<p><strong>¿Cuánto tiempo en cada ciudad?</strong> 3 días Cusco, 2 días Valle, 1 día Machu Picchu, 2 días Puno, 2 días Arequipa, 3 días Amazonía.</p>",
+      "descripcion": "<p>Este tour requiere buena condición física. Incluye caminatas y zonas de altura.</p>",
+      "banners": [
+        "/images/1920x800.webp"
+      ],
+      "precio": "1899",
+      "precio_anterior": "2199",
+      "pago_100": false,
+      "precios_resumen": "<p>Precio por persona en habitación doble.</p>"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Machu Picchu 2 Days",
+    "slug": "machu-picchu-2-days",
+    "excerpt": "The shortest route to Machu Picchu. Perfect for travelers with limited time.",
+    "featuredImage": "/images/1920x800.webp",
+    "categories": [
+      2
+    ],
+    "tipos": [
+      2
+    ],
+    "acf": {
+      "imagen": "/images/img-banner.jpeg",
+      "dias": "2 días / 1 noche",
+      "tipo_viaje": "Cultural",
+      "dificultad": "Fácil",
+      "altura": "2,430 msnm",
+      "acomodacion": "Hotel en Aguas Calientes",
+      "etiqueta_1": "Rápido",
+      "etiqueta_2": "",
+      "ubicacion": "Cusco - Aguas Calientes - Machu Picchu",
+      "itinerario_dia": [
+        {
+          "titulo_dia": "Cusco - Aguas Calientes",
+          "descripcion_dia": "Por la mañana, nuestro equipo los recogerá del hotel en Cusco para trasladarlos a la estación de tren de Ollantaytambo o Poroy, dependiendo de la disponibilidad. Abordaremos el tren Expedition o Vistadome que nos llevará a través de un impresionante paisaje de valles andinos, campos de cultivo y comunidades rurales durante aproximadamente 2 horas. Durante el trayecto, podremos apreciar la gradual transición del paisaje andino a la ceja de selva. Al llegar a Aguas Calientes, también conocido como Machu Picchu Pueblo, nuestro anfitrión nos estará esperando para llevarnos al hotel. Tendremos la tarde libre para explorar este pintoresco pueblo, visitar sus mercados artesanales, el jardín botánico o relajarnos en los baños termales que le dan nombre al pueblo. Por la noche, recomendamos cenar temprano y descansar para prepararse para la visita a Machu Picchu al día siguiente.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Machu Picchu - Retorno",
+          "descripcion_dia": "Despertaremos muy temprano, alrededor de las 4:30 am, para desayunar en el hotel y dirigirnos a la fila de buses que ascienden hacia la ciudadela inca de Machu Picchu. El viaje en bus dura aproximadamente 25 minutos por una carretera serpenteante con vistas espectaculares del cañón del río Urubamba. Una vez en la entrada, presentaremos nuestros boletos y pasaportes para ingresar a la maravilla del mundo. Realizaremos una visita guiada de aproximadamente 2 horas recorriendo los sectores más importantes: el Templo del Sol, la Plaza Principal, el Intihuatana, el Templo de las 3 Ventanas, el Palacio Real y los impresionantes andenes agrícolas. Nuestro guía explicará la historia, arquitectura y misterios de esta ciudadela inca. Después del tour guiado, tendrán tiempo libre para explorar por su cuenta, subir al Huayna Picchu (si reservaron con anticipación) o simplemente sentarse a contemplar la majestuosidad del lugar. Retorno a Aguas Calientes para almorzar y tomar el tren de regreso a Cusco.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        }
+      ],
+      "resumen": "<p>El tour exprés a Machu Picchu. Ideal para quienes tienen poco tiempo pero no quieren perderse la maravilla del mundo.</p>",
+      "imagen1": "/images/img-banner.jpeg",
+      "imagne2": "/images/img-banner.jpeg",
+      "incluye": "<ul><li>Transporte hotel - estación</li><li>Tren de ida y vuelta</li><li>1 noche de alojamiento</li><li>Entrada a Machu Picchu</li><li>Guía profesional</li><li>Bus Aguas Calientes - Machu Picchu</li></ul>",
+      "no_incluye": "<ul><li>Alimentación</li><li>Gastos personales</li><li>Propinas</li></ul>",
+      "faq": "<p><strong>¿A qué hora salimos?</strong> La recogida es a las 6:00 am.</p>",
+      "descripcion": "<p>Llevar ropa ligera, bloqueador, sombrero, agua y cámara.</p>",
+      "banners": [
+        "/images/1920x800.webp"
+      ],
+      "precio": "350",
+      "precio_anterior": "420",
+      "pago_100": false,
+      "precios_resumen": "<p>Precio por persona en habitación doble.</p>"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Machu Picchu 3 Days",
+    "slug": "machu-picchu-3-days",
+    "excerpt": "A balanced Machu Picchu experience with extra time to explore the Sacred Valley.",
+    "featuredImage": "/images/1920x800.webp",
+    "categories": [
+      2
+    ],
+    "tipos": [
+      2
+    ],
+    "acf": {
+      "imagen": "/images/img-banner.jpeg",
+      "dias": "3 días / 2 noches",
+      "tipo_viaje": "Cultural",
+      "dificultad": "Moderada",
+      "altura": "2,430 - 3,400 msnm",
+      "acomodacion": "Hoteles 3 estrellas",
+      "etiqueta_1": "Popular",
+      "etiqueta_2": "",
+      "ubicacion": "Cusco - Valle Sagrado - Aguas Calientes - Machu Picchu",
+      "itinerario_dia": [
+        {
+          "titulo_dia": "Valle Sagrado",
+          "descripcion_dia": "Salida temprano desde Cusco con destino al majestuoso Valle Sagrado de los Incas. Nuestra primera parada será el mirador de Pisac, desde donde apreciaremos una vista panorámica espectacular del valle y las terrazas agrícolas incas. Descenderemos para visitar el mercado artesanal de Pisac, reconocido como uno de los mejores del Perú para adquirir textiles de alpaca, cerámicas pintadas a mano y joyería de plata. Continuaremos hacia Urubamba, donde disfrutaremos de un almuerzo buffet con ingredientes orgánicos locales y vistas panorámicas del valle. Por la tarde, exploraremos la imponente fortaleza ceremonial de Ollantaytambo, admirando sus terrazas de piedra perfectamente talladas y el Templo del Sol. Tendremos tiempo para caminar por las calles empedradas del pueblo inca vivo que aún conserva su trazado urbano original.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Machu Picchu",
+          "descripcion_dia": "Madrugada para abordar el tren con destino a Aguas Calientes, disfrutando durante el trayecto de paisajes espectaculares de valles profundos y montañas cubiertas de vegetación exuberante. Al llegar a Aguas Calientes, abordaremos los buses que ascienden por la carretera de 8 kilómetros hasta la entrada de la ciudadela inca. Una vez en Machu Picchu, nuestro guía experto los llevará en un recorrido detallado de aproximadamente 2 horas, explicando la fascinante historia, la arquitectura megalítica y los misterios aún no resueltos de esta maravilla del mundo moderno. Visitaremos los sectores principales como el Templo del Sol, la Plaza Principal, el Intihuatana o reloj solar, el Templo de las 3 Ventanas y los impresionantes andenes agrícolas. Posterior al guiado, tendrán tiempo libre para explorar por su cuenta, tomar fotografías y conectarse con la energía especial de este lugar sagrado. Retorno a Cusco en tren por la tarde.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Retorno a Cusco",
+          "descripcion_dia": "Vuelo matutino desde el aeropuerto Inca Manco Cápac de Juliaca con destino a Cusco. Recepción en el aeropuerto Alejandro Velasco Astete y traslado al hotel. La tarde será libre para actividades independientes como visitar el barrio de San Blas, conocido por sus talleres de arte y tiendas de artesanía, pasear por la calle Hatun Rumiyoc para ver la famosa Piedra de los 12 Ángulos, o simplemente relajarse en los acogedores cafés con vista a la Plaza de Armas.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        }
+      ],
+      "resumen": "<p>Combina la maravilla de Machu Picchu con la belleza del Valle Sagrado. Un tour balanceado de 3 días.</p>",
+      "imagen1": "/images/img-banner.jpeg",
+      "imagne2": "/images/img-banner.jpeg",
+      "incluye": "<ul><li>Tren de ida y vuelta</li><li>2 noches de alojamiento</li><li>Entrada a Machu Picchu</li><li>Guía profesional</li><li>Alimentación: desayunos y 1 almuerzo</li><li>Transporte</li></ul>",
+      "no_incluye": "<ul><li>Gastos personales</li><li>Propinas</li></ul>",
+      "faq": "<p><strong>¿Se puede subir Huayna Picchu?</strong> Sí, con costo adicional. Solicitar con anticipación.</p>",
+      "descripcion": "<p>Llevar ropa cómoda, bloqueador, agua y cámara fotográfica.</p>",
+      "banners": [
+        "/images/1920x800.webp"
+      ],
+      "precio": "550",
+      "precio_anterior": "650",
+      "pago_100": false,
+      "precios_resumen": "<p>Precio por persona en habitación doble.</p>"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Machu Picchu 4 Days",
+    "slug": "machu-picchu-4-days",
+    "excerpt": "The classic Machu Picchu experience. Discover the Sacred Valley and the Inca citadel.",
+    "featuredImage": "/images/1920x800.webp",
+    "categories": [
+      2
+    ],
+    "tipos": [
+      2
+    ],
+    "acf": {
+      "imagen": "/images/img-banner.jpeg",
+      "dias": "4 días / 3 noches",
+      "tipo_viaje": "Cultural",
+      "dificultad": "Moderada",
+      "altura": "2,430 - 3,400 msnm",
+      "acomodacion": "Hoteles 3 estrellas",
+      "etiqueta_1": "Clásico",
+      "etiqueta_2": "Más vendido",
+      "ubicacion": "Cusco - Valle Sagrado - Aguas Calientes - Machu Picchu",
+      "itinerario_dia": [
+        {
+          "titulo_dia": "Llegada a Cusco",
+          "descripcion_dia": "Recepción en el aeropuerto Alejandro Velasco Astete de Cusco por nuestro equipo profesional. Durante el trayecto al hotel, nuestro guía les dará recomendaciones sobre la aclimatación a la altitud y sugerencias para aprovechar al máximo su estadía. El hotel está estratégicamente ubicado en el centro histórico, a poca distancia caminando de la Plaza de Armas. Por la tarde, realizaremos un city tour ligero para comenzar a conocer la ciudad, visitando la Plaza de Armas, la Catedral del Cusco y el Templo del Sol o Coricancha. El ritmo será pausado para facilitar la aclimatación. Retorno al hotel para descansar.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Valle Sagrado",
+          "descripcion_dia": "Salida temprano desde Cusco con destino al majestuoso Valle Sagrado de los Incas. Nuestra primera parada será el mirador de Pisac, desde donde apreciaremos una vista panorámica espectacular del valle y las terrazas agrícolas incas. Descenderemos para visitar el mercado artesanal de Pisac, reconocido como uno de los mejores del Perú para adquirir textiles de alpaca, cerámicas pintadas a mano y joyería de plata. Continuaremos hacia Urubamba, donde disfrutaremos de un almuerzo buffet con ingredientes orgánicos locales y vistas panorámicas del valle. Por la tarde, exploraremos la imponente fortaleza ceremonial de Ollantaytambo, admirando sus terrazas de piedra perfectamente talladas y el Templo del Sol. Tendremos tiempo para caminar por las calles empedradas del pueblo inca vivo que aún conserva su trazado urbano original.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Machu Picchu",
+          "descripcion_dia": "Madrugada para abordar el tren con destino a Aguas Calientes, disfrutando durante el trayecto de paisajes espectaculares de valles profundos y montañas cubiertas de vegetación exuberante. Al llegar a Aguas Calientes, abordaremos los buses que ascienden por la carretera de 8 kilómetros hasta la entrada de la ciudadela inca. Una vez en Machu Picchu, nuestro guía experto los llevará en un recorrido detallado de aproximadamente 2 horas, explicando la fascinante historia, la arquitectura megalítica y los misterios aún no resueltos de esta maravilla del mundo moderno. Visitaremos los sectores principales como el Templo del Sol, la Plaza Principal, el Intihuatana o reloj solar, el Templo de las 3 Ventanas y los impresionantes andenes agrícolas. Posterior al guiado, tendrán tiempo libre para explorar por su cuenta, tomar fotografías y conectarse con la energía especial de este lugar sagrado. Retorno a Cusco en tren por la tarde.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Retorno",
+          "descripcion_dia": "Después del desayuno buffet en el hotel, tendrán tiempo libre para ultimar detalles de su viaje, realizar compras de último momento en las tiendas de artesanía o simplemente disfrutar de un último paseo por las calles históricas. A la hora acordada, nuestro equipo realizará el traslado al aeropuerto con la asistencia necesaria para el check-in y entrega de equipaje. Fin de nuestros servicios, esperando que se lleven los mejores recuerdos y experiencias de su viaje por el Perú. ¡Gracias por viajar con nosotros!",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        }
+      ],
+      "resumen": "<p>El tour clásico a Machu Picchu. 4 días que incluyen Cusco, el Valle Sagrado y la ciudadela inca.</p>",
+      "imagen1": "/images/img-banner.jpeg",
+      "imagne2": "/images/img-banner.jpeg",
+      "incluye": "<ul><li>Transporte aeropuerto - hotel</li><li>3 noches de alojamiento</li><li>Guía profesional bilingüe</li><li>Entrada a Machu Picchu</li><li>Tren de ida y vuelta</li><li>Alimentación: desayunos</li></ul>",
+      "no_incluye": "<ul><li>Vuelos internacionales</li><li>Seguro de viaje</li><li>Gastos personales</li><li>Propinas</li></ul>",
+      "faq": "<p><strong>¿Qué debo llevar?</strong> Ropa ligera, bloqueador, sombrero, cámara, agua.</p><p><strong>¿Restricciones de altura?</strong> Recomendamos aclimatación el primer día.</p>",
+      "descripcion": "<p>Llevar ropa abrigadora para las noches, zapatos cómodos y repelente.</p>",
+      "banners": [
+        "/images/1920x800.webp"
+      ],
+      "precio": "750",
+      "precio_anterior": "850",
+      "pago_100": false,
+      "precios_resumen": "<p>Precio por persona en habitación doble.</p>"
+    }
+  },
+  {
+    "id": 8,
+    "title": "Machu Picchu 5 Days",
+    "slug": "machu-picchu-5-days",
+    "excerpt": "An extended Machu Picchu tour with visits to Maras, Moray, and the Sacred Valley.",
+    "featuredImage": "/images/1920x800.webp",
+    "categories": [
+      2
+    ],
+    "tipos": [
+      2
+    ],
+    "acf": {
+      "imagen": "/images/img-banner.jpeg",
+      "dias": "5 días / 4 noches",
+      "tipo_viaje": "Cultural",
+      "dificultad": "Moderada",
+      "altura": "2,430 - 3,700 msnm",
+      "acomodacion": "Hoteles 3 estrellas",
+      "etiqueta_1": "Completo",
+      "etiqueta_2": "",
+      "ubicacion": "Cusco - Maras - Moray - Valle Sagrado - Machu Picchu",
+      "itinerario_dia": [
+        {
+          "titulo_dia": "Llegada a Cusco",
+          "descripcion_dia": "Recepción en el aeropuerto Alejandro Velasco Astete de Cusco por nuestro equipo profesional. Durante el trayecto al hotel, nuestro guía les dará recomendaciones sobre la aclimatación a la altitud y sugerencias para aprovechar al máximo su estadía. El hotel está estratégicamente ubicado en el centro histórico, a poca distancia caminando de la Plaza de Armas. Por la tarde, realizaremos un city tour ligero para comenzar a conocer la ciudad, visitando la Plaza de Armas, la Catedral del Cusco y el Templo del Sol o Coricancha. El ritmo será pausado para facilitar la aclimatación. Retorno al hotel para descansar.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Maras - Moray",
+          "descripcion_dia": "Por la mañana, nos dirigiremos hacia el Valle Sagrado para visitar dos de los sitios más fascinantes de la región. Primero, las Salineras de Maras, un conjunto de aproximadamente 4,000 pozos de sal que han sido explotados desde la época preincaica, donde el agua salada que brota del manantial se evapora dejando cristales de sal. Luego, visitaremos Moray, un sitio arqueológico único con impresionantes andenes circulares concéntricos que funcionaban como un laboratorio agrícola inca para experimentar con diferentes altitudes y microclimas. Retorno a Cusco por la tarde.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Valle Sagrado",
+          "descripcion_dia": "Salida temprano desde Cusco con destino al majestuoso Valle Sagrado de los Incas. Nuestra primera parada será el mirador de Pisac, desde donde apreciaremos una vista panorámica espectacular del valle y las terrazas agrícolas incas. Descenderemos para visitar el mercado artesanal de Pisac, reconocido como uno de los mejores del Perú para adquirir textiles de alpaca, cerámicas pintadas a mano y joyería de plata. Continuaremos hacia Urubamba, donde disfrutaremos de un almuerzo buffet con ingredientes orgánicos locales y vistas panorámicas del valle. Por la tarde, exploraremos la imponente fortaleza ceremonial de Ollantaytambo, admirando sus terrazas de piedra perfectamente talladas y el Templo del Sol. Tendremos tiempo para caminar por las calles empedradas del pueblo inca vivo que aún conserva su trazado urbano original.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Machu Picchu",
+          "descripcion_dia": "Madrugada para abordar el tren con destino a Aguas Calientes, disfrutando durante el trayecto de paisajes espectaculares de valles profundos y montañas cubiertas de vegetación exuberante. Al llegar a Aguas Calientes, abordaremos los buses que ascienden por la carretera de 8 kilómetros hasta la entrada de la ciudadela inca. Una vez en Machu Picchu, nuestro guía experto los llevará en un recorrido detallado de aproximadamente 2 horas, explicando la fascinante historia, la arquitectura megalítica y los misterios aún no resueltos de esta maravilla del mundo moderno. Visitaremos los sectores principales como el Templo del Sol, la Plaza Principal, el Intihuatana o reloj solar, el Templo de las 3 Ventanas y los impresionantes andenes agrícolas. Posterior al guiado, tendrán tiempo libre para explorar por su cuenta, tomar fotografías y conectarse con la energía especial de este lugar sagrado. Retorno a Cusco en tren por la tarde.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Retorno",
+          "descripcion_dia": "Después del desayuno buffet en el hotel, tendrán tiempo libre para ultimar detalles de su viaje, realizar compras de último momento en las tiendas de artesanía o simplemente disfrutar de un último paseo por las calles históricas. A la hora acordada, nuestro equipo realizará el traslado al aeropuerto con la asistencia necesaria para el check-in y entrega de equipaje. Fin de nuestros servicios, esperando que se lleven los mejores recuerdos y experiencias de su viaje por el Perú. ¡Gracias por viajar con nosotros!",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        }
+      ],
+      "resumen": "<p>5 días explorando los alrededores de Cusco: Maras, Moray, el Valle Sagrado y Machu Picchu. La experiencia completa.</p>",
+      "imagen1": "/images/img-banner.jpeg",
+      "imagne2": "/images/img-banner.jpeg",
+      "incluye": "<ul><li>4 noches de alojamiento</li><li>Guía profesional</li><li>Entradas a todos los sitios</li><li>Tren a Machu Picchu</li><li>Desayunos y almuerzos</li><li>Transporte</li></ul>",
+      "no_incluye": "<ul><li>Vuelos</li><li>Seguro</li><li>Gastos personales</li></ul>",
+      "faq": "<p><strong>¿Incluye entrada a Huayna Picchu?</strong> No, pero podemos agregarlo.</p>",
+      "descripcion": "<p>Llevar zapatos de caminata, ropa en capas y bloqueador solar.</p>",
+      "banners": [
+        "/images/1920x800.webp"
+      ],
+      "precio": "899",
+      "precio_anterior": "1050",
+      "pago_100": false,
+      "precios_resumen": "<p>Precio por persona en habitación doble.</p>"
+    }
+  },
+  {
+    "id": 9,
+    "title": "Luxury Machu Picchu Tour",
+    "slug": "luxury-machu-picchu-tour",
+    "excerpt": "Experience Machu Picchu in luxury. Hiram Bingham train, 5-star hotels, and exclusive services.",
+    "featuredImage": "/images/1920x800.webp",
+    "categories": [
+      2
+    ],
+    "tipos": [
+      2
+    ],
+    "acf": {
+      "imagen": "/images/img-banner.jpeg",
+      "dias": "4 días / 3 noches",
+      "tipo_viaje": "Lujo",
+      "dificultad": "Fácil",
+      "altura": "2,430 msnm",
+      "acomodacion": "Hoteles 5 estrellas",
+      "etiqueta_1": "Premium",
+      "etiqueta_2": "Lujo",
+      "ubicacion": "Cusco - Valle Sagrado - Machu Picchu",
+      "itinerario_dia": [
+        {
+          "titulo_dia": "Llegada a Cusco",
+          "descripcion_dia": "Recepción en el aeropuerto Alejandro Velasco Astete de Cusco por nuestro equipo profesional. Durante el trayecto al hotel, nuestro guía les dará recomendaciones sobre la aclimatación a la altitud y sugerencias para aprovechar al máximo su estadía. El hotel está estratégicamente ubicado en el centro histórico, a poca distancia caminando de la Plaza de Armas. Por la tarde, realizaremos un city tour ligero para comenzar a conocer la ciudad, visitando la Plaza de Armas, la Catedral del Cusco y el Templo del Sol o Coricancha. El ritmo será pausado para facilitar la aclimatación. Retorno al hotel para descansar.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Valle Sagrado VIP",
+          "descripcion_dia": "Tour privado por el Valle Sagrado con guía exclusivo. Almuerzo gourmet en restaurante de lujo. Durante esta actividad nuestro guía profesional compartirá información detallada sobre la historia, cultura y significado de cada lugar visitado. Tendremos tiempo suficiente para tomar fotografías, hacer preguntas y disfrutar del entorno. Incluye transporte cómodo y asistencia personalizada durante todo el recorrido.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Machu Picchu - Hiram Bingham",
+          "descripcion_dia": "Abordamos el tren Hiram Bingham, el más lujoso del Perú. Servicio a bordo con cena gourmet. Visita guiada exclusiva a Machu Picchu. Nuestro guía profesional les brindará información detallada sobre cada lugar visitado, incluyendo datos históricos, culturales y recomendaciones para aprovechar al máximo la experiencia. Tendrán tiempo suficiente para tomar fotografías, hacer preguntas y disfrutar del entorno. Todas las actividades incluyen transporte cómodo, asistencia personalizada y las medidas de seguridad necesarias para su tranquilidad. Esta experiencia está diseñada para que se lleven los mejores recuerdos de su viaje al Perú.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Retorno VIP",
+          "descripcion_dia": "Último día de esta experiencia de lujo. Después de un desayuno gourmet en el hotel, realizaremos las últimas compras en tiendas exclusivas del centro de Cusco. Nuestro conductor privado nos llevará al aeropuerto con tiempo suficiente para el check-in. Agradecemos haber compartido esta experiencia única y esperamos verlos nuevamente en Perú.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        }
+      ],
+      "resumen": "<p>La experiencia más exclusiva para descubrir Machu Picchu. Tren Hiram Bingham, hoteles 5 estrellas y atención personalizada.</p>",
+      "imagen1": "/images/img-banner.jpeg",
+      "imagne2": "/images/img-banner.jpeg",
+      "incluye": "<ul><li>Vehículos privados</li><li>3 noches en hoteles 5 estrellas</li><li>Tren Hiram Bingham ida y vuelta</li><li>Guía privado bilingüe</li><li>Entradas prioritarias</li><li>Alimentación gourmet</li><li>Seguro VIP</li></ul>",
+      "no_incluye": "<ul><li>Vuelos internacionales</li><li>Gastos personales</li><li>Propinas</li></ul>",
+      "faq": "<p><strong>¿El tren Hiram Bingham incluye cena?</strong> Sí, cena gourmet a bordo con vinos y show en vivo.</p>",
+      "descripcion": "<p>Se recomienda vestimenta elegante casual para el tren Hiram Bingham.</p>",
+      "banners": [
+        "/images/1920x800.webp"
+      ],
+      "precio": "1500",
+      "precio_anterior": "1800",
+      "pago_100": false,
+      "precios_resumen": "<p>Precio por persona en habitación doble. Experiencia VIP.</p>"
+    }
+  },
+  {
+    "id": 10,
+    "title": "Cusco 4 Days",
+    "slug": "cusco-4-days",
+    "excerpt": "Discover Cusco in 4 days. City tours, nearby ruins, and the Sacred Valley.",
+    "featuredImage": "/images/1920x800.webp",
+    "categories": [
+      3
+    ],
+    "tipos": [
+      2
+    ],
+    "acf": {
+      "imagen": "/images/img-banner.jpeg",
+      "dias": "4 días / 3 noches",
+      "tipo_viaje": "Cultural",
+      "dificultad": "Fácil",
+      "altura": "3,400 msnm",
+      "acomodacion": "Hoteles 3 estrellas",
+      "etiqueta_1": "",
+      "etiqueta_2": "",
+      "ubicacion": "Cusco - Valle Sagrado",
+      "itinerario_dia": [
+        {
+          "titulo_dia": "Llegada y City Tour",
+          "descripcion_dia": "Recepción en el aeropuerto de Cusco por nuestro equipo profesional y traslado al hotel en el centro histórico. Por la tarde, iniciaremos el recorrido por la ciudad visitando la Plaza de Armas, la Catedral del Cusco con su impresionante colección de arte colonial, y el Templo del Sol o Coricancha. Luego nos desplazaremos a las afueras para visitar Sacsayhuamán, Qenqo, Puca Pucara y Tambomachay. Retorno al hotel para descansar.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Valle Sagrado",
+          "descripcion_dia": "Salida temprano desde Cusco con destino al majestuoso Valle Sagrado de los Incas. Nuestra primera parada será el mirador de Pisac, desde donde apreciaremos una vista panorámica espectacular del valle y las terrazas agrícolas incas. Descenderemos para visitar el mercado artesanal de Pisac, reconocido como uno de los mejores del Perú para adquirir textiles de alpaca, cerámicas pintadas a mano y joyería de plata. Continuaremos hacia Urubamba, donde disfrutaremos de un almuerzo buffet con ingredientes orgánicos locales y vistas panorámicas del valle. Por la tarde, exploraremos la imponente fortaleza ceremonial de Ollantaytambo, admirando sus terrazas de piedra perfectamente talladas y el Templo del Sol. Tendremos tiempo para caminar por las calles empedradas del pueblo inca vivo que aún conserva su trazado urbano original.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Maras - Moray",
+          "descripcion_dia": "Por la mañana, nos dirigiremos hacia el Valle Sagrado para visitar dos de los sitios más fascinantes de la región. Primero, las Salineras de Maras, un conjunto de aproximadamente 4,000 pozos de sal que han sido explotados desde la época preincaica, donde el agua salada que brota del manantial se evapora dejando cristales de sal. Luego, visitaremos Moray, un sitio arqueológico único con impresionantes andenes circulares concéntricos que funcionaban como un laboratorio agrícola inca para experimentar con diferentes altitudes y microclimas. Retorno a Cusco por la tarde.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Cusco Libre",
+          "descripcion_dia": "Día completamente libre para que puedan explorar la ciudad del Cusco a su propio ritmo y según sus intereses personales. Opciones recomendadas: visitar el colorido Mercado Central de San Pedro para experimentar la vida local y degustar jugos de frutas exóticas como aguaymanto, camu camu y lucuma, recorrer las galerías de arte en el barrio de San Blas, visitar el Museo Inka o el Centro Qosqo de Arte Nativo para apreciar danzas tradicionales, o simplemente perderse en las calles empedradas llenas de historia y misterio. También ofrecemos actividades opcionales como clases de cocina peruana para aprender a preparar ceviche y lomo saltado, visitas a bodegas artesanales para degustar pisco o paseos a caballo por los valles cercanos.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        }
+      ],
+      "resumen": "<p>Descubre la capital del Imperio Inca en 4 días. City tour, Valle Sagrado, Maras y Moray.</p>",
+      "imagen1": "/images/img-banner.jpeg",
+      "imagne2": "/images/img-banner.jpeg",
+      "incluye": "<ul><li>3 noches de alojamiento</li><li>Guía profesional</li><li>Entradas a sitios turísticos</li><li>Transporte</li><li>Desayunos</li></ul>",
+      "no_incluye": "<ul><li>Vuelos</li><li>Seguro</li><li>Gastos personales</li></ul>",
+      "faq": "<p><strong>¿Hay aclimatación?</strong> El primer día es ligero para adaptarse a la altura.</p>",
+      "descripcion": "<p>Recomendamos tomar coca mate para la altura.</p>",
+      "banners": [
+        "/images/1920x800.webp"
+      ],
+      "precio": "399",
+      "precio_anterior": "450",
+      "pago_100": false,
+      "precios_resumen": "<p>Precio por persona en habitación doble.</p>"
+    }
+  },
+  {
+    "id": 11,
+    "title": "Cusco 5 Days",
+    "slug": "cusco-5-days",
+    "excerpt": "An extended stay in Cusco to explore its rich history, culture and nearby attractions.",
+    "featuredImage": "/images/1920x800.webp",
+    "categories": [
+      3
+    ],
+    "tipos": [
+      2
+    ],
+    "acf": {
+      "imagen": "/images/img-banner.jpeg",
+      "dias": "5 días / 4 noches",
+      "tipo_viaje": "Cultural",
+      "dificultad": "Moderada",
+      "altura": "3,400 msnm",
+      "acomodacion": "Hoteles 3 estrellas",
+      "etiqueta_1": "",
+      "etiqueta_2": "",
+      "ubicacion": "Cusco - Valle Sagrado - Maras - Moray",
+      "itinerario_dia": [
+        {
+          "titulo_dia": "Llegada y City Tour",
+          "descripcion_dia": "Recepción en el aeropuerto de Cusco por nuestro equipo profesional y traslado al hotel en el centro histórico. Por la tarde, iniciaremos el recorrido por la ciudad visitando la Plaza de Armas, la Catedral del Cusco con su impresionante colección de arte colonial, y el Templo del Sol o Coricancha. Luego nos desplazaremos a las afueras para visitar Sacsayhuamán, Qenqo, Puca Pucara y Tambomachay. Retorno al hotel para descansar.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Valle Sagrado",
+          "descripcion_dia": "Salida temprano desde Cusco con destino al majestuoso Valle Sagrado de los Incas. Nuestra primera parada será el mirador de Pisac, desde donde apreciaremos una vista panorámica espectacular del valle y las terrazas agrícolas incas. Descenderemos para visitar el mercado artesanal de Pisac, reconocido como uno de los mejores del Perú para adquirir textiles de alpaca, cerámicas pintadas a mano y joyería de plata. Continuaremos hacia Urubamba, donde disfrutaremos de un almuerzo buffet con ingredientes orgánicos locales y vistas panorámicas del valle. Por la tarde, exploraremos la imponente fortaleza ceremonial de Ollantaytambo, admirando sus terrazas de piedra perfectamente talladas y el Templo del Sol. Tendremos tiempo para caminar por las calles empedradas del pueblo inca vivo que aún conserva su trazado urbano original.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Maras - Moray",
+          "descripcion_dia": "Por la mañana, nos dirigiremos hacia el Valle Sagrado para visitar dos de los sitios más fascinantes de la región. Primero, las Salineras de Maras, un conjunto de aproximadamente 4,000 pozos de sal que han sido explotados desde la época preincaica, donde el agua salada que brota del manantial se evapora dejando cristales de sal. Luego, visitaremos Moray, un sitio arqueológico único con impresionantes andenes circulares concéntricos que funcionaban como un laboratorio agrícola inca para experimentar con diferentes altitudes y microclimas. Retorno a Cusco por la tarde.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Cusco Libre",
+          "descripcion_dia": "Día completamente libre para que puedan explorar la ciudad del Cusco a su propio ritmo y según sus intereses personales. Opciones recomendadas: visitar el colorido Mercado Central de San Pedro para experimentar la vida local y degustar jugos de frutas exóticas como aguaymanto, camu camu y lucuma, recorrer las galerías de arte en el barrio de San Blas, visitar el Museo Inka o el Centro Qosqo de Arte Nativo para apreciar danzas tradicionales, o simplemente perderse en las calles empedradas llenas de historia y misterio. También ofrecemos actividades opcionales como clases de cocina peruana para aprender a preparar ceviche y lomo saltado, visitas a bodegas artesanales para degustar pisco o paseos a caballo por los valles cercanos.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Retorno",
+          "descripcion_dia": "Después del desayuno buffet en el hotel, tendrán tiempo libre para ultimar detalles de su viaje, realizar compras de último momento en las tiendas de artesanía o simplemente disfrutar de un último paseo por las calles históricas. A la hora acordada, nuestro equipo realizará el traslado al aeropuerto con la asistencia necesaria para el check-in y entrega de equipaje. Fin de nuestros servicios, esperando que se lleven los mejores recuerdos y experiencias de su viaje por el Perú. ¡Gracias por viajar con nosotros!",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        }
+      ],
+      "resumen": "<p>5 días en Cusco para conocer a fondo su historia, arqueología y gastronomía.</p>",
+      "imagen1": "/images/img-banner.jpeg",
+      "imagne2": "/images/img-banner.jpeg",
+      "incluye": "<ul><li>4 noches de alojamiento</li><li>Guía profesional</li><li>Entradas a sitios turísticos</li><li>Transporte</li><li>Desayunos</li></ul>",
+      "no_incluye": "<ul><li>Vuelos</li><li>Seguro</li><li>Gastos personales</li></ul>",
+      "faq": "<p><strong>¿Se puede agregar Machu Picchu?</strong> Sí, con 2 días adicionales.</p>",
+      "descripcion": "<p>Llevar ropa abrigadora y bloqueador solar.</p>",
+      "banners": [
+        "/images/1920x800.webp"
+      ],
+      "precio": "499",
+      "precio_anterior": "580",
+      "pago_100": false,
+      "precios_resumen": "<p>Precio por persona en habitación doble.</p>"
+    }
+  },
+  {
+    "id": 12,
+    "title": "Cusco 6 Days",
+    "slug": "cusco-6-days",
+    "excerpt": "A full week exploring Cusco, the Sacred Valley, and the Rainbow Mountain.",
+    "featuredImage": "/images/1920x800.webp",
+    "categories": [
+      3
+    ],
+    "tipos": [
+      1,
+      2
+    ],
+    "acf": {
+      "imagen": "/images/img-banner.jpeg",
+      "dias": "6 días / 5 noches",
+      "tipo_viaje": "Cultural y Aventura",
+      "dificultad": "Moderada",
+      "altura": "3,400 - 5,200 msnm",
+      "acomodacion": "Hoteles 3 estrellas",
+      "etiqueta_1": "Recomendado",
+      "etiqueta_2": "",
+      "ubicacion": "Cusco - Valle Sagrado - Vinicunca",
+      "itinerario_dia": [
+        {
+          "titulo_dia": "Llegada y City Tour",
+          "descripcion_dia": "Recepción en el aeropuerto de Cusco por nuestro equipo profesional y traslado al hotel en el centro histórico. Por la tarde, iniciaremos el recorrido por la ciudad visitando la Plaza de Armas, la Catedral del Cusco con su impresionante colección de arte colonial, y el Templo del Sol o Coricancha. Luego nos desplazaremos a las afueras para visitar Sacsayhuamán, Qenqo, Puca Pucara y Tambomachay. Retorno al hotel para descansar.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Valle Sagrado",
+          "descripcion_dia": "Salida temprano desde Cusco con destino al majestuoso Valle Sagrado de los Incas. Nuestra primera parada será el mirador de Pisac, desde donde apreciaremos una vista panorámica espectacular del valle y las terrazas agrícolas incas. Descenderemos para visitar el mercado artesanal de Pisac, reconocido como uno de los mejores del Perú para adquirir textiles de alpaca, cerámicas pintadas a mano y joyería de plata. Continuaremos hacia Urubamba, donde disfrutaremos de un almuerzo buffet con ingredientes orgánicos locales y vistas panorámicas del valle. Por la tarde, exploraremos la imponente fortaleza ceremonial de Ollantaytambo, admirando sus terrazas de piedra perfectamente talladas y el Templo del Sol. Tendremos tiempo para caminar por las calles empedradas del pueblo inca vivo que aún conserva su trazado urbano original.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Maras - Moray",
+          "descripcion_dia": "Por la mañana, nos dirigiremos hacia el Valle Sagrado para visitar dos de los sitios más fascinantes de la región. Primero, las Salineras de Maras, un conjunto de aproximadamente 4,000 pozos de sal que han sido explotados desde la época preincaica, donde el agua salada que brota del manantial se evapora dejando cristales de sal. Luego, visitaremos Moray, un sitio arqueológico único con impresionantes andenes circulares concéntricos que funcionaban como un laboratorio agrícola inca para experimentar con diferentes altitudes y microclimas. Retorno a Cusco por la tarde.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Montaña 7 Colores",
+          "descripcion_dia": "Salida muy temprano desde Cusco aproximadamente a las 3:00 am con destino a la comunidad de Cusipata, ubicada a 2 horas de distancia. Durante el trayecto, podremos apreciar el amanecer sobre los Andes. En Cusipata disfrutaremos de un desayuno continental para cargar energías. Iniciaremos la caminata hacia la Montaña de 7 Colores o Vinicunca, un sendero de dificultad moderada-alta debido a la altitud, que nos tomará aproximadamente 1.5 a 2 horas de ascenso constante. Durante la caminata, nuestro guía explicará la geología del lugar y la razón de los colores minerales. Al llegar a la cima a 5,200 metros sobre el nivel del mar, seremos recompensados con una vista espectacular de los estratos de colores que forman esta montaña única: rojo, naranja, amarillo, verde, azul, índigo y violeta. Tendremos tiempo para tomar fotografías y maravillarnos con el paisaje antes de iniciar el descenso. Almuerzo buffet en Cusipata y retorno a Cusco alrededor de las 5:00 pm.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Cusco Libre",
+          "descripcion_dia": "Día completamente libre para que puedan explorar la ciudad del Cusco a su propio ritmo y según sus intereses personales. Opciones recomendadas: visitar el colorido Mercado Central de San Pedro para experimentar la vida local y degustar jugos de frutas exóticas como aguaymanto, camu camu y lucuma, recorrer las galerías de arte en el barrio de San Blas, visitar el Museo Inka o el Centro Qosqo de Arte Nativo para apreciar danzas tradicionales, o simplemente perderse en las calles empedradas llenas de historia y misterio. También ofrecemos actividades opcionales como clases de cocina peruana para aprender a preparar ceviche y lomo saltado, visitas a bodegas artesanales para degustar pisco o paseos a caballo por los valles cercanos.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Retorno",
+          "descripcion_dia": "Después del desayuno buffet en el hotel, tendrán tiempo libre para ultimar detalles de su viaje, realizar compras de último momento en las tiendas de artesanía o simplemente disfrutar de un último paseo por las calles históricas. A la hora acordada, nuestro equipo realizará el traslado al aeropuerto con la asistencia necesaria para el check-in y entrega de equipaje. Fin de nuestros servicios, esperando que se lleven los mejores recuerdos y experiencias de su viaje por el Perú. ¡Gracias por viajar con nosotros!",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        }
+      ],
+      "resumen": "<p>Una semana completa explorando Cusco, sus valles sagrados y la impresionante Montaña de 7 Colores.</p>",
+      "imagen1": "/images/img-banner.jpeg",
+      "imagne2": "/images/img-banner.jpeg",
+      "incluye": "<ul><li>5 noches de alojamiento</li><li>Guía profesional</li><li>Entradas a todos los sitios</li><li>Transporte</li><li>Desayunos y almuerzos</li></ul>",
+      "no_incluye": "<ul><li>Vuelos</li><li>Seguro</li><li>Gastos personales</li></ul>",
+      "faq": "<p><strong>¿Es difícil la caminata a 7 Colores?</strong> Exigente por la altura, recomendamos aclimatación previa.</p>",
+      "descripcion": "<p>Llevar zapatos de trekking, ropa abrigadora y agua.</p>",
+      "banners": [
+        "/images/1920x800.webp"
+      ],
+      "precio": "599",
+      "precio_anterior": "699",
+      "pago_100": false,
+      "precios_resumen": "<p>Precio por persona en habitación doble.</p>"
+    }
+  },
+  {
+    "id": 13,
+    "title": "Cusco 7 Days",
+    "slug": "cusco-7-days",
+    "excerpt": "The ultimate Cusco experience. Explore the capital of the Inca Empire in depth.",
+    "featuredImage": "/images/1920x800.webp",
+    "categories": [
+      3
+    ],
+    "tipos": [
+      1,
+      2
+    ],
+    "acf": {
+      "imagen": "/images/img-banner.jpeg",
+      "dias": "7 días / 6 noches",
+      "tipo_viaje": "Cultural y Aventura",
+      "dificultad": "Moderada",
+      "altura": "3,400 - 5,200 msnm",
+      "acomodacion": "Hoteles 3 estrellas",
+      "etiqueta_1": "Completo",
+      "etiqueta_2": "",
+      "ubicacion": "Cusco - Valle Sagrado - Maras - Moray - Vinicunca - Sur Andes",
+      "itinerario_dia": [
+        {
+          "titulo_dia": "Llegada y City Tour",
+          "descripcion_dia": "Recepción en el aeropuerto de Cusco por nuestro equipo profesional y traslado al hotel en el centro histórico. Por la tarde, iniciaremos el recorrido por la ciudad visitando la Plaza de Armas, la Catedral del Cusco con su impresionante colección de arte colonial, y el Templo del Sol o Coricancha. Luego nos desplazaremos a las afueras para visitar Sacsayhuamán, Qenqo, Puca Pucara y Tambomachay. Retorno al hotel para descansar.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Valle Sagrado",
+          "descripcion_dia": "Salida temprano desde Cusco con destino al majestuoso Valle Sagrado de los Incas. Nuestra primera parada será el mirador de Pisac, desde donde apreciaremos una vista panorámica espectacular del valle y las terrazas agrícolas incas. Descenderemos para visitar el mercado artesanal de Pisac, reconocido como uno de los mejores del Perú para adquirir textiles de alpaca, cerámicas pintadas a mano y joyería de plata. Continuaremos hacia Urubamba, donde disfrutaremos de un almuerzo buffet con ingredientes orgánicos locales y vistas panorámicas del valle. Por la tarde, exploraremos la imponente fortaleza ceremonial de Ollantaytambo, admirando sus terrazas de piedra perfectamente talladas y el Templo del Sol. Tendremos tiempo para caminar por las calles empedradas del pueblo inca vivo que aún conserva su trazado urbano original.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Maras - Moray",
+          "descripcion_dia": "Por la mañana, nos dirigiremos hacia el Valle Sagrado para visitar dos de los sitios más fascinantes de la región. Primero, las Salineras de Maras, un conjunto de aproximadamente 4,000 pozos de sal que han sido explotados desde la época preincaica, donde el agua salada que brota del manantial se evapora dejando cristales de sal. Luego, visitaremos Moray, un sitio arqueológico único con impresionantes andenes circulares concéntricos que funcionaban como un laboratorio agrícola inca para experimentar con diferentes altitudes y microclimas. Retorno a Cusco por la tarde.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Montaña 7 Colores",
+          "descripcion_dia": "Salida muy temprano desde Cusco aproximadamente a las 3:00 am con destino a la comunidad de Cusipata, ubicada a 2 horas de distancia. Durante el trayecto, podremos apreciar el amanecer sobre los Andes. En Cusipata disfrutaremos de un desayuno continental para cargar energías. Iniciaremos la caminata hacia la Montaña de 7 Colores o Vinicunca, un sendero de dificultad moderada-alta debido a la altitud, que nos tomará aproximadamente 1.5 a 2 horas de ascenso constante. Durante la caminata, nuestro guía explicará la geología del lugar y la razón de los colores minerales. Al llegar a la cima a 5,200 metros sobre el nivel del mar, seremos recompensados con una vista espectacular de los estratos de colores que forman esta montaña única: rojo, naranja, amarillo, verde, azul, índigo y violeta. Tendremos tiempo para tomar fotografías y maravillarnos con el paisaje antes de iniciar el descenso. Almuerzo buffet en Cusipata y retorno a Cusco alrededor de las 5:00 pm.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Sur Andino",
+          "descripcion_dia": "Recorrido por el sur del Valle Sagrado visitando sitios arqueológicos menos conocidos pero igualmente impresionantes. Primero visitaremos Tipón, un complejo de terrazas agrícolas con un sofisticado sistema hidráulico que aún funciona. Continuaremos a Pikillaqta, una ciudad preinca de la cultura Wari con cientos de edificios de piedra. Finalmente, visitaremos la Capilla Sixtina de América en Andahuaylillas, una iglesia colonial del siglo XVII con impresionantes frescos y retablos barrocos bañados en pan de oro. Retorno a Cusco.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Cusco Libre",
+          "descripcion_dia": "Día completamente libre para que puedan explorar la ciudad del Cusco a su propio ritmo y según sus intereses personales. Opciones recomendadas: visitar el colorido Mercado Central de San Pedro para experimentar la vida local y degustar jugos de frutas exóticas como aguaymanto, camu camu y lucuma, recorrer las galerías de arte en el barrio de San Blas, visitar el Museo Inka o el Centro Qosqo de Arte Nativo para apreciar danzas tradicionales, o simplemente perderse en las calles empedradas llenas de historia y misterio. También ofrecemos actividades opcionales como clases de cocina peruana para aprender a preparar ceviche y lomo saltado, visitas a bodegas artesanales para degustar pisco o paseos a caballo por los valles cercanos.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Retorno",
+          "descripcion_dia": "Después del desayuno buffet en el hotel, tendrán tiempo libre para ultimar detalles de su viaje, realizar compras de último momento en las tiendas de artesanía o simplemente disfrutar de un último paseo por las calles históricas. A la hora acordada, nuestro equipo realizará el traslado al aeropuerto con la asistencia necesaria para el check-in y entrega de equipaje. Fin de nuestros servicios, esperando que se lleven los mejores recuerdos y experiencias de su viaje por el Perú. ¡Gracias por viajar con nosotros!",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        }
+      ],
+      "resumen": "<p>La experiencia definitiva en Cusco. 7 días recorriendo cada rincón de la capital inca y sus alrededores.</p>",
+      "imagen1": "/images/img-banner.jpeg",
+      "imagne2": "/images/img-banner.jpeg",
+      "incluye": "<ul><li>6 noches de alojamiento</li><li>Guía profesional</li><li>Entradas a todos los sitios</li><li>Transporte</li><li>Desayunos y almuerzos</li></ul>",
+      "no_incluye": "<ul><li>Vuelos</li><li>Seguro</li><li>Gastos personales</li></ul>",
+      "faq": "<p><strong>¿Incluye Machu Picchu?</strong> No, este tour se enfoca en Cusco y alrededores.</p>",
+      "descripcion": "<p>Llevar ropa para diferentes climas y zapatos cómodos.</p>",
+      "banners": [
+        "/images/1920x800.webp"
+      ],
+      "precio": "699",
+      "precio_anterior": "799",
+      "pago_100": false,
+      "precios_resumen": "<p>Precio por persona en habitación doble.</p>"
+    }
+  },
+  {
+    "id": 14,
+    "title": "Inca Trail 4 Days",
+    "slug": "inca-trail-4-days",
+    "excerpt": "The classic Inca Trail trek to Machu Picchu. 4 days of adventure through cloud forests and Incan ruins.",
+    "featuredImage": "/images/1920x800.webp",
+    "categories": [
+      4
+    ],
+    "tipos": [
+      1
+    ],
+    "acf": {
+      "imagen": "/images/img-banner.jpeg",
+      "dias": "4 días / 3 noches",
+      "tipo_viaje": "Aventura",
+      "dificultad": "Difícil",
+      "altura": "2,430 - 4,215 msnm",
+      "acomodacion": "Camping",
+      "etiqueta_1": "Clásico",
+      "etiqueta_2": "",
+      "ubicacion": "Cusco - Camino Inca - Machu Picchu",
+      "itinerario_dia": [
+        {
+          "titulo_dia": "Km 82 - Wayllabamba",
+          "descripcion_dia": "Inicio del trek en el Km 82. Caminata de 6 horas por el valle hasta Wayllabamba. Campamento. Durante esta actividad nuestro guía profesional compartirá información detallada sobre la historia, cultura y significado de cada lugar visitado. Tendremos tiempo suficiente para tomar fotografías, hacer preguntas y disfrutar del entorno. Incluye transporte cómodo y asistencia personalizada durante todo el recorrido.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Wayllabamba - Pacaymayo",
+          "descripcion_dia": "El día más desafiante. Ascenso al Abra de Warmiwañusca (4,215m). Descenso a Pacaymayo. Durante esta actividad nuestro guía profesional compartirá información detallada sobre la historia, cultura y significado de cada lugar visitado. Tendremos tiempo suficiente para tomar fotografías, hacer preguntas y disfrutar del entorno. Incluye transporte cómodo y asistencia personalizada durante todo el recorrido.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Pacaymayo - Wiñay Wayna",
+          "descripcion_dia": "Caminata por la selva alta visitando ruinas incas. Llegada a Wiñay Wayna. Campamento. Durante esta actividad nuestro guía profesional compartirá información detallada sobre la historia, cultura y significado de cada lugar visitado. Tendremos tiempo suficiente para tomar fotografías, hacer preguntas y disfrutar del entorno. Incluye transporte cómodo y asistencia personalizada durante todo el recorrido.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Machu Picchu",
+          "descripcion_dia": "Madrugada para abordar el tren con destino a Aguas Calientes, disfrutando durante el trayecto de paisajes espectaculares de valles profundos y montañas cubiertas de vegetación exuberante. Al llegar a Aguas Calientes, abordaremos los buses que ascienden por la carretera de 8 kilómetros hasta la entrada de la ciudadela inca. Una vez en Machu Picchu, nuestro guía experto los llevará en un recorrido detallado de aproximadamente 2 horas, explicando la fascinante historia, la arquitectura megalítica y los misterios aún no resueltos de esta maravilla del mundo moderno. Visitaremos los sectores principales como el Templo del Sol, la Plaza Principal, el Intihuatana o reloj solar, el Templo de las 3 Ventanas y los impresionantes andenes agrícolas. Posterior al guiado, tendrán tiempo libre para explorar por su cuenta, tomar fotografías y conectarse con la energía especial de este lugar sagrado. Retorno a Cusco en tren por la tarde.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        }
+      ],
+      "resumen": "<p>El trek más famoso de Sudamérica. 4 días caminando por el antiguo Camino Inca hasta llegar a la Puerta del Sol de Machu Picchu.</p>",
+      "imagen1": "/images/img-banner.jpeg",
+      "imagne2": "/images/img-banner.jpeg",
+      "incluye": "<ul><li>Guía profesional</li><li>Carguero</li><li>Equipo de camping</li><li>Alimentación completa durante el trek</li><li>Entrada al Camino Inca</li><li>Entrada a Machu Picchu</li><li>Tren de retorno</li></ul>",
+      "no_incluye": "<ul><li>Saco de dormir</li><li>Bastones</li><li>Gastos personales</li><li>Propinas</li></ul>",
+      "faq": "<p><strong>¿Se requiere reserva anticipada?</strong> Sí, mínimo 3 meses antes por cupos limitados.</p>",
+      "descripcion": "<p>Llevar zapatos de trekking, ropa impermeable, linterna, repelente y snacks.</p>",
+      "banners": [
+        "/images/1920x800.webp"
+      ],
+      "precio": "650",
+      "precio_anterior": "750",
+      "pago_100": false,
+      "precios_resumen": "<p>Precio por persona. Cupos limitados por el gobierno peruano.</p>"
+    }
+  },
+  {
+    "id": 15,
+    "title": "Inca Trail 2 Days",
+    "slug": "inca-trail-2-days",
+    "excerpt": "A shorter version of the Inca Trail. Perfect for those with limited time but wanting the experience.",
+    "featuredImage": "/images/1920x800.webp",
+    "categories": [
+      4
+    ],
+    "tipos": [
+      1
+    ],
+    "acf": {
+      "imagen": "/images/img-banner.jpeg",
+      "dias": "2 días / 1 noche",
+      "tipo_viaje": "Aventura",
+      "dificultad": "Moderada",
+      "altura": "2,430 - 2,700 msnm",
+      "acomodacion": "Camping",
+      "etiqueta_1": "Express",
+      "etiqueta_2": "",
+      "ubicacion": "Cusco - Km 104 - Machu Picchu",
+      "itinerario_dia": [
+        {
+          "titulo_dia": "Km 104 - Wiñay Wayna",
+          "descripcion_dia": "Inicio temprano del trek desde el kilómetro 104 de la vía férrea. Cruzaremos el puente sobre el río Urubamba e iniciaremos el ascenso hacia el sitio arqueológico de Wiñay Wayna, uno de los complejos incas más bellos del Camino Inca, con sus terrazas perfectamente conservadas y una cascada de fondo. Continuaremos por el sendero de piedra original inca, rodeados de bosque nuboso con abundante flora y fauna. Campamento cerca de Wiñay Wayna con vista al valle.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Puerta del Sol - Machu Picchu",
+          "descripcion_dia": "Salida antes del amanecer (4:00 am) para llegar a la Puerta del Sol o Inti Punku justo al momento del amanecer. La vista del sol iluminando gradualmente la ciudadela de Machu Picchu desde este punto es una experiencia que recordarán toda la vida. Luego descenderemos hacia la ciudadela para realizar una visita guiada completa de 2 horas. Tiempo libre para explorar. Retorno a Aguas Calientes para tomar el tren de regreso a Cusco.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        }
+      ],
+      "resumen": "<p>El Camino Inca corto. 2 días de trekking por la ruta más escénica hasta Machu Picchu.</p>",
+      "imagen1": "/images/img-banner.jpeg",
+      "imagne2": "/images/img-banner.jpeg",
+      "incluye": "<ul><li>Guía profesional</li><li>Alimentación</li><li>Entrada al Camino Inca</li><li>Entrada a Machu Picchu</li><li>Tren de retorno</li><li>Equipo básico</li></ul>",
+      "no_incluye": "<ul><li>Saco de dormir</li><li>Bastones</li><li>Gastos personales</li></ul>",
+      "faq": "<p><strong>¿Es buena opción para principiantes?</strong> Sí, es más corto y menos exigente que el de 4 días.</p>",
+      "descripcion": "<p>Llevar ropa ligera y zapatos cómodos para caminar.</p>",
+      "banners": [
+        "/images/1920x800.webp"
+      ],
+      "precio": "400",
+      "precio_anterior": "480",
+      "pago_100": false,
+      "precios_resumen": "<p>Precio por persona.</p>"
+    }
+  },
+  {
+    "id": 16,
+    "title": "Salkantay Trek 5 Days",
+    "slug": "salkantay-trek-5-days",
+    "excerpt": "An alternative trek to Machu Picchu through the majestic Salkantay mountain and cloud forest.",
+    "featuredImage": "/images/1920x800.webp",
+    "categories": [
+      4
+    ],
+    "tipos": [
+      1
+    ],
+    "acf": {
+      "imagen": "/images/img-banner.jpeg",
+      "dias": "5 días / 4 noches",
+      "tipo_viaje": "Aventura",
+      "dificultad": "Difícil",
+      "altura": "2,430 - 4,630 msnm",
+      "acomodacion": "Camping",
+      "etiqueta_1": "Alternativo",
+      "etiqueta_2": "",
+      "ubicacion": "Cusco - Mollepata - Salkantay - Santa Teresa - Machu Picchu",
+      "itinerario_dia": [
+        {
+          "titulo_dia": "Cusco - Mollepata - Soraypampa",
+          "descripcion_dia": "Viaje desde Cusco hasta el poblado de Mollepata, donde iniciaremos nuestro trek. El sendero nos lleva a través de paisajes andinos espectaculares con vistas del nevado Humantay. Caminata gradual hasta llegar a Soraypampa, nuestro primer campamento. Por la tarde, caminata opcional a la Laguna Humantay, de aguas turquesa intenso rodeada de glaciares. Cena caliente y noche de camping bajo las estrellas.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Laguna Humantay - Salkantay Pass",
+          "descripcion_dia": "Visita a la Laguna Humantay. Ascenso al Abra Salkantay (4,630m). Descenso a Huayracmachay. Durante esta actividad nuestro guía profesional compartirá información detallada sobre la historia, cultura y significado de cada lugar visitado. Tendremos tiempo suficiente para tomar fotografías, hacer preguntas y disfrutar del entorno. Incluye transporte cómodo y asistencia personalizada durante todo el recorrido.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Selva Alta - La Playa",
+          "descripcion_dia": "Descenso desde la puna hacia la ceja de selva, donde el paisaje cambia drásticamente a bosque nuboso con abundante vegetación, orquídeas y mariposas. El sendero serpentea entre árboles cubiertos de musgo y helechos gigantes. Podremos observar diferentes especies de aves como el gallito de las rocas, ave nacional del Perú. Llegada a La Playa, un pequeño poblado en la zona de transición entre los Andes y la Amazonía. Campamento en un terreno preparado.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "La Playa - Aguas Calientes",
+          "descripcion_dia": "Último día de caminata. Sendero descendente a través de plantaciones de café, coca y frutas tropicales. Llegada a Hidroeléctrica, donde almorzaremos. Desde aquí, caminaremos por las vías del tren paralelas al río Urubamba hasta llegar a Aguas Calientes, el pueblo a los pies de Machu Picchu. Instalación en el hotel y cena de celebración.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Machu Picchu - Retorno",
+          "descripcion_dia": "Despertaremos muy temprano, alrededor de las 4:30 am, para desayunar en el hotel y dirigirnos a la fila de buses que ascienden hacia la ciudadela inca de Machu Picchu. El viaje en bus dura aproximadamente 25 minutos por una carretera serpenteante con vistas espectaculares del cañón del río Urubamba. Una vez en la entrada, presentaremos nuestros boletos y pasaportes para ingresar a la maravilla del mundo. Realizaremos una visita guiada de aproximadamente 2 horas recorriendo los sectores más importantes: el Templo del Sol, la Plaza Principal, el Intihuatana, el Templo de las 3 Ventanas, el Palacio Real y los impresionantes andenes agrícolas. Nuestro guía explicará la historia, arquitectura y misterios de esta ciudadela inca. Después del tour guiado, tendrán tiempo libre para explorar por su cuenta, subir al Huayna Picchu (si reservaron con anticipación) o simplemente sentarse a contemplar la majestuosidad del lugar. Retorno a Aguas Calientes para almorzar y tomar el tren de regreso a Cusco.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        }
+      ],
+      "resumen": "<p>Una de las rutas de trekking más espectaculares del Perú. Cruza el Abra Salkantay a 4,630m y desciende hasta la ceja de selva.</p>",
+      "imagen1": "/images/img-banner.jpeg",
+      "imagne2": "/images/img-banner.jpeg",
+      "incluye": "<ul><li>Guía profesional</li><li>Equipo de camping</li><li>Alimentación completa</li><li>Entrada a Machu Picchu</li><li>Tren de retorno</li><li>Carguero</li></ul>",
+      "no_incluye": "<ul><li>Saco de dormir</li><li>Bastones</li><li>Gastos personales</li></ul>",
+      "faq": "<p><strong>¿Es más fácil que el Inca Trail?</strong> Similar dificultad, pero menos concurrido.</p>",
+      "descripcion": "<p>Llevar ropa abrigadora, zapatos de trekking, bloqueador y bastante agua.</p>",
+      "banners": [
+        "/images/1920x800.webp"
+      ],
+      "precio": "550",
+      "precio_anterior": "650",
+      "pago_100": false,
+      "precios_resumen": "<p>Precio por persona.</p>"
+    }
+  },
+  {
+    "id": 17,
+    "title": "Lares Trek 4 Days",
+    "slug": "lares-trek-4-days",
+    "excerpt": "A cultural trek through the Lares Valley, visiting traditional weaving communities and hot springs.",
+    "featuredImage": "/images/1920x800.webp",
+    "categories": [
+      4
+    ],
+    "tipos": [
+      1
+    ],
+    "acf": {
+      "imagen": "/images/img-banner.jpeg",
+      "dias": "4 días / 3 noches",
+      "tipo_viaje": "Aventura Cultural",
+      "dificultad": "Moderada",
+      "altura": "2,430 - 4,450 msnm",
+      "acomodacion": "Camping",
+      "etiqueta_1": "Cultural",
+      "etiqueta_2": "",
+      "ubicacion": "Cusco - Lares - Valle Sagrado - Machu Picchu",
+      "itinerario_dia": [
+        {
+          "titulo_dia": "Cusco - Lares - Hot Springs",
+          "descripcion_dia": "Salida desde Cusco con destino al valle de Lares, famoso por sus aguas termales de propiedades medicinales. En el camino apreciaremos paisajes andinos espectaculares con comunidades quechuas dedicadas al tejido tradicional. Llegada a los baños termales de Lares donde podremos relajarnos en las pozas de agua caliente natural rodeadas de montañas. Inicio del trek desde este punto.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Lares - Abra Pachacuteq",
+          "descripcion_dia": "Ascenso gradual hacia el paso de montaña más alto del trek. Durante la caminata, pasaremos por comunidades locales donde las mujeres tejen coloridos textiles utilizando técnicas ancestrales. Tendremos la oportunidad de interactuar con los pobladores y adquirir artesanías directamente de las tejedoras. El paisaje es impresionante con lagunas de color turquesa y nevados en el horizonte.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Patacancha - Ollantaytambo",
+          "descripcion_dia": "Descenso hacia el pueblo de Patacancha, conocido por sus tejidos de alta calidad. Visitaremos una cooperativa de tejedoras locales. Continuaremos hasta Ollantaytambo, donde abordaremos el tren con destino a Aguas Calientes, el pueblo a los pies de Machu Picchu. Instalación en el hotel y cena.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Machu Picchu - Retorno",
+          "descripcion_dia": "Despertaremos muy temprano, alrededor de las 4:30 am, para desayunar en el hotel y dirigirnos a la fila de buses que ascienden hacia la ciudadela inca de Machu Picchu. El viaje en bus dura aproximadamente 25 minutos por una carretera serpenteante con vistas espectaculares del cañón del río Urubamba. Una vez en la entrada, presentaremos nuestros boletos y pasaportes para ingresar a la maravilla del mundo. Realizaremos una visita guiada de aproximadamente 2 horas recorriendo los sectores más importantes: el Templo del Sol, la Plaza Principal, el Intihuatana, el Templo de las 3 Ventanas, el Palacio Real y los impresionantes andenes agrícolas. Nuestro guía explicará la historia, arquitectura y misterios de esta ciudadela inca. Después del tour guiado, tendrán tiempo libre para explorar por su cuenta, subir al Huayna Picchu (si reservaron con anticipación) o simplemente sentarse a contemplar la majestuosidad del lugar. Retorno a Aguas Calientes para almorzar y tomar el tren de regreso a Cusco.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        }
+      ],
+      "resumen": "<p>Una experiencia única que combina trekking, aguas termales y encuentro con comunidades quechuas tradicionales.</p>",
+      "imagen1": "/images/img-banner.jpeg",
+      "imagne2": "/images/img-banner.jpeg",
+      "incluye": "<ul><li>Guía profesional</li><li>Equipo de camping</li><li>Alimentación</li><li>Entrada a Machu Picchu</li><li>Tren de retorno</li></ul>",
+      "no_incluye": "<ul><li>Saco de dormir</li><li>Bastones</li><li>Gastos personales</li></ul>",
+      "faq": "<p><strong>¿Cuándo es la mejor época?</strong> De abril a octubre.</p>",
+      "descripcion": "<p>Llevar traje de baño para las aguas termales, ropa abrigadora y zapatos de trekking.</p>",
+      "banners": [
+        "/images/1920x800.webp"
+      ],
+      "precio": "450",
+      "precio_anterior": "520",
+      "pago_100": false,
+      "precios_resumen": "<p>Precio por persona.</p>"
+    }
+  },
+  {
+    "id": 18,
+    "title": "Ausangate Trek",
+    "slug": "ausangate-trek",
+    "excerpt": "A challenging multi-day trek around the sacred Mount Ausangate, with turquoise lakes and glaciers.",
+    "featuredImage": "/images/1920x800.webp",
+    "categories": [
+      4
+    ],
+    "tipos": [
+      1
+    ],
+    "acf": {
+      "imagen": "/images/img-banner.jpeg",
+      "dias": "5 días / 4 noches",
+      "tipo_viaje": "Aventura",
+      "dificultad": "Difícil",
+      "altura": "4,300 - 5,200 msnm",
+      "acomodacion": "Camping",
+      "etiqueta_1": "Desafiante",
+      "etiqueta_2": "",
+      "ubicacion": "Cusco - Tinqui - Ausangate",
+      "itinerario_dia": [
+        {
+          "titulo_dia": "Cusco - Tinqui - Upis",
+          "descripcion_dia": "Viaje desde Cusco hasta el poblado de Tinqui, puerta de entrada al circuito del Ausangate. Inicio del trek rodeando la base del nevado. Caminata hasta las aguas termales de Upis, donde podremos relajarnos después del primer día de caminata. Campamento con vistas espectaculares del nevado Ausangate iluminado por el atardecer.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Upis - Abra Arapa",
+          "descripcion_dia": "Ascenso desafiante hacia el primer paso de alta montaña. El sendero ofrece vistas panorámicas del nevado Ausangate y las lagunas de color turquesa intenso. Avistamiento de vicuñas y alpacas en su hábitat natural. Descenso hacia el campamento junto a una laguna de aguas cristalinas.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Laguna Ausangate - Abra Palomani",
+          "descripcion_dia": "Día más desafiante del trek. Ascenso al paso Palomani a 5,200 metros, el punto más alto del recorrido. Desde la cima, vistas de 360 grados de la cordillera Vilcanota y múltiples lagunas de colores que van del turquesa al verde esmeralda. Sensación de estar en la cima del mundo.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Pachaspata - Qampa",
+          "descripcion_dia": "Descenso hacia el valle rojo, llamado así por el color rojizo de las montañas debido a la alta concentración de minerales. Pasaremos por formaciones rocosas erosionadas por el viento con formas caprichosas. Nuevas aguas termales para relajarse después de días de caminata intensa.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Retorno a Cusco",
+          "descripcion_dia": "Vuelo matutino desde el aeropuerto Inca Manco Cápac de Juliaca con destino a Cusco. Recepción en el aeropuerto Alejandro Velasco Astete y traslado al hotel. La tarde será libre para actividades independientes como visitar el barrio de San Blas, conocido por sus talleres de arte y tiendas de artesanía, pasear por la calle Hatun Rumiyoc para ver la famosa Piedra de los 12 Ángulos, o simplemente relajarse en los acogedores cafés con vista a la Plaza de Armas.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        }
+      ],
+      "resumen": "<p>El trek más espectacular y exigente de la región Cusco. 5 días alrededor del apu Ausangate con lagunas turquesas y glaciares.</p>",
+      "imagen1": "/images/img-banner.jpeg",
+      "imagne2": "/images/img-banner.jpeg",
+      "incluye": "<ul><li>Guía profesional</li><li>Equipo de camping</li><li>Alimentación completa</li><li>Arrieros y mulas</li><li>Botiquín de primeros auxilios</li></ul>",
+      "no_incluye": "<ul><li>Saco de dormir (-10°C recomendado)</li><li>Bastones</li><li>Gastos personales</li></ul>",
+      "faq": "<p><strong>¿Es necesario estar aclimatado?</strong> Sí, mínimo 3 días en Cusco antes del trek.</p>",
+      "descripcion": "<p>Equipo requerido: saco de dormir para temperaturas bajo cero, ropa térmica, zapatos de trekking impermeables.</p>",
+      "banners": [
+        "/images/1920x800.webp"
+      ],
+      "precio": "500",
+      "precio_anterior": "580",
+      "pago_100": false,
+      "precios_resumen": "<p>Precio por persona.</p>"
+    }
+  },
+  {
+    "id": 19,
+    "title": "Rainbow Mountain Trek",
+    "slug": "rainbow-mountain-trek",
+    "excerpt": "A day trek to the stunning Rainbow Mountain (Vinicunca) with its colorful mineral layers.",
+    "featuredImage": "/images/1920x800.webp",
+    "categories": [
+      4
+    ],
+    "tipos": [
+      1
+    ],
     "acf": {
       "imagen": "/images/img-banner.jpeg",
       "dias": "1 día",
@@ -107,77 +1468,318 @@
       "dificultad": "Difícil",
       "altura": "5,200 msnm",
       "acomodacion": "No incluye",
-      "etiqueta_1": "Recomendado",
+      "etiqueta_1": "Popular",
       "etiqueta_2": "",
       "ubicacion": "Cusco - Vinicunca",
       "itinerario_dia": [
         {
-          "titulo_dia": "Full Day: Montaña 7 Colores",
-          "descripcion_dia": "<p>Recogida a las 3:00 am. Viaje a Cusipata (2 horas). Desayuno. Inicio de caminata (1.5 - 2 horas). Llegada a la montaña. Tiempo para fotos y disfrutar del paisaje. Retorno. Almuerzo. Regreso a Cusco.</p>",
-          "fotos_dia": ["/images/tours/vinicunca-camino.jpg", "/images/tours/vinicunca-cima.jpg"]
+          "titulo_dia": "Cusco - Vinicunca - Cusco",
+          "descripcion_dia": "Salida muy temprano, aproximadamente a las 3:00 am, desde Cusco con destino a la comunidad de Cusipata. Durante el viaje de 2 horas, podremos apreciar el amanecer sobre los Andes peruanos, un espectáculo de colores que anticipa la maravilla que veremos más tarde. En Cusipata disfrutaremos de un desayuno continental para cargar energías. Iniciaremos la caminata hacia la Montaña de 7 Colores o Vinicunca, un sendero de dificultad moderada-alta debido a la altitud de 5,200 metros. Durante la caminata de aproximadamente 1.5 a 2 horas, nuestro guía explicará la geología del lugar: cómo los minerales como el óxido de hierro, cobre, magnesio y azufre crean los impresionantes estratos de colores. Al llegar a la cima, seremos recompensados con una vista panorámica espectacular de la montaña multicolor y los nevados circundantes. Tendremos tiempo suficiente para tomar fotografías, hacer videos y simplemente maravillarnos con el paisaje. Iniciaremos el descenso con cuidado, recordando que la altitud puede marear. Almuerzo buffet en Cusipata y retorno a Cusco aproximadamente a las 5:00 pm.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
         }
       ],
       "resumen": "<p>La Montaña de 7 Colores o Vinicunca es uno de los destinos más espectaculares del Perú. Sus colores únicos te dejarán sin aliento.</p>",
-      "imagen1": "/images/tours/7colores-1.jpg",
-      "imagne2": "/images/tours/7colores-2.jpg",
+      "imagen1": "/images/img-banner.jpeg",
+      "imagne2": "/images/img-banner.jpeg",
       "incluye": "<ul><li>Transporte ida y vuelta</li><li>Guía profesional</li><li>Desayuno y almuerzo</li><li>Oxígeno de emergencia</li><li>Bastones de caminata</li></ul>",
       "no_incluye": "<ul><li>Caballo de alquiler (opcional)</li><li>Propinas</li></ul>",
-      "faq": "<p><strong>¿Es apto para principiantes?</strong> Es una caminata exigente por la altura. Recomendamos estar aclimatados en Cusco mínimo 2 días.</p>",
-      "descripcion": "<p>Llevar ropa abrigadora, zapatos de trekking, bloqueador solar, lentes de sol, agua y snacks energéticos.</p>",
-      "banners": ["/images/img-banner.jpeg"],
+      "faq": "<p><strong>¿Es apto para principiantes?</strong> Es una caminata exigente por la altura. Recomendamos estar aclimatados 2 días en Cusco.</p>",
+      "descripcion": "<p>Llevar ropa abrigadora, zapatos de trekking, bloqueador solar, lentes, agua y snacks.</p>",
+      "banners": [
+        "/images/1920x800.webp"
+      ],
       "precio": "120",
       "precio_anterior": "",
       "pago_100": false,
-      "precios_resumen": "<p>Precio por persona. Incluye todo el equipo necesario.</p>"
+      "precios_resumen": "<p>Precio por persona. Incluye equipo necesario.</p>"
     }
   },
   {
-    "id": 4,
-    "title": "Lago Titicaca Esencial",
-    "slug": "lago-titicaca-esencial",
-    "excerpt": "Explora el lago navegable más alto del mundo y sus islas flotantes.",
-    "featuredImage": "/images/img-banner.jpeg",
-    "categories": [1],
-    "tipos": [2, 3],
+    "id": 20,
+    "title": "Tambopata Express",
+    "slug": "tambopata-tours",
+    "excerpt": "A short but intense Amazon experience in the Tambopata National Reserve.",
+    "featuredImage": "/images/1920x800.webp",
+    "categories": [
+      5
+    ],
+    "tipos": [
+      3
+    ],
     "acf": {
       "imagen": "/images/img-banner.jpeg",
       "dias": "3 días / 2 noches",
-      "tipo_viaje": "Cultural",
+      "tipo_viaje": "Naturaleza",
       "dificultad": "Fácil",
-      "altura": "3,812 msnm",
-      "acomodacion": "Hoteles 3 estrellas",
+      "altura": "200 msnm",
+      "acomodacion": "Eco-lodge",
       "etiqueta_1": "",
       "etiqueta_2": "",
-      "ubicacion": "Puno - Lago Titicaca",
+      "ubicacion": "Puerto Maldonado - Tambopata",
       "itinerario_dia": [
         {
-          "titulo_dia": "Día 1: Llegada a Puno",
-          "descripcion_dia": "<p>Recepción y traslado al hotel. Por la tarde visita a la ciudad de Puno y el Mirador Kuntur Wasi.</p>",
-          "fotos_dia": ["/images/tours/puno.jpg"]
+          "titulo_dia": "Llegada a Puerto Maldonado",
+          "descripcion_dia": "Recepción en el aeropuerto. Navegación por el río Madre de Dios al lodge. Caminata nocturna. Durante esta actividad nuestro guía profesional compartirá información detallada sobre la historia, cultura y significado de cada lugar visitado. Tendremos tiempo suficiente para tomar fotografías, hacer preguntas y disfrutar del entorno. Incluye transporte cómodo y asistencia personalizada durante todo el recorrido.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
         },
         {
-          "titulo_dia": "Día 2: Islas Flotantes Taquile",
-          "descripcion_dia": "<p>Navegamos hacia las Islas Flotantes de los Uros, donde conoceremos su estilo de vida. Luego continuamos a la Isla Taquile para almorzar y conocer su cultura textil.</p>",
-          "fotos_dia": ["/images/tours/uros.jpg", "/images/tours/taquile.jpg"]
+          "titulo_dia": "Lago Sandoval",
+          "descripcion_dia": "Día completo dedicado a explorar el Lago Sandoval, uno de los cuerpos de agua más hermosos de la Reserva Nacional de Tambopata. Caminata de 3 kilómetros a través del bosque hasta llegar al lago, donde abordaremos canoas remadas para navegar entre nenúfares gigantes. Observaremos monos aulladores y capuchinos, caimanes blancos y negros, tortugas acuáticas, garzas, martines pescadores y, con suerte, la nutria gigante de río. Almuerzo tipo picnic en la orilla del lago. Por la tarde, retorno al lodge. Cena y caminata nocturna opcional para observar insectos y anfibios.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
         },
         {
-          "titulo_dia": "Día 3: Retorno",
-          "descripcion_dia": "<p>Después del desayuno, traslado al aeropuerto o terminal terrestre.</p>",
-          "fotos_dia": []
+          "titulo_dia": "Collpa de Loros - Retorno",
+          "descripcion_dia": "Visita a la collpa de loros. Retorno a Puerto Maldonado. Durante esta actividad nuestro guía profesional compartirá información detallada sobre la historia, cultura y significado de cada lugar visitado. Tendremos tiempo suficiente para tomar fotografías, hacer preguntas y disfrutar del entorno. Incluye transporte cómodo y asistencia personalizada durante todo el recorrido.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
         }
       ],
-      "resumen": "<p>El Lago Titicaca te espera con sus aguas cristalinas, islas flotantes y la calidez de su gente.</p>",
-      "imagen1": "/images/tours/titicaca-1.jpg",
-      "imagne2": "/images/tours/titicaca-2.jpg",
-      "incluye": "<ul><li>Transporte aeropuerto - hotel</li><li>2 noches de alojamiento</li><li>Guía profesional</li><li>Paseo en lancha</li><li>Entradas a las islas</li><li>Alimentación: desayunos</li></ul>",
-      "no_incluye": "<ul><li>Vuelos a Puno</li><li>Seguro de viaje</li></ul>",
-      "faq": "<p><strong>¿Cuál es la mejor época?</strong> De abril a octubre (temporada seca).</p>",
-      "descripcion": "<p>Llevar ropa abrigadora (el altiplano es frío), bloqueador solar y cámara.</p>",
-      "banners": ["/images/img-banner.jpeg"],
-      "precio": "280",
-      "precio_anterior": "330",
+      "resumen": "<p>Una experiencia amazónica corta pero intensa. Navegación, vida silvestre y lodge en plena selva.</p>",
+      "imagen1": "/images/img-banner.jpeg",
+      "imagne2": "/images/img-banner.jpeg",
+      "incluye": "<ul><li>Transfer aeropuerto - lodge</li><li>2 noches en eco-lodge</li><li>Guía naturalista</li><li>Alimentación completa</li><li>Excursiones</li></ul>",
+      "no_incluye": "<ul><li>Vuelos a Puerto Maldonado</li><li>Seguro</li><li>Gastos personales</li></ul>",
+      "faq": "<p><strong>¿Hay mosquitos?</strong> Sí, llevamos repelente. Recomendamos manga larga.</p>",
+      "descripcion": "<p>Llevar repelente, ropa ligera, binoculares y cámara.</p>",
+      "banners": [
+        "/images/1920x800.webp"
+      ],
+      "precio": "350",
+      "precio_anterior": "400",
       "pago_100": false,
-      "precios_resumen": "<p>Precio por persona en habitación doble.</p>"
+      "precios_resumen": "<p>Precio por persona en habitación compartida.</p>"
+    }
+  },
+  {
+    "id": 21,
+    "title": "Manu National Park",
+    "slug": "manu-national-park-tours",
+    "excerpt": "Explore the most biodiverse place on Earth. Manu National Park, a UNESCO World Heritage site.",
+    "featuredImage": "/images/1920x800.webp",
+    "categories": [
+      5
+    ],
+    "tipos": [
+      3
+    ],
+    "acf": {
+      "imagen": "/images/img-banner.jpeg",
+      "dias": "5 días / 4 noches",
+      "tipo_viaje": "Naturaleza",
+      "dificultad": "Moderada",
+      "altura": "200 - 3,000 msnm",
+      "acomodacion": "Eco-lodges",
+      "etiqueta_1": "Premium",
+      "etiqueta_2": "",
+      "ubicacion": "Cusco - Manu - Amazonía",
+      "itinerario_dia": [
+        {
+          "titulo_dia": "Cusco - Cloud Forest",
+          "descripcion_dia": "Salida muy temprano desde Cusco, descendiendo por la carretera que atraviesa el bosque nuboso de la ceja de selva. Realizaremos paradas estratégicas en miradores para observar el cambio de paisaje y la diversidad de aves, incluyendo posiblemente el gallito de las rocas. Almuerzo en un lodge de montaña. Continuaremos descendiendo hasta llegar a nuestro alojamiento en la selva alta.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Bajada a la Selva",
+          "descripcion_dia": "Continuación del descenso desde los Andes hacia la llanura amazónica. El paisaje cambia drásticamente de bosque nuboso a selva tropical. Cruzaremos ríos en balsas tradicionales y visitaremos comunidades nativas para aprender sobre sus costumbres y formas de vida tradicionales. Llegada al lodge en la selva baja.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Lago de las Tortugas",
+          "descripcion_dia": "Navegación en canoa por un lago remoto dentro del Parque Nacional del Manu. Observación de tortugas acuáticas, monos, caimanes y una increíble variedad de aves. El lago está rodeado de aguajales (pantanos de palmeras) que albergan una biodiversidad excepcional. Almuerzo picnic en una playa de arena blanca.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Collpa de Guacamayos",
+          "descripcion_dia": "Salida antes del amanecer para dirigirnos a una de las collpas de guacamayos más grandes de Tambopata. Desde una plataforma de observación a distancia segura, presenciaremos el espectáculo natural de cientos de guacamayos rojos, verdes y azules que llegan al amanecer para consumir la arcilla del acantilado. Este es uno de los espectáculos naturales más impresionantes de la Amazonía peruana. Retorno al lodge para el desayuno. Por la tarde, actividades complementarias como pesca de pirañas o visita a la comunidad nativa local.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Retorno a Cusco",
+          "descripcion_dia": "Vuelo matutino desde el aeropuerto Inca Manco Cápac de Juliaca con destino a Cusco. Recepción en el aeropuerto Alejandro Velasco Astete y traslado al hotel. La tarde será libre para actividades independientes como visitar el barrio de San Blas, conocido por sus talleres de arte y tiendas de artesanía, pasear por la calle Hatun Rumiyoc para ver la famosa Piedra de los 12 Ángulos, o simplemente relajarse en los acogedores cafés con vista a la Plaza de Armas.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        }
+      ],
+      "resumen": "<p>Manu es el parque nacional más biodiverso del mundo. 5 días explorando desde los Andes hasta la Amazonía.</p>",
+      "imagen1": "/images/img-banner.jpeg",
+      "imagne2": "/images/img-banner.jpeg",
+      "incluye": "<ul><li>Transporte Cusco - Manu</li><li>4 noches en lodges</li><li>Guía naturalista</li><li>Alimentación completa</li><li>Excursiones</li><li>Entradas al parque</li></ul>",
+      "no_incluye": "<ul><li>Seguro de viaje</li><li>Gastos personales</li><li>Propinas</li></ul>",
+      "faq": "<p><strong>¿Es seguro?</strong> Sí, siempre acompañados de guías expertos.</p>",
+      "descripcion": "<p>Llevar repelente, ropa impermeable, binoculares y linterna.</p>",
+      "banners": [
+        "/images/1920x800.webp"
+      ],
+      "precio": "550",
+      "precio_anterior": "650",
+      "pago_100": false,
+      "precios_resumen": "<p>Precio por persona. Mínimo 2 personas.</p>"
+    }
+  },
+  {
+    "id": 22,
+    "title": "Amazon Wildlife Expedition",
+    "slug": "amazon-wildlife-expeditions",
+    "excerpt": "A wildlife-focused expedition deep into the Peruvian Amazon. Perfect for nature lovers.",
+    "featuredImage": "/images/1920x800.webp",
+    "categories": [
+      5
+    ],
+    "tipos": [
+      3
+    ],
+    "acf": {
+      "imagen": "/images/img-banner.jpeg",
+      "dias": "6 días / 5 noches",
+      "tipo_viaje": "Naturaleza",
+      "dificultad": "Moderada",
+      "altura": "200 msnm",
+      "acomodacion": "Lodge en la selva",
+      "etiqueta_1": "Expedición",
+      "etiqueta_2": "",
+      "ubicacion": "Puerto Maldonado - Tambopata - Madre de Dios",
+      "itinerario_dia": [
+        {
+          "titulo_dia": "Llegada - Lodge",
+          "descripcion_dia": "Recepción en el aeropuerto de Puerto Maldonado y traslado al embarcadero. Navegación de 45 minutos por el río Madre de Dios hasta nuestro lodge en la Reserva Nacional de Tambopata. Instalación en habitaciones con vista a la selva. Por la noche, realizaremos una caminata nocturna guiada para observar la fauna activa durante la noche: insectos bioluminiscentes, ranas, arañas, y posiblemente mamíferos nocturnos.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Lago Sandoval",
+          "descripcion_dia": "Día completo dedicado a explorar el Lago Sandoval, uno de los cuerpos de agua más hermosos de la Reserva Nacional de Tambopata. Caminata de 3 kilómetros a través del bosque hasta llegar al lago, donde abordaremos canoas remadas para navegar entre nenúfares gigantes. Observaremos monos aulladores y capuchinos, caimanes blancos y negros, tortugas acuáticas, garzas, martines pescadores y, con suerte, la nutria gigante de río. Almuerzo tipo picnic en la orilla del lago. Por la tarde, retorno al lodge. Cena y caminata nocturna opcional para observar insectos y anfibios.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Collpa de Guacamayos",
+          "descripcion_dia": "Salida antes del amanecer para dirigirnos a una de las collpas de guacamayos más grandes de Tambopata. Desde una plataforma de observación a distancia segura, presenciaremos el espectáculo natural de cientos de guacamayos rojos, verdes y azules que llegan al amanecer para consumir la arcilla del acantilado. Este es uno de los espectáculos naturales más impresionantes de la Amazonía peruana. Retorno al lodge para el desayuno. Por la tarde, actividades complementarias como pesca de pirañas o visita a la comunidad nativa local.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Selva Adentro",
+          "descripcion_dia": "Caminata profunda en la selva amazónica con nuestro guía naturalista especializado. Aprenderemos sobre plantas medicinales utilizadas por las comunidades nativas, árboles sagrados, y la compleja ecología del bosque tropical. Identificaremos huellas de animales y escucharemos los sonidos de la selva. Esta experiencia de inmersión total nos conectará con la naturaleza en su estado más puro.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Kayak en el Río",
+          "descripcion_dia": "Mañana de kayak por las tranquilas aguas del río Tambopata. Remaremos en silencio para observar aves ribereñas, monos en las orillas y posiblemente capibaras. Esta actividad nos permite acceder a zonas que no son alcanzables a pie y disfrutar de la perspectiva del río. Alternativa para quienes prefieran no hacer kayak: paseo en bote con motor.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Retorno",
+          "descripcion_dia": "Después del desayuno buffet en el hotel, tendrán tiempo libre para ultimar detalles de su viaje, realizar compras de último momento en las tiendas de artesanía o simplemente disfrutar de un último paseo por las calles históricas. A la hora acordada, nuestro equipo realizará el traslado al aeropuerto con la asistencia necesaria para el check-in y entrega de equipaje. Fin de nuestros servicios, esperando que se lleven los mejores recuerdos y experiencias de su viaje por el Perú. ¡Gracias por viajar con nosotros!",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        }
+      ],
+      "resumen": "<p>Una expedición completa para los amantes de la naturaleza. 6 días de inmersión en la selva amazónica con enfoque en vida silvestre.</p>",
+      "imagen1": "/images/img-banner.jpeg",
+      "imagne2": "/images/img-banner.jpeg",
+      "incluye": "<ul><li>5 noches en lodge</li><li>Alimentación completa</li><li>Guía naturalista especializado</li><li>Todas las excursiones</li><li>Equipo de kayak</li></ul>",
+      "no_incluye": "<ul><li>Vuelos</li><li>Seguro</li><li>Gastos personales</li></ul>",
+      "faq": "<p><strong>¿Qué animales se pueden ver?</strong> Monos, perezosos, caimanes, guacamayos, y si hay suerte jaguares.</p>",
+      "descripcion": "<p>Binoculares recomendados. Repelente indispensable.</p>",
+      "banners": [
+        "/images/1920x800.webp"
+      ],
+      "precio": "750",
+      "precio_anterior": "880",
+      "pago_100": false,
+      "precios_resumen": "<p>Precio por persona en habitación compartida.</p>"
+    }
+  },
+  {
+    "id": 23,
+    "title": "Birdwatching Peru",
+    "slug": "birdwatching-peru",
+    "excerpt": "Peru is a birdwatcher's paradise. Explore the Tambopata region's incredible bird diversity.",
+    "featuredImage": "/images/1920x800.webp",
+    "categories": [
+      5
+    ],
+    "tipos": [
+      3
+    ],
+    "acf": {
+      "imagen": "/images/img-banner.jpeg",
+      "dias": "4 días / 3 noches",
+      "tipo_viaje": "Naturaleza",
+      "dificultad": "Fácil",
+      "altura": "200 msnm",
+      "acomodacion": "Eco-lodge",
+      "etiqueta_1": "Especializado",
+      "etiqueta_2": "",
+      "ubicacion": "Puerto Maldonado - Tambopata",
+      "itinerario_dia": [
+        {
+          "titulo_dia": "Llegada - Collpa de Loros",
+          "descripcion_dia": "Llegada al aeropuerto de Puerto Maldonado y recepción por nuestro equipo. Traslado en vehículo hasta el embarcadero, donde abordaremos una lancha con motor fuera de borda para navegar por el río Madre de Dios durante aproximadamente 1 hora hasta nuestro eco-lodge en la selva amazónica. Instalación en las habitaciones. Por la tarde, realizaremos nuestra primera excursión a la collpa de loros, un acantilado de arcilla donde cientos de loros y guacamayos se reúnen al atardecer para consumir minerales esenciales. Retorno al lodge para la cena.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Tower Canopy",
+          "descripcion_dia": "Madrugada para ascender a la torre de observación de 30 metros de altura que se eleva sobre el dosel del bosque amazónico. Desde aquí tendremos vistas panorámicas de la selva y podremos observar aves en su hábitat natural: tucanes, guacamayos, loros, oropéndolas y posiblemente el águila arpía. Desayuno en la torre mientras observamos el despertar de la selva. Por la tarde, caminata por trochas interpretativas donde aprenderemos sobre plantas medicinales amazónicas, árboles centenarios y la fascinante biodiversidad de la región.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Lago Sandoval",
+          "descripcion_dia": "Día completo dedicado a explorar el Lago Sandoval, uno de los cuerpos de agua más hermosos de la Reserva Nacional de Tambopata. Caminata de 3 kilómetros a través del bosque hasta llegar al lago, donde abordaremos canoas remadas para navegar entre nenúfares gigantes. Observaremos monos aulladores y capuchinos, caimanes blancos y negros, tortugas acuáticas, garzas, martines pescadores y, con suerte, la nutria gigante de río. Almuerzo tipo picnic en la orilla del lago. Por la tarde, retorno al lodge. Cena y caminata nocturna opcional para observar insectos y anfibios.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        },
+        {
+          "titulo_dia": "Última Caminata - Retorno",
+          "descripcion_dia": "Caminata matutina por los alrededores del lodge para observar las primeras actividades de la fauna local. Desayuno de despedida y check-out. Navegación de retorno a Puerto Maldonado por el río Madre de Dios, con una última oportunidad de observar fauna ribereña. Traslado al aeropuerto para abordar su vuelo de retorno. Fin de nuestra aventura amazónica.",
+          "fotos_dia": [
+            "/images/100x800.jpg"
+          ]
+        }
+      ],
+      "resumen": "<p>Perú es el segundo país con más especies de aves del mundo. Este tour está diseñado para birdwatchers de todos los niveles.</p>",
+      "imagen1": "/images/img-banner.jpeg",
+      "imagne2": "/images/img-banner.jpeg",
+      "incluye": "<ul><li>3 noches en lodge</li><li>Guía especializado en aves</li><li>Alimentación completa</li><li>Todas las excursiones</li><li>Binoculares (si no trae)</li></ul>",
+      "no_incluye": "<ul><li>Vuelos</li><li>Seguro</li><li>Gastos personales</li></ul>",
+      "faq": "<p><strong>¿Cuántas especies se pueden ver?</strong> En Tambopata se han registrado más de 600 especies.</p>",
+      "descripcion": "<p>Llevar binoculares, guía de aves, repelente y ropa de colores neutros.</p>",
+      "banners": [
+        "/images/1920x800.webp"
+      ],
+      "precio": "480",
+      "precio_anterior": "",
+      "pago_100": false,
+      "precios_resumen": "<p>Precio por persona. Grupos pequeños (máx 6 personas).</p>"
     }
   }
 ]

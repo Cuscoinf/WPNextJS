@@ -11,9 +11,12 @@
 @use "components/itinerary";
 @use "components/category";
 @use "components/forms";
+//buttons, animations, utilities, sections, why-choose-us are already included in the base.scss file
 @use "components/buttons";
 @use "components/animations";
 @use "components/utilities";
+@use "components/sections";
+@use "components/why-choose-us";
 
 // 2º Bootstrap con @import (toma las variables de @use de arriba)
 @import "bootstrap/scss/bootstrap";

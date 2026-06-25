@@ -1,25 +1,49 @@
 @use "sass:color";
 
-$primary-color:   #03602c;
-$secondary-color: #e18c01;
+// ─── COLORES ───────────────────────────────────
+$primary-color:   #063C23;
+$secondary-color: #EDBC5F;
 
-
-$success:   #28a745;
-$warning:   #ffc107;
-$dark:      #1a1a2e;
-$light:     #f8f9fa;
+$success:         #28a745;
+$warning:         #ffc107;
+$dark:            #1a1a2e;
+$light:           #f8f9fa;
 
 // ─── TIPOGRAFÍA ─────────────────────────────────
-$font-title: var(--font-title), serif;
-$font-body: var(--font-body), sans-serif;
+$font-title: var(--font-title), serif;        // Playfair Display (títulos)
+$font-body:  var(--font-body), sans-serif;    // Montserrat (contenido)
+
 // ─── TAMAÑOS ───────────────────────────────────
 $border-radius: 0.5rem;
 
+// ─── TRANSICIONES ──────────────────────────────
+$transition-base: 0.3s ease;
+
 // ─── ESTILOS BASE ──────────────────────────────
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
+  font-family: $font-body;           // ← Ahora usa font-body
+  color: $dark;
+  background-color: $light;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
   font-family: $font-title;
+  font-weight: 700;
 }
 
 a {
   text-decoration: none;
+  color: inherit;
+  transition: color $transition-base;
 }

@@ -1,0 +1,35 @@
+.why-choose-us {
+  background: linear-gradient(135deg, #0b6635 0%, #0a4f28 50%, #083d1f 100%);
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #f5a623, #e47504, #f5a623);
+  }
+
+  .why-icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: #f5a623;
+    transition: all 0.3s ease;
+  }
+
+  .col-md-6,
+  .col-lg-4 {
+    &:hover {
+      .why-icon {
+        background: rgba(255, 255, 255, 0.2);
+        border-color: #f5a623;
+        transform: scale(1.05);
+      }
+    }
+  }
+}

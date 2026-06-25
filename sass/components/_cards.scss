@@ -1,34 +1,166 @@
-// ─── CARDS ──────────────────────────────────────
+@use "base" as *;
+
 .tour-card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #fff;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, .08);
+  transition: .35s ease;
 
   &:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .12);
+
+    .tour-card__image {
+      transform: scale(1.05);
+    }
   }
+
+  &__image-wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .6s ease;
+  }
+
+  &__badges {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  &__badge {
+    padding: 7px 12px;
+    border-radius: 8px;
+    font-size: .8rem;
+    font-weight: 600;
+    width: fit-content;
+  }
+
+  .badge-primary {
+    background: $primary-color;
+  }
+
+  .badge-secondary {
+    background: $secondary-color;
+  }
+
+  &__content {
+    padding: 22px;
+  }
+
+  &__title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 15px;
+    line-height: 1.3;
+  }
+
+  &__meta {
+    color: #666;
+    font-size: .95rem;
+  }
+
+  &__footer {
+    small {
+      font-size: .8rem;
+    }
+  }
+
+  &__price {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0d5c3b;
+  }
+
+
+
+
 }
 
 .category-card {
-  position: relative;
-  overflow: hidden;
-  border-radius: 12px;
+  background: white;
+  border-radius: $border-radius;
+  overflow: visible;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: transform $transition-base;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 
-  img {
-    transition: transform 0.4s ease;
+  &:hover {
+    transform: translateY(-5px);
   }
 
-  &:hover img {
-    transform: scale(1.1);
+  &__image-wrapper {
+    height: 180px;
+    overflow: hidden;
   }
 
-  .category-overlay {
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__content {
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    padding-top: 2.5rem;
+    flex-grow: 1;
+  }
+
+  &__icon {
     position: absolute;
-    inset: 0;
-    background: linear-gradient(transparent 40%, rgba(0, 0, 0, 0.8));
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    background: $secondary-color;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    border: 4px solid white;
   }
-}
 
-.card-img-top {
-  height: 220px;
-  object-fit: cover;
+  &__title {
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+    color: $primary-color;
+    font-family: $font-title;
+  }
+
+  &__description {
+    display: none;
+  }
+
+  &__count {
+    font-size: 0.8rem;
+    color: #888;
+    margin-bottom: 1rem;
+  }
+
+  &__button {
+    color: $primary-color;
+    font-weight: 600;
+    font-size: 0.85rem;
+    border-bottom: 2px solid $primary-color;
+    padding-bottom: 1px;
+    display: inline-block;
+  }
 }

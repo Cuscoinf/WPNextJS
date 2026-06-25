@@ -7,29 +7,53 @@ interface Props {
   categories: Category[]
 }
 
-export default function CategoriesGrid({ seccion, categories }: Props) {
+export default function CategoriesGrid({
+  seccion,
+  categories,
+}: Props) {
   if (categories.length === 0) return null
 
   return (
-    <section className="py-5 bg-light">
+    <section className="featured-tours py-5">
       <div className="container">
-        <div className="text-center mb-5">
-          {seccion.etiqueta_seccion && (
-            <span className="badge bg-primary mb-2 px-3 py-2">{seccion.etiqueta_seccion}</span>
-          )}
-          <h2 className="fw-bold">{seccion.titulo_seccion}</h2>
+
+        <div className="section-header">
+
+
+          <h2 className="section-header__title">
+            {seccion.titulo_seccion}
+          </h2>
+
           {seccion.descripcion_seccion && (
-            <p className="text-muted mx-auto" style={{ maxWidth: 600 }}
-              dangerouslySetInnerHTML={{ __html: seccion.descripcion_seccion }} />
+            <div
+              className="section-header__description"
+              dangerouslySetInnerHTML={{
+                __html: seccion.descripcion_seccion,
+              }}
+            />
           )}
+
+          <div className="section-header__divider">
+            <span></span>
+            <i className="bi bi-triangle-fill"></i>
+            <span></span>
+          </div>
+
         </div>
+
         <div className="row g-4">
-          {categories.map(cat => (
-            <div className="col-md-6" key={cat.id}>
+
+          {categories.map((cat) => (
+            <div
+              className="container col-lg-2 col-md-4 col-sm-6 col-12"
+              key={cat.id}
+            >
               <CategoryCard category={cat} />
             </div>
           ))}
+
         </div>
+
       </div>
     </section>
   )

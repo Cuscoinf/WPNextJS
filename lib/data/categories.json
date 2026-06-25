@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "name": "PERU TRAVEL PACKAGES",
-    "slug": "peru-travel-packages",
-    "count": 2,
+    "name": "PERU PACKAGES",
+    "slug": "peru-packages",
+    "count": 4,
     "acf": {
       "carril": true,
-      "titulo_categoria": "Tours de Aventura",
+      "titulo_categoria": "Peru Travel Packages",
       "informacion": "<p>Descubre los tours de aventura más emocionantes del Perú. Caminatas, montañas, y experiencias únicas en los Andes peruanos.</p>",
       "titulo_atractivos": "Atractivos destacados",
       "atractivos": [
@@ -19,7 +19,7 @@
           "contenido_atractivo": "<p>La Montaña de 7 Colores, un fenómeno natural único donde los minerales crean un paisaje multicolor espectacular.</p>"
         }
       ],
-      "banner": ["/images/categorias/banner-aventura.jpg"],
+      "banner": ["/images/bannerhome.jpg"],
       "fotos": ["/images/categorias/aventura-1.jpg", "/images/categorias/aventura-2.jpg"],
       "faqs": [1, 3]
     }
@@ -27,11 +27,11 @@
   {
     "id": 2,
     "name": "MACHU PICCHU TOURS",
-    "slug": "machu-picchu-tour-packages",
-    "count": 2,
+    "slug": "machu-picchu-tour",
+    "count": 5,
     "acf": {
       "carril": true,
-      "titulo_categoria": "Tours Culturales",
+      "titulo_categoria": "Machu Picchu Tours",
       "informacion": "Sumérgete en la rica historia y cultura del Perú. Desde el Valle Sagrado hasta el Lago Titicaca.",
       "titulo_atractivos": "Atractivos culturales",
       "atractivos": [
@@ -51,12 +51,12 @@
   },
   {
     "id": 3,
-    "name": "CUSCO PACKAGES",
-    "slug": "cusco-tour-packages",
-    "count": 0,
+    "name": "CUSCO",
+    "slug": "cusco",
+    "count": 4,
     "acf": {
-      "carril": false,
-      "titulo_categoria": "Tours de Naturaleza",
+      "carril": true,
+      "titulo_categoria": "Cusco Tour Packages",
       "informacion": "Conecta con la naturaleza en los destinos más impresionantes del Perú.",
       "titulo_atractivos": "Atractivos naturales",
       "atractivos": [
@@ -72,12 +72,12 @@
   },
   {
     "id": 4,
-    "name": "TREKKING & ADVENTURE",
-    "slug": "adventure-tours-peru",
-    "count": 5,
+    "name": "TREKKING",
+    "slug": "trekking",
+    "count": 6,
     "acf": {
       "carril": true,
-      "titulo_categoria": "Caminatas y Trekking",
+      "titulo_categoria": "Trekking & Adventure",
       "informacion": "<p>Rutas de senderismo desafiantes por antiguos caminos incas y cordilleras imponentes.</p>",
       "titulo_atractivos": "Rutas legendarias",
       "atractivos": [
@@ -98,11 +98,11 @@
   {
     "id": 5,
     "name": "AMAZON TOURS",
-    "slug": "gastronomia",
-    "count": 1,
+    "slug": "amazon-tours",
+    "count": 4,
     "acf": {
-      "carril": false,
-      "titulo_categoria": "Experiencias Gastronómicas",
+      "carril": true,
+      "titulo_categoria": "Amazon Tours",
       "informacion": "Explora los sabores e ingredientes nativos de una de las mejores cocinas del mundo.",
       "titulo_atractivos": "Experiencias culinarias",
       "atractivos": [
@@ -115,26 +115,7 @@
       "fotos": ["/images/categorias/gastronomia-1.jpg"],
       "faqs": [7]
     }
-  },
-{
-  "id": 6,
-  "name": "DESTINATIONS",
-  "slug": "destinations",
-  "acf": {
-    "carril": true,
-    "subcategorias": [
-      { "name": "Cusco", "slug": "cusco" },
-      { "name": "Machu Picchu", "slug": "machu-picchu" },
-      { "name": "Lima", "slug": "lima" },
-      { "name": "Arequipa", "slug": "arequipa" },
-      { "name": "Puno", "slug": "puno" },
-      { "name": "Lake Titicaca", "slug": "lake-titicaca" },
-      { "name": "Tambopata", "slug": "tambopata" },
-      { "name": "Manu", "slug": "manu" }
-    ],
-    "banner": ["/images/categorias/banner-destinations.jpg"],
-    "fotos": []
   }
-}
+
 
 ]

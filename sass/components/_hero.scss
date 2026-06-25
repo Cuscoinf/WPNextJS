@@ -3,7 +3,7 @@
 // HERO - HOME
 .home-hero {
   position: relative;
-  min-height: 80vh;
+  min-height: 90vh;
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -26,7 +26,15 @@
   .label-tag {
     color: $primary-color;
     font-weight: 700;
+    font-family: $font-title;
     letter-spacing: 1px;
+  }
+  .hero-title {
+    font-family: $font-title;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
   }
 
   // Tarjeta form

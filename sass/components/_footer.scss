@@ -1,7 +1,50 @@
 // ─── FOOTER ─────────────────────────────────────
 @use "base" as *;
 
-footer {
-  background: $dark;
-  color: rgba(255, 255, 255, 0.8);
+.footer {
+  background-color: $primary-color;
+  color: #fff;
+
+  .fs-14 {
+    font-size: 0.875rem;
+  }
+
+  &__logo {
+    max-width: 120px;
+    width: 200px;
+    height: 100px;
+  }
+
+  &__social {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid $secondary-color;
+    border-radius: 50%;
+    color: $secondary-color;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: $secondary-color;
+      color: $primary-color;
+      text-decoration: none;
+    }
+  }
+
+  &__link {
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: $secondary-color !important;
+    }
+  }
+
+  &__payments {
+    span {
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+  }
 }

@@ -2,7 +2,7 @@
 
 export default function TripPlannerForm() {
   return (
-    <div className="hero-form-card w-100" style={{maxWidth: '380px'}}>
+    <div className="hero-form-card my-6 w-100" style={{maxWidth: '380px'}}>
       <div className="p-5">
         <h3 className="fs-5 fw-bold mb-1">Planear Su Viaje</h3>
         <p className="text-muted small mb-4">Obtenga una cotización personalizada</p>

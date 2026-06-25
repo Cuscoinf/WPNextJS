@@ -7,10 +7,10 @@
       "sliders": [
         {
           "imagen_o_banner": "/images/bannerhome.jpg",
-          "etiqueta_sliders": "Discubre Perú",
-          "titulo_slider": "Descubre el Perú Auténtico",
-          "descripcion_slider": "Vive experiencias únicas en los destinos más impresionantes del Perú. Tours personalizados, guías expertos y recuerdos inolvidables.",
-          "boton_slider": "explorar Tours",
+          "etiqueta_sliders": "Peru Travel Packages",
+          "titulo_slider": "Machu Picchu Tours",
+          "descripcion_slider": "Authentic Peru Experiences Designed by Local Experts in Cusco",
+          "boton_slider": "Explore Tours",
           "link_slider": "/tours"
         },
         {
@@ -32,28 +32,28 @@
       ],
       "secciones": [
         {
-          "titulo_seccion": "Tours Destacados",
-          "etiqueta_seccion": "Lo más popular",
-          "descripcion_seccion": "<p>Seleccionamos los mejores tours para ti. Vive experiencias inolvidables.</p>",
+          "titulo_seccion": "Most Popular Peru Packages",
+          "etiqueta_seccion": "Top Destinations",
+          "descripcion_seccion": "<p>Discover our most booked tours. Handpicked experiences that our travelers love the most.</p>",
           "imagen_seccion": "/images/secciones/destacados.jpg",
-          "tours_seccion": [1, 2, 3],
+          "tours_seccion": [1, 2, 4, 7, 16, 20],
           "categorias_seccion": []
         },
         {
-          "titulo_seccion": "Categorías",
-          "etiqueta_seccion": "Explora",
-          "descripcion_seccion": "<p>Encuentra el tour perfecto según tus intereses.</p>",
+          "titulo_seccion": "Explore Peru By Travel Style",
+          "etiqueta_seccion": "Travel Styles",
+          "descripcion_seccion": "<p>Find the perfect tour based on your travel interests.</p>",
           "imagen_seccion": "/images/secciones/categorias.jpg",
           "tours_seccion": [],
-          "categorias_seccion": [1, 2]
+          "categorias_seccion": [1, 2, 3, 4, 5]
         }
       ]
     }
   },
   {
     "id": 2,
-    "title": "Nosotros",
-    "slug": "nosotros",
+    "title": "About Us",
+    "slug": "about-us",
     "content": "<p>Somos una agencia de viajes peruana con más de 10 años de experiencia ofreciendo experiencias únicas a viajeros de todo el mundo.</p><p>Nuestra misión es mostrar la riqueza cultural, histórica y natural del Perú a través de tours cuidadosamente diseñados.</p>",
     "acf": {
       "accordion": {
@@ -107,8 +107,8 @@
   },
   {
     "id": 3,
-    "title": "Contacto",
-    "slug": "contacto",
+    "title": "Contact",
+    "slug": "contact-us",
     "content": "<p>Estamos ubicados en Cusco, Perú. Contáctanos para cualquier consulta.</p>",
     "acf": {}
   }
