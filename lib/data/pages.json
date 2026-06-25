@@ -19,7 +19,7 @@
           "titulo_slider": "Machu Picchu Te Espera",
           "descripcion_slider": "<p>La maravilla del mundo que cambió la historia. Vive la experiencia de caminar por la ciudadela inca.</p>",
           "boton_slider": "Reservar Ahora",
-          "link_slider": "/tours/machu-picchu-clasico"
+          "link_slider": "/machu-picchu-clasico"
         },
         {
           "imagen_o_banner": "/images/sliders/slider-3.jpg",
@@ -27,7 +27,7 @@
           "titulo_slider": "Valle Sagrado de los Incas",
           "descripcion_slider": "<p>Recorre los valles y montañas que fueron el corazón del Imperio Incaico.</p>",
           "boton_slider": "Ver Tour",
-          "link_slider": "/tours/valle-sagrado-full-day"
+          "link_slider": "/valle-sagrado-full-day"
         }
       ],
       "secciones": [
