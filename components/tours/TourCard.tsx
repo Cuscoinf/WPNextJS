@@ -64,7 +64,7 @@ export default function TourCard({ tour }: Props) {
           </div>
 
           <Link
-            href={`/tours/${tour.slug}`}
+            href={`/${tour.slug}`}
             className="button-tour text-white d-inline-flex align-items-center gap-2"
           >
             Ver Tour <ArrowRight size={16} />

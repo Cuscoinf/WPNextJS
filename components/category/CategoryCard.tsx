@@ -28,7 +28,7 @@ export default function CategoryCard({ category }: Props) {
 
   return (
     <Link
-      href={`/category/${category.slug}`}
+      href={`/${category.slug}`}
       className="text-decoration-none"
     >
       <article className="category-card">

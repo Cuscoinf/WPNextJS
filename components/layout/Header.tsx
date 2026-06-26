@@ -70,7 +70,7 @@ export default function Header() {
                 const categoryName = category.name || category.acf?.titulo_categoria;
                 return (
                   <li className="nav-item" key={category.id || categorySlug}>
-                    <Link className="nav-link text-dark py-3" href={`/category/${categorySlug}`}>
+                    <Link className="nav-link text-dark py-3" href={`/${categorySlug}`}>
                       {categoryName}
                     </Link>
                   </li>
