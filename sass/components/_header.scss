@@ -12,7 +12,7 @@ header {
 
 /* LOGO */
 .header-logo-img {
-  height: 120px;
+  height: 100px;
   width: auto;
   object-fit: contain;
   transition: transform 0.3s ease;
@@ -23,18 +23,32 @@ header {
 }
 
 /* NAVBAR */
-.navbar {
-  background: transparent;
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  align-items: center;
+  gap:30px;
+  width: 100%;
 
 .nav-link {
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
 
   &:hover,
   &.active {
     color: $secondary-color; 
+  }
+  @media (max-width: 1740px) {
+    font-size: 15px;
+    padding: 0 12px; 
+  }
+
+  @media (max-width: 1500px) {
+    font-size: 14px;
+    padding: 0 10px;
   }
 }
 

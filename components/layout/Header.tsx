@@ -50,9 +50,8 @@ export default function Header() {
   </div>
 </div>
 
-      {/* ─── NAVBAR ─── */}
 {/* ─── NAVBAR ─── */}
-  <nav className="navbar navbar-expand-xl navbar-light w-100 p-0">
+  <nav className="navbar-nav navbar-expand-xxl navbar-light w-100 p-0">
     <div className="container-fluid px-4 px-md-5 d-flex align-items-center justify-content-between">
       <Link className="navbar-brand d-flex align-items-center py-2" href="/">
         <img
@@ -71,7 +70,7 @@ export default function Header() {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span className="navbar-toggler-icon" />
+        <span className="navbar-toggler-icon bg-white" />
       </button>
 
       <div className="collapse navbar-collapse" id="mainNav">
@@ -97,16 +96,18 @@ export default function Header() {
                 </Link>
               </li>
             ))}
-        </ul>
-
-        <div className="d-flex align-items-xl-center align-items-start flex-column flex-xl-row gap-3 ms-xl-4 py-3 py-xl-0">
-          <Link
+          <li className="nav-item">
+           <Link
             href="/planear-viaje"
-            className="btn text-white text-uppercase fw-bold d-inline-flex align-items-center justify-content-center"
-            style={{ backgroundColor: "#0b6635", fontSize: "17px", padding: "10px 22px", borderRadius: "5px", letterSpacing: "0.5px" }}
+            className="btn bg-page-page-alt text-white text-uppercase fw-bold d-inline-flex align-items-center"
           >
             Plan Your Trip
           </Link>
+          </li>
+        </ul>
+
+        <div className="d-flex align-items-xl-center align-items-start flex-column flex-xl-row gap-3 ms-xl-4 py-3 py-xl-0">
+
 
           <div className="dropdown">
             <button
@@ -131,10 +132,7 @@ export default function Header() {
             className="d-inline-flex align-items-center p-1 whatsapp-icon"
             title="Contacto de WhatsApp"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none">
-              <path d="M12.004 2C6.48 2 2 6.48 2 12.004c0 1.764.457 3.424 1.258 4.874L2 22l5.253-1.378a9.96 9.96 0 0 0 4.751 1.2c5.523 0 10.003-4.48 10.003-10.004C22.007 6.48 17.527 2 12.004 2z" fill="#25D366"/>
-              <path d="M12.004 3.61c-4.63 0-8.394 3.764-8.394 8.394 0 1.603.45 3.12 1.242 4.453l.135.228-.737 2.686 2.753-.722.22.13a8.358 8.358 0 0 0 4.78 1.48c4.63 0 8.394-3.763 8.394-8.393 0-4.63-3.764-8.394-8.394-8.394zm4.887 11.233c-.201.564-1.002 1.055-1.572 1.13-.51.067-1.176.082-2.316-.395-2.023-.846-3.31-2.924-3.411-3.059-.101-.135-.82-.135-.82-.135-.82-.135-.82-.135-.82-.135l.285-.4c.15-.21.201-.338.302-.564.101-.225.05-.423-.025-.564-.075-.141-.671-1.614-.919-2.215-.24-.582-.487-.503-.672-.512h-.57c-.202 0-.529.075-.806.376-.277.3-.1.15-.1.15s-1.058 1.036-1.058 2.528c0 1.492 1.085 2.935 1.236 3.136.15.201 2.135 3.26 5.172 4.57 2.533 1.092 3.424.873 4.028.813.73-.072 1.571-.64 1.792-1.223.22-.583.22-1.083.155-1.189-.064-.105-.24-.165-.515-.301z" fill="#FFF"/>
-            </svg>
+         <img src="/images/whatsapp.png" alt="whastsapp" />
           </a>
         </div>
       </div>
