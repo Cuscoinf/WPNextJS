@@ -18,43 +18,42 @@
 
 // Botón verde sólido del hero home
 .btn-explore {
-  padding: 12px 28px;
+  padding: 15px 30px;
   border-radius: 4px;
   font-weight: 600;
   text-transform: uppercase;
   text-decoration: none !important;
-  background-color:$primary-color;
+  background-color:$primary-color-light;
   color: #ffffff;
-  border: 2px solid #0d5c34;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
   transition: 0.3s;
 
   &:hover {
-    background-color: darken(#0d5c34, 10%);
-    border-color: darken(#0d5c34, 10%);
+    background-color: $primary-color;
+    color: white;
   }
 }
 
 // Botón transparente con borde hero home
 .btn-custom {
-  padding: 12px 28px;
+  padding: 15px 30px; 
   border-radius: 4px;
   font-weight: 600;
   text-decoration: none !important;
   text-transform: uppercase;
   background-color: transparent;
   color: #ffffff;
-  border: 2px solid #ffffff; // Borde blanco
+  border: 2px solid white;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
   transition: 0.3s;
 
   &:hover {
-    background-color: #ffffff;
-    color: #0d5c34;
+    background-color: white;
+    color: $primary-color-light;
   }
 }
 

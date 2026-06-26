@@ -4,6 +4,7 @@
 // bg color utilities
 .bg-page {
   background-color: $primary-color  !important
+
 }
 
 .bg-page-alt {
@@ -13,14 +14,26 @@
 // Color utilities - use with Bootstrap's text/bg classes
 .text-page {
   color: $primary-color !important;
+  font-family: $font-title !important;
 }
 
 .text-page-alt {
   color: $secondary-color !important;
+  font-family: $font-title !important;
+}
+
+.text-page-light {
+  color: $primary-color-light !important;
+  font-family: $font-title !important;
 }
 
 
 //tipografia utilities
 .font-page {
   font-family: $font-title !important;
+}
+//altura utilities
+
+.h-80 {
+  height: 85vh !important;
 }

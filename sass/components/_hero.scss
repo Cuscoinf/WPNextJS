@@ -1,89 +1,13 @@
 @use "base" as *;
+//heor iconos 
+.feature-icon{
+  background: transparent;
+  color:$primary-color;
 
-// HERO - HOME
-.home-hero {
-  position: relative;
-  min-height: 90vh;
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-
-  // Solo overlay, nada más
-  .hero-overlay {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(135deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.1) 100%);
-    z-index: 1;
-  }
-
-  // Contenedor de contenido
-  .hero-content {
-    position: relative;
-    z-index: 2;
-  }
-
-  // Label verde
-  .label-tag {
-    color: $primary-color;
-    font-weight: 700;
-    font-family: $font-title;
-    letter-spacing: 1px;
-  }
-  .hero-title {
-    font-family: $font-title;
-    font-size: 3rem;
-    font-weight: 700;
-    color: #fff;
-    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
-  }
-
-  // Tarjeta form
-  .hero-form-card {
-    background: #fff;
-    width: 400px;
-    border-radius: 8px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-
-    input, textarea {
-      border: 1px solid #ddd;
-      border-radius: 4px;
-      font-size: 13px;
-
-      &:focus {
-        border-color: #036a2e;
-        box-shadow: 0 0 0 2px rgba(3,106,46,0.1);
-      }
-    }
-  }
-
-  // Features bar - overlay blanco suave
-  .hero-features-bar {
-    width: 1200px;
-    background: rgba(255,255,255,0.92);
-    border-radius: 20px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-    backdrop-filter: blur(10px);
-
-    .feature-icon {
-      width: 56px;
-      height: 56px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: transparent;
-      border: 2px solid #036a2e;
-      border-radius: 50%;
-      flex-shrink: 0;
-
-      svg {
-        stroke: #036a2e;
-        width: 28px;
-        height: 28px;
-        stroke-width: 1.5;
-      }
-    }
-  }
 }
+
+ 
+
 // HERO DE PÀGE TOURS
 .hero-container {
   border-radius: 25px; // Esto redondea las esquinas de la sección
