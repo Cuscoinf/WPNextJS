@@ -51,10 +51,6 @@ export default function CategoryCard({ category }: Props) {
             {category.name}
           </h3>
 
-          <div className="category-card__count">
-            {category.count} Tours Disponibles
-          </div>
-
           {acf.informacion && (
             <div
               className="category-card__description"
