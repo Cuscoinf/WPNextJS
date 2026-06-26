@@ -1,61 +1,70 @@
-import { Award, MapPin, PenTool, ShieldCheck, Users, HeadphonesIcon } from "lucide-react";
+import { Award, MapPin, PenTool, ShieldCheck, Users, Headphones } from "lucide-react";
 
 const features = [
   {
-    icon: <Award size={48} strokeWidth={1.5} />,
+    icon: <Award size={36} strokeWidth={1.5} />,
     title: "10+ Years Experience",
     desc: "Over a decade of creating unforgettable travel experiences across Peru.",
   },
   {
-    icon: <MapPin size={48} strokeWidth={1.5} />,
+    icon: <MapPin size={36} strokeWidth={1.5} />,
     title: "Local Tour Operator Based in Cusco",
     desc: "We are locals. We know every corner, every trail, and every hidden gem of our country.",
   },
   {
-    icon: <PenTool size={48} strokeWidth={1.5} />,
+    icon: <PenTool size={36} strokeWidth={1.5} />,
     title: "Tailor-Made Travel Specialists",
     desc: "Every trip is unique. We design custom itineraries that match your interests and budget.",
   },
   {
-    icon: <ShieldCheck size={48} strokeWidth={1.5} />,
+    icon: <ShieldCheck size={36} strokeWidth={1.5} />,
     title: "Secure Online Booking",
     desc: "Book with confidence. Our platform uses SSL encryption for 100% secure transactions.",
   },
   {
-    icon: <Users size={48} strokeWidth={1.5} />,
+    icon: <Users size={36} strokeWidth={1.5} />,
     title: "Expert Local Guides",
     desc: "Our guides are certified, bilingual, and passionate about sharing Peruvian culture.",
   },
   {
-    icon: <HeadphonesIcon size={48} strokeWidth={1.5} />,
+    icon: <Headphones size={36} strokeWidth={1.5} />,
     title: "24/7 Travel Support",
     desc: "We are always here for you. Assistance available before, during, and after your trip.",
   },
 ];
 
 export default function WhyChooseUs() {
+  // CAPA 1: section — acá vive el fondo fijo (parallax)
   return (
     <section className="why-choose-us py-5">
+
+      {/* CAPA 2: container — limita y centra el contenido por encima del fondo */}
       <div className="container py-4">
+
+        {/* CAPA 3: encabezado */}
         <div className="text-center mb-5">
-          <h2 className="fw-bold text-white">Why Choose PeruMagic Travel</h2>
-          <p className="text-white-50 mx-auto" style={{ maxWidth: 600 }}>
+          <h2 className="fw-bold text-white">Why Choose Peru Magic Travel</h2>
+          <p className="text-white mx-auto" style={{ maxWidth: 600 }}>
             We are committed to providing the highest quality travel experiences in Peru.
           </p>
         </div>
+
+        {/* CAPA 4: row */}
         <div className="row g-4">
           {features.map((f, i) => (
+            // CAPA 5: col
             <div className="col-md-6 col-lg-4" key={i}>
-              <div className="d-flex flex-column align-items-center text-center p-4">
+              <div className="why-card d-flex flex-column align-items-center text-center p-4 h-100">
                 <div className="why-icon mb-3 d-flex align-items-center justify-content-center">
                   {f.icon}
                 </div>
-                <h5 className="fw-bold text-white mb-2">{f.title}</h5>
-                <p className="text-white-50 small mb-0">{f.desc}</p>
+                <h5 className="fw-bold mb-2" style={{ color: "#0b3d2e" }}>{f.title}</h5>
+                <p className="text-secondary small mb-0">{f.desc}</p>
               </div>
             </div>
           ))}
         </div>
+
       </div>
     </section>
   );

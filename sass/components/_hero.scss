@@ -1,11 +1,21 @@
 @use "base" as *;
+//hero overlay
+.hero-home-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; 
+  background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.1) 60%, transparent 100%);
+}
 //heor iconos 
 .feature-icon{
   background: transparent;
   color:$primary-color;
 
 }
-
+//=================//
  
 
 // HERO DE PÀGE TOURS

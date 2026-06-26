@@ -1,5 +1,5 @@
-
 import Link from "next/link"
+import { Globe2, Landmark, Building2, Footprints, Trees, Compass } from "lucide-react"
 import type { Category } from "@/lib/types"
 
 interface Props {
@@ -11,58 +11,55 @@ export default function CategoryCard({ category }: Props) {
 
   const image =
     acf.banner?.[0] ||
-    `https://placehold.co/800x600?text=${encodeURIComponent(
-      category.name
-    )}`
+    `https://placehold.co/800x600?text=${encodeURIComponent(category.name)}`
 
-  const iconMap: Record<string, string> = {
-    "peru-packages": "bi-globe-americas",
-    "machu-picchu-tours": "bi-bank",
-    "cusco-tours": "bi-buildings",
-    trekking: "bi-person-walking",
-    "amazon-tours": "bi-tree",
+  const iconMap: Record<string, React.ElementType> = {
+    "peru-packages": Globe2,
+    "machu-picchu-tours": Landmark,
+    "cusco-tours": Building2,
+    trekking: Footprints,
+    "amazon-tours": Trees,
   }
 
-  const icon =
-    iconMap[category.slug] || "bi-compass"
+  const Icon = iconMap[category.slug] || Compass
+  const isGreen = category.id % 2 === 0
 
   return (
-    <Link
-      href={`/${category.slug}`}
-      className="text-decoration-none"
-    >
-      <article className="category-card">
+    <Link href={`/${category.slug}`} className="text-decoration-none">
+      <article className="card-categ h-100 text-center overflow-hidden">
 
-        <div className="category-card__image-wrapper">
+        <div className="position-relative">
           <img
             src={image}
             alt={category.name}
-            className="category-card__image"
+            className="w-100"
+            style={{ height: "180px", objectFit: "cover" }}
           />
         </div>
 
-        <div className="category-card__content">
+        <div className="card-categ__body d-flex flex-column">
 
-          <div className="category-card__icon">
-            <i className={`bi ${icon}`}></i>
+          <div
+            className={`card-categ__icon rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3 ${isGreen ? "card-categ__icon--green" : "card-categ__icon--gold"}`}
+          >
+            <Icon size={24} color="#fff" />
           </div>
 
-          <h3 className="category-card__title">
+          <h3 className="text-page-page fs-5 fw-bold mb-2">
             {category.name}
           </h3>
 
-          {acf.informacion && (
-            <div
-              className="category-card__description"
-              dangerouslySetInnerHTML={{
-                __html: acf.informacion,
-              }}
-            />
-          )}
+     {acf.informacion && (
+  <div className="text-page-page small mb-3">
+    {acf.informacion.replace(/<[^>]*>/g, "").slice(0, 60)}...
+  </div>
+)}
 
-          <span className="category-card__button">
-            Ver Tours →
-          </span>
+          <div className="mt-auto">
+            <span className={`fw-bold small btn-explore ${isGreen ? "card-categ__link--green" : "card-categ__link--gold"}`}>
+              Ver Tours →
+            </span>
+          </div>
 
         </div>
 
@@ -70,4 +67,3 @@ export default function CategoryCard({ category }: Props) {
     </Link>
   )
 }
-

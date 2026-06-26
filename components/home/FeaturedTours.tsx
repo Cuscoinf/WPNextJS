@@ -7,52 +7,34 @@ interface Props {
   tours: Tour[]
 }
 
-export default function FeaturedTours({
-  seccion,
-  tours,
-}: Props) {
+export default function FeaturedTours({ seccion, tours }: Props) {
   if (tours.length === 0) return null
 
   return (
-    <section className="featured-tours py-5">
-      <div className="container">
+    <section className="py-5">
+      <div className="container-fluid px-4 px-md-5 bg-page-light">
 
-        <div className="section-header">
-
-          <h2 className="section-header__title">
+        <div className="text-center mx-auto py-4">
+          <h2 className="fw-bold mb-0" style={{ color: "#0b6635" }}>
             {seccion.titulo_seccion}
           </h2>
 
           {seccion.descripcion_seccion && (
             <div
-              className="section-header__description"
-              dangerouslySetInnerHTML={{
-                __html: seccion.descripcion_seccion,
-              }}
+              className="text-black mb-4 pt-3"
+              dangerouslySetInnerHTML={{ __html: seccion.descripcion_seccion }}
             />
           )}
-
-          <div className="section-header__divider">
-            <span></span>
-
-            <i className="bi bi-triangle-fill"></i>
-
-            <span></span>
-          </div>
-
         </div>
-
-        <div className="row g-4">
-
+    <div className="container">
+        <div className="row g-4 py-5">
           {tours.map((tour) => (
-            <div
-              key={tour.id}
-              className="col-lg-4 col-md-6"
-            >
+            <div key={tour.id} className="col-12 col-md-6 col-lg-4">
               <TourCard tour={tour} />
             </div>
           ))}
 
+        </div>
         </div>
 
       </div>

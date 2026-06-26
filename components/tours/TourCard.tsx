@@ -10,55 +10,58 @@ export default function TourCard({ tour }: Props) {
   const { acf } = tour
 
   return (
-    <article className="tour-card h-100 d-flex flex-column">
-      <div className="tour-card__image-wrapper">
+    <article className="card h-100 border-0 shadow-sm overflow-hidden">
+
+      {/* CAPA: imagen + badges superpuestos */}
+      <div className="position-relative">
         <img
           src={
             tour.featuredImage ||
-            `https://placehold.co/800x500?text=${encodeURIComponent(
-              tour.title
-            )}`
+            `https://placehold.co/800x500?text=${encodeURIComponent(tour.title)}`
           }
           alt={tour.title}
-          className="tour-card__image"
+          className="w-100"
+          style={{ height: "220px", objectFit: "cover" }}
         />
 
-        <div className="tour-card__badges text-white d-flex flex-column gap-2 position-absolute top-0 start-0 p-3">
+        <div className="position-absolute top-0 start-0 p-3 d-flex flex-column gap-2">
           {acf.etiqueta_1 && (
-            <span className="tour-card__badge badge-primary">
+            <span className="badge text-white" style={{ backgroundColor: "#0b6635" }}>
               {acf.altura}
             </span>
           )}
 
           {acf.etiqueta_2 && (
-            <span className="tour-card__badge badge-secondary">
+            <span className="badge text-white" style={{ backgroundColor: "#b8860b" }}>
               {acf.tipo_viaje}
             </span>
           )}
         </div>
       </div>
 
-      <div className="tour-card__content d-flex flex-column flex-grow-1">
-        <h3 className="tour-card__title">
+      {/* CAPA: contenido de texto */}
+      <div className="card-body d-flex flex-column">
+
+        <h3 className="card-title fs-5 fw-bold mb-3">
           {tour.title}
         </h3>
 
-        <div className="tour-card__meta d-flex gap-3 mb-3">
+        <div className="d-flex gap-3 mb-3 text-secondary small">
           <span className="d-flex align-items-center gap-2">
-            <Clock size={16} className="text-page fw-bold" />
+            <Clock size={20} style={{ color: "#129951" }} />
             {acf.dias}
           </span>
 
           <span className="d-flex align-items-center gap-2">
-            <Users size={16} className="text-page fw-bold" />
+            <Users size={20} style={{ color: "#129951" }} />
             {acf.dificultad}
           </span>
         </div>
 
-        <div className="tour-card__footer d-flex justify-content-between align-items-center mt-auto">
+        <div className="d-flex justify-content-between align-items-center mt-auto">
           <div>
-            <small className="text-muted">Desde</small>
-            <div className="tour-card__price">
+            <small className="text-muted fw-bold">Desde</small>
+            <div className="fw-bold fs-3" style={{ color: "#0b6635" }}>
               ${acf.precio}
             </div>
           </div>
@@ -66,6 +69,7 @@ export default function TourCard({ tour }: Props) {
           <Link
             href={`/${tour.slug}`}
             className="button-tour text-white d-inline-flex align-items-center gap-2"
+            style={{ backgroundColor: "#0b6635" }}
           >
             Ver Tour <ArrowRight size={16} />
           </Link>
@@ -74,4 +78,4 @@ export default function TourCard({ tour }: Props) {
       </div>
     </article>
   )
-} 
+}

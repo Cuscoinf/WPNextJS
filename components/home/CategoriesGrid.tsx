@@ -7,51 +7,33 @@ interface Props {
   categories: Category[]
 }
 
-export default function CategoriesGrid({
-  seccion,
-  categories,
-}: Props) {
+export default function CategoriesGrid({ seccion, categories }: Props) {
   if (categories.length === 0) return null
 
   return (
-    <section className="featured-tours py-5">
-      <div className="container">
+    <section className="py-5">
+      <div className="container-fluid">
 
-        <div className="section-header">
-
-
-          <h2 className="section-header__title">
+        <div className="text-center mx-auto mb-5" style={{ maxWidth: "700px" }}>
+          <h2 className="fw-bold mb-3" style={{ color: "#0b6635" }}>
             {seccion.titulo_seccion}
           </h2>
 
           {seccion.descripcion_seccion && (
             <div
-              className="section-header__description"
-              dangerouslySetInnerHTML={{
-                __html: seccion.descripcion_seccion,
-              }}
+              className="text-secondary"
+              style={{ fontSize: "1.1rem", lineHeight: "1.8" }}
+              dangerouslySetInnerHTML={{ __html: seccion.descripcion_seccion }}
             />
           )}
-
-          <div className="section-header__divider">
-            <span></span>
-            <i className="bi bi-triangle-fill"></i>
-            <span></span>
-          </div>
-
         </div>
 
-        <div className="row g-4">
-
+        <div className="row g-4 justify-content-center">
           {categories.map((cat) => (
-            <div
-              className="container col-lg-2 col-md-4 col-sm-6 col-12"
-              key={cat.id}
-            >
+            <div className="col-6 col-md-4 col-lg-2" key={cat.id}>
               <CategoryCard category={cat} />
             </div>
           ))}
-
         </div>
 
       </div>

@@ -18,7 +18,8 @@ export default function HeroSection({ slide }: Props) {
         backgroundPosition: "center",
       }}
     >            
-      
+       <div className="hero-home-overlay" />
+
         <div className="row h-100 align-items-center m-0 p-0">
                
             <div className="col-12 col-md-8 col-lg-7 6 ps-5">

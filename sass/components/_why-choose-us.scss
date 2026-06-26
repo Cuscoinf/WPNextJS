@@ -1,35 +1,35 @@
 .why-choose-us {
-  background: linear-gradient(135deg, #0b6635 0%, #0a4f28 50%, #083d1f 100%);
   position: relative;
+  background-image: url("/images/bannermachu.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; // esto es lo que da el efecto de fondo "anclado"
+  padding: 5rem 0;
 
+  // overlay oscuro para que el texto blanco del título se lea bien sobre la foto
   &::before {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 4px;
-    background: linear-gradient(90deg, #f5a623, #e47504, #f5a623);
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
   }
 
-  .why-icon {
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.1);
-    border: 2px solid rgba(255, 255, 255, 0.2);
-    color: #f5a623;
-    transition: all 0.3s ease;
+  .container {
+    position: relative;
+    z-index: 1;
   }
+}
 
-  .col-md-6,
-  .col-lg-4 {
-    &:hover {
-      .why-icon {
-        background: rgba(255, 255, 255, 0.2);
-        border-color: #f5a623;
-        transform: scale(1.05);
-      }
-    }
-  }
+.why-card {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 1rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.why-icon {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background-color: #0b3d2e;
+  color: #d4a64a;
 }
