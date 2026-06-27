@@ -5,8 +5,8 @@ import Presentation from "@/components/home/Presentation"
 import FeaturedTours from "@/components/home/FeaturedTours"
 import CategoriesGrid from "@/components/home/CategoriesGrid"
 import WhyChooseUs from "@/components/home/WhyChooseUs"
-import GoogleReviews from "@/components/home/Google"
-import Credencias from "@/components/home/Credencias"
+import GoogleReviews from "@/components/shared/Google"
+import Credencias from "@/components/shared/Credencias"
 
 
 

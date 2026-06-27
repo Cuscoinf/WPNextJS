@@ -8,38 +8,38 @@ export default function Presentation() {
 
           {/* COLUMNA IZQUIERDA — texto */}
           <div className="col-12 col-lg-4">
-            <h2 className="fw-bold mb-0" style={{ color: "#0b6635" }}>Auténtico Perú</h2>
-            <h2 className="fw-bold mb-3">Recuerdos extraordinarios</h2>
+            <h2 className="fw-bold mb-0 text-page">Auténtico Perú</h2>
+            <h2 className="fw-bold mb-3 text-dark font-page">Recuerdos extraordinarios</h2>
 
-            <p className="text-secondary mb-4">
+            <p className="text-dark mb-4">
               Somos un operador turístico local en Cusco con más de 10 años de experiencia creando experiencias de viaje únicas en todo Perú.
             </p>
 
          <ul className="row g-3 mb-4 text-center list-unstyled">
           <li className="col-6 col-md-6">
          <div className="presentation-icon">
-           <Award size={28} style={{ color: "#b8860b" }} />
+           <Award size={28} />
          </div>
           <p className="fw-bold mb-0 text-uppercase small">Más de 10 años</p>
           <p className="small text-secondary text-uppercase">Años de experiencia</p>
         </li>
         <li className="col-6 col-md-6">
         <div className="presentation-icon">
-          <Users size={28} style={{ color: "#b8860b" }} />
+          <Users size={28} />
          </div>
          <p className="fw-bold mb-0 text-uppercase small">Expertos locales</p>
         <p className="small text-secondary text-uppercase">Cusco, Perú</p>
         </li>
         <li className="col-6 col-md-6">
         <div className="presentation-icon">
-      <Star size={28} style={{ color: "#b8860b" }} />
+      <Star size={28} />
          </div>
          <p className="fw-bold mb-0 text-uppercase small">Mejor relación calidad-precio</p>
           <p className="small text-secondary text-uppercase">Garantizado</p>
          </li>
          <li className="col-6 col-md-6">
       <div className="presentation-icon">
-       <Headphones size={28} style={{ color: "#b8860b" }} />
+       <Headphones size={28} />
        </div>
          <p className="fw-bold mb-0 text-uppercase small">Viajes 24/7</p>
          <p className="small text-secondary text-uppercase">Asistencia</p>

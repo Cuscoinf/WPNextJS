@@ -25,8 +25,10 @@
 .presentation-icon {
   width: 64px;
   height: 64px;
+  background-color: rgba($secondary-color, 0.1);
+  color: $secondary-color;
   border-radius: 50%;
-  border: 1.5px solid #b8860b;
+  border: 1.5px solid $secondary-color;
   display: flex;
   align-items: center;
   justify-content: center;

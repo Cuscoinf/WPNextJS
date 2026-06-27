@@ -34,32 +34,25 @@ const features = [
 ];
 
 export default function WhyChooseUs() {
-  // CAPA 1: section — acá vive el fondo fijo (parallax)
   return (
-    <section className="why-choose-us py-5">
-
-      {/* CAPA 2: container — limita y centra el contenido por encima del fondo */}
+    <section className="why-choose-us">
       <div className="container py-4">
-
-        {/* CAPA 3: encabezado */}
         <div className="text-center mb-5">
-          <h2 className="fw-bold text-white">Why Choose Peru Magic Travel</h2>
+          <h2 className="fw-bold font-page text-white">Why Choose Peru Magic Travel</h2>
           <p className="text-white mx-auto" style={{ maxWidth: 600 }}>
             We are committed to providing the highest quality travel experiences in Peru.
           </p>
         </div>
 
-        {/* CAPA 4: row */}
         <div className="row g-4">
           {features.map((f, i) => (
-            // CAPA 5: col
             <div className="col-md-6 col-lg-4" key={i}>
               <div className="why-card d-flex flex-column align-items-center text-center p-4 h-100">
                 <div className="why-icon mb-3 d-flex align-items-center justify-content-center">
                   {f.icon}
                 </div>
-                <h5 className="fw-bold mb-2" style={{ color: "#0b3d2e" }}>{f.title}</h5>
-                <p className="text-secondary small mb-0">{f.desc}</p>
+                <h5 className="fw-bold mb-2 text-page">{f.title}</h5>
+                <p className="text-dark small mb-0">{f.desc}</p>
               </div>
             </div>
           ))}

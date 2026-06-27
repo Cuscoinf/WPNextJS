@@ -1,4 +1,6 @@
+"use client";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Mail, Phone, PhoneCall } from "lucide-react";
 import type { Category } from "@/lib/types";
 import categoriesData from "@/lib/data/categories.json"; 
@@ -6,9 +8,11 @@ import pagesData from "@/lib/data/pages.json";
 
 export default function Header() {
   const categories = categoriesData as Category[];
+  const pathname = usePathname();
+  const isHome = pathname === "/";
 
   return (
-    <header>
+    <header style={{ position: isHome ? "absolute" : "relative" }}>
       {/* ─── TOP BAR (email, redes, contacto) ─── */}
       <div className="top-bar bg-page d-none d-xl-flex">
         <div className="container">

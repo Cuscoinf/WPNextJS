@@ -38,22 +38,21 @@ export default function CategoryCard({ category }: Props) {
         </div>
 
         <div className="card-categ__body d-flex flex-column">
-
           <div
             className={`card-categ__icon rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3 ${isGreen ? "card-categ__icon--green" : "card-categ__icon--gold"}`}
           >
             <Icon size={24} color="#fff" />
           </div>
 
-          <h3 className="text-page-page fs-5 fw-bold mb-2">
+          <h3 className="text-page-page font-page fs-5 fw-bold mb-2">
             {category.name}
           </h3>
 
-     {acf.informacion && (
-  <div className="text-page-page small mb-3">
-    {acf.informacion.replace(/<[^>]*>/g, "").slice(0, 60)}...
-  </div>
-)}
+          {acf.informacion && (
+            <div className="text-page-page small mb-3">
+              {acf.informacion.replace(/<[^>]*>/g, "").slice(0, 60)}...
+            </div>
+          )}
 
           <div className="mt-auto">
             <span className={`fw-bold small btn-explore ${isGreen ? "card-categ__link--green" : "card-categ__link--gold"}`}>

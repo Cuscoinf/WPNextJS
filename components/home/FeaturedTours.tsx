@@ -11,11 +11,11 @@ export default function FeaturedTours({ seccion, tours }: Props) {
   if (tours.length === 0) return null
 
   return (
-    <section className="py-5">
-      <div className="container-fluid px-4 px-md-5 bg-page-light">
+    <section className="">
+      <div className="container-fluid p-4 px-md-5 bg-light">
 
-        <div className="text-center mx-auto py-4">
-          <h2 className="fw-bold mb-0" style={{ color: "#0b6635" }}>
+        <div className="text-center py-4">
+          <h2 className="fw-bold mb-0 text-page">
             {seccion.titulo_seccion}
           </h2>
 
@@ -27,7 +27,7 @@ export default function FeaturedTours({ seccion, tours }: Props) {
           )}
         </div>
     <div className="container">
-        <div className="row g-4 py-5">
+        <div className="row">
           {tours.map((tour) => (
             <div key={tour.id} className="col-12 col-md-6 col-lg-4">
               <TourCard tour={tour} />
