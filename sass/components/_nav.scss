@@ -1,1 +1,25 @@
-// ─── NAVEGACIÓN ─────────────────────────────────
+// ─── NAVEGACIÓN HEADER─────────────────────────────────
+@use 'base' as *;
+.nav-items { 
+    .nav-item {
+        list-style: none;    
+    }
+
+    .nav-link {
+        color: #fff !important;
+        font-size: 1rem;  
+        text-transform: uppercase;
+
+        &:hover,
+        &.active {
+            color: $secondary-color !important; 
+        }
+    }
+
+    .whatsapp-icon {
+        transition: transform 0.2s ease;
+        &:hover {
+        transform: scale(1.1);
+        }
+    }
+}

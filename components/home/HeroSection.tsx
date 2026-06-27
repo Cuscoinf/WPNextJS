@@ -61,10 +61,10 @@ export default function HeroSection({ slide }: Props) {
             </div>                      
         </div>
 
-        <div className="position-absolute start-50 d-none d-md-flex"
+        <div className="position-absolute start-50 d-none d-lg-flex"
           style={{
           bottom: "0",
-          transform: "translate(-75%, 20%)",
+          transform: "translateX(-60%) translateY(20%)",
           zIndex: 10,
           width: "100%",
           maxWidth: "1200px"
