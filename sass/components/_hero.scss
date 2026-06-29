@@ -1,3 +1,5 @@
-
-
-
+// PARA EVITAR QUE SE CORTE LA IMAGEN DEL HERO
+.object-cover {
+  object-fit: cover;
+  object-position: center;
+}

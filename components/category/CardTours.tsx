@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Clock, Users, Tag, ArrowRight, Star } from "lucide-react";
+import { Clock, Users, Tag, Star } from "lucide-react";
 import type { Tour } from "@/lib/types";
 
 interface Props {
@@ -19,17 +19,17 @@ export default function TourCard({ tour }: Props) {
               `https://placehold.co/800x500?text=${encodeURIComponent(tour.title)}`
             }
             alt={tour.title}
-            className="w-100 h-100"
+            className="w-100 h-100 object-cover"
             style={{ objectFit: "cover" }}
           />
-
-          <span className="badge bg-success position-absolute top-0 start-0 m-2">
+          <span className="badge bg-success position-absolute top-0 start-0 m-2" style={{ zIndex: 2 }}>
             BEST SELLER
           </span>
         </div>
 
         <div className="col-8 col-md-6 border-end">
           <div className="p-3 h-100 d-flex flex-column">
+            
             <h3 className="text-page fs-5 fw-bold mb-0">{tour.title}</h3>
             <p className="text-secondary small mb-2">
               {acf?.tipo_viaje || "Classic Tour"}
@@ -48,7 +48,7 @@ export default function TourCard({ tour }: Props) {
             </div>
 
             <p className="text-secondary small mb-3">
-              Discover the highlight of Peru in one trip: Cusco, Sacred Valley, Machu Picchu and more.
+              <div dangerouslySetInnerHTML={{ __html: acf?.resumen || "" }} />
             </p>
 
             <div className="d-flex flex-wrap gap-3 mt-auto text-secondary small">
@@ -67,11 +67,13 @@ export default function TourCard({ tour }: Props) {
                 {acf?.dificultad || "Culture & History"}
               </span>
             </div>
+
           </div>
         </div>
 
         <div className="col-12 col-md-3">
-          <div className="p-3 h-100 d-flex flex-column justify-content-between align-items-md-end text-md-end">
+          <div className="p-3 h-100 d-flex flex-row flex-md-column justify-content-between align-items-center align-items-md-end text-md-end">
+            
             <div>
               <small className="text-muted fw-bold d-block">From</small>
               <div className="fw-bold text-page fs-3">USD {acf?.precio || "899"}</div>
@@ -79,13 +81,15 @@ export default function TourCard({ tour }: Props) {
 
             <Link
               href={`/${tour.slug}`}
-              className="button-tour text-white d-inline-flex align-items-center gap-2 justify-content-center mt-3"
+              className="button-tour text-white d-inline-flex align-items-center gap-2 justify-content-center mt-0 mt-md-3"
               style={{ backgroundColor: "#0b6635" }}
             >
               View Details
             </Link>
+
           </div>
         </div>
+
       </div>
     </article>
   );

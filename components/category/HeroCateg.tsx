@@ -4,7 +4,6 @@ import { Users, ShieldCheck, Settings2, Headset, ChevronRight, Filter } from "lu
 function CategoryHero({ acf, category }: { acf: any; category: any }) {
   return (
     <section className="position-relative container-fluid d-flex align-items-center h-80 px-0">
-      
       <div className="position-absolute top-0 start-0 w-100 h-100" style={{ zIndex: 1 }}>
         <img
           className="w-100 h-100 object-cover"
@@ -49,9 +48,9 @@ function CategoryHero({ acf, category }: { acf: any; category: any }) {
               />
             )}
 
-            <div className="row g-3 g-md-4 mt-2 text-page fs-5">
+            <div className="row g-3 g-md-4 mt-2 fs-5">
               <div className="col-6 col-md-3 d-flex align-items-start gap-2">
-                <Users className="flex-shrink-0 mt-1 icon-page" size={30} />
+                <Users className="flex-shrink-0 mt-1 icon-page" size={40} />
                 <div>
                   <p className="fw-semibold mb-0 small">Expertos</p>
                   <p className="opacity-75 small mb-0">10+ años de experiencia</p>
@@ -59,7 +58,7 @@ function CategoryHero({ acf, category }: { acf: any; category: any }) {
               </div>
 
               <div className="col-6 col-md-3 d-flex align-items-start gap-2">
-                <ShieldCheck className="flex-shrink-0 mt-1 icon-page" size={30} />
+                <ShieldCheck className="flex-shrink-0 mt-1 icon-page" size={40} />
                 <div>
                   <p className="fw-semibold mb-0 small">Mejor Precio</p>
                   <p className="opacity-75 small mb-0">Sin cargos ocultos</p>
@@ -67,7 +66,7 @@ function CategoryHero({ acf, category }: { acf: any; category: any }) {
               </div>
 
               <div className="col-6 col-md-3 d-flex align-items-start gap-2">
-                <Settings2 className="flex-shrink-0 mt-1 icon-page" size={30} />
+                <Settings2 className="flex-shrink-0 mt-1 icon-page" size={40} />
                 <div>
                   <p className="fw-semibold mb-0 small">Flexible</p>
                   <p className="opacity-75 small mb-0">Personalizable</p>
@@ -75,7 +74,7 @@ function CategoryHero({ acf, category }: { acf: any; category: any }) {
               </div>
 
               <div className="col-6 col-md-3 d-flex align-items-start gap-2">
-                <Headset className="flex-shrink-0 mt-1 icon-page" size={30} />
+                <Headset className="flex-shrink-0 mt-1 icon-page" size={40} />
                 <div>
                   <p className="fw-semibold mb-0 small">Soporte 24/7</p>
                   <p className="opacity-75 small mb-0">Estamos aquí</p>

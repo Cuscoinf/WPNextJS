@@ -2,8 +2,8 @@ import { Check, ShieldCheck, Lock } from "lucide-react";
 
 export default function TourSidebar() {
   return (
-    <div className="d-flex flex-column gap-4">
-      <div className="card border-0 shadow-sm p-4">
+    <div className="d-flex flex-column gap-4 rounded-5">
+      <div className="card border-0  shadow-sm p-4">
         <h4 className="fw-bold mb-1">Plan Your Trip</h4>
         <p className="text-secondary small mb-3">Get a personalized quote</p>
 

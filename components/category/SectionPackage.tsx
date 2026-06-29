@@ -11,13 +11,13 @@ export default function PopularPackagesSection({
   if (categoryTours.length === 0) return null;
 
   return (
-    <section className="py-5">
+    <section className="py-5 mt-5">
       <div className="container-fluid px-5">
         <h2 className="fw-bold section-title mb-4">Popular Packages</h2>
 
         <div className="row g-4">
-          <div className="col-lg-8">
-            <div className="d-flex flex-column gap-3">
+          <div className="col-lg-9">
+            <div className="d-flex flex-column gap-3 shadow-lg ms-5">
               {categoryTours.map((t) => (
                 <TourCard tour={t} key={t.id} />
               ))}
@@ -33,8 +33,10 @@ export default function PopularPackagesSection({
             </div>
           </div>
 
-          <div className="col-lg-4">
-            <TourSidebar />
+          <div className="col-lg-3">
+            <div className="shadow-lg">
+              <TourSidebar />
+            </div>
           </div>
         </div>
       </div>

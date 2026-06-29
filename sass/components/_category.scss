@@ -24,6 +24,16 @@
 @media (max-width: 992px) {
   .hero-left-gradient {
     width: 100%;
-    background: linear-gradient(180deg, rgba(238, 224, 224, 0.65) 0%, rgba(238, 224, 224, 0.15) 50%, transparent 100%);
+    /* Cambiamos a un fondo blanco/claro con más fuerza (0.85) para tapar el fondo oscuro de la foto */
+    background: linear-gradient(180deg, 
+      rgba(255, 255, 255, 0.9) 0%, 
+      rgba(255, 255, 255, 0.75) 60%, 
+      transparent 100%
+    );
+  }
+  
+  /* Reducimos o quitamos el overlay oscuro en móvil para que no ensucie el fondo blanco */
+  .hero-overlay {
+    background: rgba(0, 0, 0, 0.1); 
   }
 }
