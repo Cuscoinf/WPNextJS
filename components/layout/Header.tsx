@@ -12,8 +12,8 @@ export default function Header() {
   const isHome = pathname === "/";
 
   return (
-    <header style={{ position: isHome ? "absolute" : "relative" }}>
-      {/* ─── TOP BAR (email, redes, contacto) ─── */}
+    <header>
+       {/* ─── TOP BAR (email, redes, contacto) ─── */}
       <div className="top-bar bg-page d-none d-xl-flex">
         <div className="container">
           <div className="row text-center">
@@ -57,6 +57,7 @@ export default function Header() {
         </div>
       </div>
       {/* ─── MENU DE NAVIGATION ─── */}
+      <div className="shadow-home"></div>
       <nav className="navbar navbar-expand-lg container-fluid">
         <div className="row align-items-center w-100">
           <div className="col-6 col-lg-4 col-xl-2">
@@ -78,9 +79,9 @@ export default function Header() {
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon bg-white rounded-1"></span>
-          </button>
+          </button> 
           
-          <div className="collapse navbar-collapse col-lg-12 col-xl-10 col-xxl-10" id="navbarNav">
+          <div className="collapse navbar-collapse col-lg-12 col-xl-10 col-xxl-10 " id="navbarNav">
             <ul className="navbar-nav nav-items d-flex gap-2 gap-xl-4 justify-content-center w-100">
               {categories.map((category) => {
                 const categorySlug = category.slug;

@@ -6,13 +6,11 @@
     }
 
     .nav-link {
-        color: #fff !important;
+        color: #fff;
         font-size: 1rem;  
         text-transform: uppercase;
-
-        &:hover,
-        &.active {
-            color: $secondary-color !important; 
+        &:hover {
+            color: rgba(255, 255, 255, 0.8);
         }
     }
 

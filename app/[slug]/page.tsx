@@ -10,11 +10,13 @@ import {
   getHoteles,
 } from "@/lib/api"
 
+//tour pages
 import HeroSection from "@/components/tours/HeroSection"
 import JourneyTimeline from "@/components/tours/JourneyTimeline"
 import DetailedItinerary from "@/components/tours/Itinerary"
 import Frequently from "@/components/tours/Frequently"
 import TourCard from "@/components/tours/TourCard"
+//section reusable
 import Credencias from "@/components/shared/Credencias"
 import GoogleReviews from "@/components/shared/Google"
 //category
@@ -95,6 +97,8 @@ export default async function SlugPage({
         <CategoryHero acf={acf} category={category} />
 
         <SectionPackage categoryTours={categoryTours} />
+        <Credencias />
+        <GoogleReviews />
       </>
     )
   }

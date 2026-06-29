@@ -19,11 +19,8 @@ export default function HeroSection({ slide }: Props) {
       }}
     >            
        <div className="hero-home-overlay" />
-
-        <div className="row h-100 align-items-center m-0 p-0">
-               
+        <div className="row h-100 align-items-center m-0 p-0">    
             <div className="col-12 col-md-8 col-lg-7 6 ps-5">
-             
               {slide.etiqueta_sliders && (
                 <div className="display-4 fw-bold text-page mb-3 lh-1">
                   {slide.etiqueta_sliders}
@@ -61,14 +58,14 @@ export default function HeroSection({ slide }: Props) {
             </div>                      
         </div>
 
-        <div className="position-absolute start-50 d-none d-xl-flex"
+        <div className="position-absolute container d-none d-xl-flex"
           style={{
           bottom: "0",
-          transform: "translateX(-90%) translateY(20%)",
+          transform: "translateY(20%)",
           zIndex: 10,
           }}>
             <div className="bg-white p-4 text-black rounded-4 shadow-lg">
-              <div className="row g-4">
+              <div className="row g-2">
                 
                 <div className="col">
                   <div className="d-flex gap-3">
