@@ -27,6 +27,9 @@ import CtaBanner from "@/components/shared/Ctabanner"
 //category
 import CategoryHero from "@/components/category/HeroCateg"
 import SectionPackage from "@/components/category/SectionPackage"
+//pages 
+import PageStatic from "@/components/page/PageStatic"
+
 
 export async function generateStaticParams() {
   const [tours, categories, pages, hoteles] = await Promise.all([
@@ -113,10 +116,7 @@ export default async function SlugPage({
     const { title, content, acf } = page
 
     return (
-      <div>
-        <h1>{title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: content }} />
-      </div>
+      <PageStatic pageData={page} />
     )
   }
 

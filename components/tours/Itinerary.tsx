@@ -35,9 +35,8 @@ export default function DetailedItinerary({ acf, paymentLogos = [] }: Props) {
   
 
         <div className="row g-4">
-          
-          {/* COLUMNA IZQUIERDA: ITINERARIO */}
           <div className="col-lg-8">
+            <div style={{ position: "sticky", top: "20px" }}>
             <h3 className="fw-bold mb-4 text-dark fs-4 tracking-tight">DETAILED ITINERARY</h3>
             
             <div className="d-flex flex-column gap-3">
@@ -67,15 +66,12 @@ export default function DetailedItinerary({ acf, paymentLogos = [] }: Props) {
                         </div>
                       )}
                       
-                      {/* 2. ZONA DE TEXTOS COMPLETA (Separada en columnas internas por SCSS/Flex) */}
                       <div className="p-3 p-md-4 flex-grow-1 d-flex day-card-content-wrapper">
                         
-                        {/* COLUMNA FIJA PARA EL DÍA */}
                         <div className="day-number-column fw-bold text-dark fs-5">
                           Day {i + 1}
                         </div>
                         
-                        {/* COLUMNA PARA TÍTULO, DESCRIPCIÓN Y AMENITIES */}
                         <div className="day-details-column flex-grow-1">
                           <div className="d-flex justify-content-between align-items-start gap-2 mb-2">
                             <h5 className="fw-bold text-dark mb-0 fs-5 lh-sm">{item.titulo_dia}</h5>
@@ -92,7 +88,6 @@ export default function DetailedItinerary({ acf, paymentLogos = [] }: Props) {
                             {displayText}
                           </p>
                           
-                          {/* ICONOS / AMENITIES */}
                           <div className="d-flex flex-wrap gap-4 small text-muted pt-2 core-amenities">
                             <span className="d-flex align-items-center gap-1">
                               <MapPin size={14} /> {hotelVal || "Hotel in Cusco"}
@@ -129,11 +124,12 @@ export default function DetailedItinerary({ acf, paymentLogos = [] }: Props) {
                 </button>
               </div>
             </div>
+            </div>
           </div>
 
           {/* COLUMNA DERECHA: SIDEBAR */}
           <div className="col-lg-4">
-            <div className="itinerary-sidebar-sticky">
+            <div className="itinerary-sidebar" style={{ position: "sticky", top: "20px" }}>
               
               <div className="card border rounded-3 shadow-sm p-4 mb-4 bg-white">
                 <h6 className="fw-bold mb-3 text-dark text-uppercase tracking-wider fs-6">WHAT&apos;S INCLUDED</h6>

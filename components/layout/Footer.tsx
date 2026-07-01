@@ -3,20 +3,17 @@ import { MapPin, Mail, Phone } from 'lucide-react';
 export default function Footer() {
   return (
     <footer className="footer py-5">
-      <div className="container">
+      <div className="container-fluid px-5 mx-5">
 
-        {/* Main Footer Content */}
-        <div className="row g-4 mb-4">
-
-          {/* Logo & Socials */}
-          <div className="col-md-3">
+        <div className="row g-2 mb-4">
+          <div className="col-12 col-lg-3 col-xl-32">
             <img
               src="/images/magic.png"
               alt="Peru Magic Travel"
-              className="footer__logo mb-3"
+              className="footer__logo"
             />
-            <p className="text-white-50 mb-3 fs-14">
-              Authentic journeys, local experts and unforgettable memories.
+            <p className="text-white mb-3 fs-5">
+             Auténtica experiencia en Perú con expertos locales y recuerdos inolvidables.
             </p>
             <div className="d-flex gap-2">
               <a href="#" className="footer__social" aria-label="Facebook">
@@ -34,76 +31,70 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Top Packages */}
-          <div className="col-md-2">
-            <h6 className="fw-bold text-white mb-3">TOP PACKAGES</h6>
+          <div className="col-md-3 col-xl-2">
+            <h6 className="fw-bold text-white mb-3">PAQUETES TOP</h6>
             <ul className="list-unstyled">
-              <li className="mb-2"><a href="#" className="text-white-50 text-decoration-none footer__link">Peru 7 Days</a></li>
-              <li className="mb-2"><a href="#" className="text-white-50 text-decoration-none footer__link">Peru 10 Days</a></li>
-              <li className="mb-2"><a href="#" className="text-white-50 text-decoration-none footer__link">Machu Picchu 4 Days</a></li>
-              <li className="mb-2"><a href="#" className="text-white-50 text-decoration-none footer__link">Inca Trail 4 Days</a></li>
-              <li className="mb-2"><a href="#" className="text-white-50 text-decoration-none footer__link">Tambopata 4 Days</a></li>
+              <li className="mb-2"><a href="#" className="text-decoration-none footer__link">Perú 7 Días</a></li>
+              <li className="mb-2"><a href="#" className="text-decoration-none footer__link">Perú 10 Días</a></li>
+              <li className="mb-2"><a href="#" className="text-decoration-none footer__link">Machu Picchu 4 Días</a></li>
+              <li className="mb-2"><a href="#" className="text-decoration-none footer__link">Inca Trail 4 Días</a></li>
+              <li className="mb-2"><a href="#" className="text-decoration-none footer__link">Tambopata 4 Días</a></li>
             </ul>
           </div>
 
-          {/* Destinations */}
-          <div className="col-md-2">
+          <div className="col-md-3 col-xl-2">
             <h6 className="fw-bold text-white mb-3">DESTINATIONS</h6>
             <ul className="list-unstyled">
-              <li className="mb-2"><a href="#" className="text-white-50 text-decoration-none footer__link">Cusco</a></li>
-              <li className="mb-2"><a href="#" className="text-white-50 text-decoration-none footer__link">Machu Picchu</a></li>
-              <li className="mb-2"><a href="#" className="text-white-50 text-decoration-none footer__link">Sacred Valley</a></li>
-              <li className="mb-2"><a href="#" className="text-white-50 text-decoration-none footer__link">Lima</a></li>
-              <li className="mb-2"><a href="#" className="text-white-50 text-decoration-none footer__link">Lake Titicaca</a></li>
+              <li className="mb-2"><a href="#" className="text-decoration-none footer__link">Cusco</a></li>
+              <li className="mb-2"><a href="#" className="text-decoration-none footer__link">Machu Picchu</a></li>
+              <li className="mb-2"><a href="#" className="text-decoration-none footer__link">Valle Sagrado</a></li>
+              <li className="mb-2"><a href="#" className="text-decoration-none footer__link">Lima</a></li>
+              <li className="mb-2"><a href="#" className="text-decoration-none footer__link">Lago Titicaca</a></li>
             </ul>
           </div>
 
-          {/* Company */}
-          <div className="col-md-2">
-            <h6 className="fw-bold text-white mb-3">COMPANY</h6>
+          <div className="col-md-3 col-xl-2">
+            <h6 className="fw-bold text-white mb-3">COMPANIA</h6>
             <ul className="list-unstyled">
-              <li className="mb-2"><a href="#" className="text-white-50 text-decoration-none footer__link">About Us</a></li>
-              <li className="mb-2"><a href="#" className="text-white-50 text-decoration-none footer__link">Why Choose Us</a></li>
-              <li className="mb-2"><a href="#" className="text-white-50 text-decoration-none footer__link">Travel Guide</a></li>
-              <li className="mb-2"><a href="#" className="text-white-50 text-decoration-none footer__link">Terms & Conditions</a></li>
-              <li className="mb-2"><a href="#" className="text-white-50 text-decoration-none footer__link">Privacy Policy</a></li>
+              <li className="mb-2"><a href="#" className="text-decoration-none footer__link">Sobre Nosotros</a></li>
+              <li className="mb-2"><a href="#" className="text-decoration-none footer__link">Por Qué Elegirnos</a></li>
+              <li className="mb-2"><a href="#" className="text-decoration-none footer__link">Guía de Viaje</a></li>
+              <li className="mb-2"><a href="#" className="text-decoration-none footer__link">Términos y Condiciones</a></li>
+              <li className="mb-2"><a href="#" className="text-decoration-none footer__link">Política de Privacidad</a></li>
             </ul>
           </div>
 
-          {/* Contact Us */}
-          <div className="col-md-3">
+          <div className="col-md-3 col-xl-2">
             <h6 className="fw-bold text-white mb-3">CONTACT US</h6>
             <ul className="list-unstyled">
               <li className="mb-3 d-flex align-items-start gap-2">
                 <MapPin size={18} className="text-white flex-shrink-0 mt-1" />
-                <span className="text-white-50">Cusco, Peru</span>
+                <span className="text-white">Cusco, Peru</span>
               </li>
               <li className="mb-3 d-flex align-items-start gap-2">
                 <Mail size={18} className="text-white flex-shrink-0 mt-1" />
-                <span className="text-white-50">info@perumagic.travel</span>
+                <span className="text-white">info@perumagic.travel</span>
               </li>
               <li className="mb-3 d-flex align-items-start gap-2">
                 <Phone size={18} className="text-white flex-shrink-0 mt-1" />
-                <span className="text-white-50">+51 987 654 321</span>
+                <span className="text-white">+51 987 654 321</span>
               </li>
               <li className="d-flex align-items-start gap-2">
                 <Phone size={18} className="text-white flex-shrink-0 mt-1" />
-                <span className="text-white-50">24/7 Support on WhatsApp</span>
+                <span className="text-white">Soporte 24/7 en WhatsApp</span>
               </li>
             </ul>
           </div>
 
         </div>
-
-        {/* Payment Methods */}
         <div className="row align-items-center py-4 border-top border-white-50">
-          <div className="col-md-6">
+          <div className="col-md-6 col-lg-6">
             <p className="text-white-50 mb-0 fs-14">
-              © 2025 Peru Magic Travel. All rights reserved.
+              © 2025 Peru Magic Travel. Todos los derechos reservados.
             </p>
           </div>
-          <div className="col-md-6">
-            <div className="d-flex gap-3 justify-content-md-end">
+          <div className="col-md-6 col-lg-6">
+            <div className="d-flex gap-3 justify-content-end px-5">
               <img src="/images/visa.png" alt="Visa" className="footer__payment-icon" />
               <img src="/images/Mastercard.png" alt="Mastercard" className="footer__payment-icon" />
               <img src="/images/AMEX.png" alt="American Express" className="footer__payment-icon" />
@@ -111,7 +102,6 @@ export default function Footer() {
             </div>
           </div>
         </div>
-
       </div>
     </footer>
   );

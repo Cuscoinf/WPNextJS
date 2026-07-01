@@ -32,15 +32,13 @@
       }
     }
 
-    // ALINEACIÓN EXACTA DE LAS COLUMNAS COMO EN LA IMAGEN
     .day-card-content-wrapper {
       align-items: start;
 
-      // Columna fija para el indicador "Day X"
       .day-number-column {
         width: 75px; 
         min-width: 75px;
-        padding-top: 2px; // Alineación perfecta con la primera línea del título
+        padding-top: 2px; 
         font-weight: 700;
         
         @media (max-width: 576px) {
@@ -97,10 +95,7 @@
     }
   }
 
-  .itinerary-sidebar-sticky {
-    top: 5.5rem;
-    z-index: 10;
-  }
+
 
   // Listas de viñetas dinámicas (ACF inputs)
   .included-bullet-list,

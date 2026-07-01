@@ -17,6 +17,8 @@
 @use "components/utilities";
 @use "components/sections";
 @use "components/why-choose-us";
+//components
+@use "components/FormPers";
 
 // 2º Bootstrap con @import (toma las variables de @use de arriba)
 @import "bootstrap/scss/bootstrap";

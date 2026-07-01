@@ -15,7 +15,7 @@ export default function PopularPackagesSection({
       <div className="container-fluid px-5">
         <h2 className="fw-bold section-title mb-4">Popular Packages</h2>
 
-        <div className="row g-4">
+        <div className="row g-4 align-items-start">
           <div className="col-lg-9">
             <div className="d-flex flex-column gap-3 shadow-lg ms-5">
               {categoryTours.map((t) => (
@@ -33,7 +33,8 @@ export default function PopularPackagesSection({
             </div>
           </div>
 
-          <div className="col-lg-3">
+          <div className="col-lg-3"
+          style={{ position: "sticky", top: "120px" }}>
             <div className="shadow-lg">
               <TourSidebar />
             </div>

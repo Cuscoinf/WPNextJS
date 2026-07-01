@@ -95,7 +95,7 @@ export default function Header() {
                 );
               })}
               {pagesData
-                .filter(p => p.slug === "about-us" || p.slug === "contact-us")
+                .filter(p => p.slug === "about-us" || p.slug === "contact")
                 .map(page => (
                   <li className="nav-item" key={page.id}>
                     <Link className="nav-link" href={`/${page.slug}`}>
