@@ -20,7 +20,7 @@
       "acomodacion": "Hoteles 3 estrellas",
       "etiqueta_1": "Más vendido",
       "etiqueta_2": "",
-      "ubicacion": "Lima - Cusco - Valle Sagrado - Machu Picchu",
+      "ubicacion": "Lima - Machu Picchu",
       "itinerario_dia": [
         {
           "titulo_dia": "Llegada a Lima",
@@ -109,7 +109,7 @@
       "acomodacion": "Hoteles 3 estrellas",
       "etiqueta_1": "Recomendado",
       "etiqueta_2": "",
-      "ubicacion": "Lima - Cusco - Valle Sagrado - Machu Picchu - Puno - Lago Titicaca",
+      "ubicacion": "Lima - Lago Titicaca",
       "itinerario_dia": [
         {
           "titulo_dia": "Llegada a Lima",
@@ -219,7 +219,7 @@
       "acomodacion": "Hoteles 3 y 4 estrellas",
       "etiqueta_1": "Premium",
       "etiqueta_2": "",
-      "ubicacion": "Lima - Cusco - Valle Sagrado - Machu Picchu - Puno - Tambopata",
+      "ubicacion": "Lima - Tambopata",
       "itinerario_dia": [
         {
           "titulo_dia": "Llegada a Lima",
@@ -343,7 +343,7 @@
       "acomodacion": "Hoteles 4 estrellas",
       "etiqueta_1": "Premium",
       "etiqueta_2": "Todo incluido",
-      "ubicacion": "Lima - Cusco - Valle Sagrado - Machu Picchu - Puno - Arequipa - Amazonía",
+      "ubicacion": "Lima - Amazonía",
       "itinerario_dia": [
         {
           "titulo_dia": "Llegada a Lima",
@@ -488,7 +488,7 @@
       "acomodacion": "Hotel en Aguas Calientes",
       "etiqueta_1": "Rápido",
       "etiqueta_2": "",
-      "ubicacion": "Cusco - Aguas Calientes - Machu Picchu",
+      "ubicacion": "Cusco - Machu Picchu",
       "itinerario_dia": [
         {
           "titulo_dia": "Cusco - Aguas Calientes",
@@ -542,7 +542,7 @@
       "acomodacion": "Hoteles 3 estrellas",
       "etiqueta_1": "Popular",
       "etiqueta_2": "",
-      "ubicacion": "Cusco - Valle Sagrado - Aguas Calientes - Machu Picchu",
+      "ubicacion": "Cusco - Machu Picchu",
       "itinerario_dia": [
         {
           "titulo_dia": "Valle Sagrado",
@@ -603,7 +603,7 @@
       "acomodacion": "Hoteles 3 estrellas",
       "etiqueta_1": "Clásico",
       "etiqueta_2": "Más vendido",
-      "ubicacion": "Cusco - Valle Sagrado - Aguas Calientes - Machu Picchu",
+      "ubicacion": "Cusco - Machu Picchu",
       "itinerario_dia": [
         {
           "titulo_dia": "Llegada a Cusco",
@@ -630,7 +630,7 @@
           "titulo_dia": "Retorno",
           "descripcion_dia": "Después del desayuno buffet en el hotel, tendrán tiempo libre para ultimar detalles de su viaje, realizar compras de último momento en las tiendas de artesanía o simplemente disfrutar de un último paseo por las calles históricas. A la hora acordada, nuestro equipo realizará el traslado al aeropuerto con la asistencia necesaria para el check-in y entrega de equipaje. Fin de nuestros servicios, esperando que se lleven los mejores recuerdos y experiencias de su viaje por el Perú. ¡Gracias por viajar con nosotros!",
           "fotos_dia": [
-            "/images/100x800.jpg"
+            "/images/100x800.jpg" 
           ]
         }
       ],
@@ -671,7 +671,7 @@
       "acomodacion": "Hoteles 3 estrellas",
       "etiqueta_1": "Completo",
       "etiqueta_2": "",
-      "ubicacion": "Cusco - Maras - Moray - Valle Sagrado - Machu Picchu",
+      "ubicacion": "Cusco - Machu Picchu",
       "itinerario_dia": [
         {
           "titulo_dia": "Llegada a Cusco",
@@ -746,7 +746,7 @@
       "acomodacion": "Hoteles 5 estrellas",
       "etiqueta_1": "Premium",
       "etiqueta_2": "Lujo",
-      "ubicacion": "Cusco - Valle Sagrado - Machu Picchu",
+      "ubicacion": "Cusco - Machu Picchu",
       "itinerario_dia": [
         {
           "titulo_dia": "Llegada a Cusco",
@@ -882,7 +882,7 @@
       "acomodacion": "Hoteles 3 estrellas",
       "etiqueta_1": "",
       "etiqueta_2": "",
-      "ubicacion": "Cusco - Valle Sagrado - Maras - Moray",
+      "ubicacion": "Cusco - Moray",
       "itinerario_dia": [
         {
           "titulo_dia": "Llegada y City Tour",
@@ -958,7 +958,7 @@
       "acomodacion": "Hoteles 3 estrellas",
       "etiqueta_1": "Recomendado",
       "etiqueta_2": "",
-      "ubicacion": "Cusco - Valle Sagrado - Vinicunca",
+      "ubicacion": "Cusco - Vinicunca",
       "itinerario_dia": [
         {
           "titulo_dia": "Llegada y City Tour",
@@ -1130,7 +1130,7 @@
       "acomodacion": "Camping",
       "etiqueta_1": "Clásico",
       "etiqueta_2": "",
-      "ubicacion": "Cusco - Camino Inca - Machu Picchu",
+      "ubicacion": "Cusco - Machu Picchu",
       "itinerario_dia": [
         {
           "titulo_dia": "Km 82 - Wayllabamba",
@@ -1198,7 +1198,7 @@
       "acomodacion": "Camping",
       "etiqueta_1": "Express",
       "etiqueta_2": "",
-      "ubicacion": "Cusco - Km 104 - Machu Picchu",
+      "ubicacion": "Cusco - Machu Picchu",
       "itinerario_dia": [
         {
           "titulo_dia": "Km 104 - Wiñay Wayna",
@@ -1252,7 +1252,7 @@
       "acomodacion": "Camping",
       "etiqueta_1": "Alternativo",
       "etiqueta_2": "",
-      "ubicacion": "Cusco - Mollepata - Salkantay - Santa Teresa - Machu Picchu",
+      "ubicacion": "Cusco - Machu Picchu",
       "itinerario_dia": [
         {
           "titulo_dia": "Cusco - Mollepata - Soraypampa",

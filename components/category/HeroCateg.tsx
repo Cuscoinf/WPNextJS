@@ -27,7 +27,7 @@ function CategoryHero({ acf, category }: { acf: any; category: any }) {
                 </li>
                 <ChevronRight size={14} className="text-black-50" />
                 <li className="breadcrumb-item active text-black" aria-current="page">
-                  {acf?.titulo_categoria || category?.name}
+                  {acf?.titulo_categoria}
                 </li>
               </ol>
             </nav>

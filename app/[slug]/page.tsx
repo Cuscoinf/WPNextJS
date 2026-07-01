@@ -12,10 +12,12 @@ import {
 
 //tour pages
 import HeroSection from "@/components/tours/HeroSection"
-import JourneyTimeline from "@/components/tours/JourneyTimeline"
+import TrustBadges from "@/components/tours/TrustBadges"
 import DetailedItinerary from "@/components/tours/Itinerary"
 import Frequently from "@/components/tours/Frequently"
 import TourCard from "@/components/tours/TourCard"
+import JourneyOverview from "@/components/tours/JourneyOverview"
+
 //section reusable
 import Credencias from "@/components/shared/Credencias"
 import GoogleReviews from "@/components/shared/Google"
@@ -73,9 +75,10 @@ export default async function SlugPage({
 
         <section className="py-4">
           <div className="container-fluid">
-            <JourneyTimeline itinerario={acf.itinerario_dia} />
+            <TrustBadges />
           </div>
         </section>
+        <JourneyOverview itinerario={acf.itinerario_dia} />
         <DetailedItinerary acf={acf} />
         <Frequently faqs={acf.faq} />
         <GoogleReviews />
