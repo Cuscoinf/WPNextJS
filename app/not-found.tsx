@@ -72,7 +72,7 @@ export default function NotFoundPage() {
               No te quedes varado. Revisa nuestras mejores alternativas para planificar tu próxima aventura.
             </p>
           </div>
-          <CategoriesGrid seccion={{}} categories={categoriesData as Category[]} />
+          <CategoriesGrid categories={categoriesData as Category[]} />
 
         </div>
       </section>
